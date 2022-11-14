@@ -1,0 +1,58 @@
+name: social_media
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+6
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  curved_navigation_bar: ^1.0.3
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.10.0
+  flutter_svg: ^0.22.0
+  font_awesome_flutter:   ^9.1.0
+  google_mobile_ads: ^2.0.1
+  http:  ^0.13.3 
+  rename: ^2.0.1
+  responsive_framework:   ^0.1.4
+  url_launcher:   ^6.0.9
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/image/app-icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/image/app-icon.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/image/app-icon.png"
+    icon_size: 48 # min:48, max:256, default: 48flutter:
+
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/image/
+    - assets/image/programing/
+    - assets/image/soshal/
+    - assets/image/news/
+    - assets/image/sport/
+    - assets/image/islami/
+    - assets/image/freelancer/
