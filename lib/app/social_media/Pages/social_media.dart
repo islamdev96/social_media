@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:social_media/components/all_theme.dart';
-import 'package:social_media/components/backgron_color_page.dart';
-import 'package:social_media/components/category_image.dart';
-import 'package:social_media/components/category_svg.dart';
-
+import '../components/all_theme.dart';
+import '../components/backgron_color_page.dart';
 import '../components/bottom_navigation_bar.dart';
+import '../components/category_image.dart';
+import '../components/category_svg.dart';
 import '../manage_ads/banner_ads.dart';
 
-class SocialMedia extends StatelessWidget {
-  const SocialMedia({Key? key}) : super(key: key);
+class SocialMediaPage extends StatelessWidget {
+  const SocialMediaPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

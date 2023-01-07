@@ -1,7 +1,8 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:social_media/Pages/home_page.dart';
-import 'package:social_media/components/all_theme.dart';
+
+import '../Pages/home_page.dart';
+import 'all_theme.dart';
 
 class BottomNavigationBarAll extends StatefulWidget {
   const BottomNavigationBarAll({super.key});

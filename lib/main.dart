@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:social_media/Pages/home_page.dart';
+import 'package:social_media/app/social_media/Pages/home_page.dart';
 
 void main() {
   runApp(const SocialMedia());
@@ -10,6 +10,8 @@ class SocialMedia extends StatefulWidget {
 
   @override
   State<SocialMedia> createState() => _SocialMediaState();
+  // Add from here ...
+
 }
 
 class _SocialMediaState extends State<SocialMedia> {

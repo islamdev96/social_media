@@ -1,17 +1,17 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:social_media/components/backgron_color_page.dart';
-import 'package:social_media/components/category_page.dart';
-import 'package:social_media/Pages/freelancer.dart';
-import 'package:social_media/Pages/islami.dart';
-import 'package:social_media/Pages/news.dart';
-import 'package:social_media/Pages/programing.dart';
-import 'package:social_media/Pages/social_media.dart';
-import 'package:social_media/Pages/sport.dart';
-import 'package:social_media/components/all_theme.dart';
+import 'package:social_media/app/social_media/Pages/programing.dart';
+import 'package:social_media/app/social_media/Pages/social_media.dart';
+import 'package:social_media/app/social_media/Pages/sport.dart';
+import '../components/all_theme.dart';
+import '../components/backgron_color_page.dart';
+import '../components/category_page.dart';
+import '../manage_ads/banner_ads.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import '../manage_ads/banner_ads.dart';
+import 'freelancer.dart';
+import 'islami.dart';
+import 'news.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -79,7 +79,7 @@ class HomePage extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(builder: (context) {
-                          return const SocialMedia();
+                          return const SocialMediaPage();
                         }),
                       );
                     },

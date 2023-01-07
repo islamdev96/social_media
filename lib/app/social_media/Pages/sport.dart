@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:social_media/components/backgron_color_page.dart';
-import 'package:social_media/components/bottom_navigation_bar.dart';
-import 'package:social_media/components/category_image.dart';
-import 'package:social_media/components/all_theme.dart';
-
+import '../components/all_theme.dart';
+import '../components/backgron_color_page.dart';
+import '../components/bottom_navigation_bar.dart';
+import '../components/category_image.dart';
 import '../manage_ads/banner_ads.dart';
 
 class Sports extends StatelessWidget {

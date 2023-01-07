@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:social_media/models/launch_url.dart';
+
+import '../models/launch_url.dart';
 
 class CategoryImage extends StatefulWidget {
   const CategoryImage({

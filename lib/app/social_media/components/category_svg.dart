@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:social_media/models/launch_url.dart';
+
+import '../models/launch_url.dart';
 
 class CategorySvg extends StatefulWidget {
   const CategorySvg({

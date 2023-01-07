@@ -15,14 +15,15 @@ dependencies:
     sdk: flutter
   flutter_launcher_icons: ^0.10.0
   flutter_svg: ^0.22.0
-  font_awesome_flutter:   ^9.1.0
+  font_awesome_flutter: ^9.1.0
   google_mobile_ads: ^2.0.1
-  http:  ^0.13.3 
+  http: ^0.13.3
   rename: ^2.0.1
-  responsive_framework:   ^0.1.4
-  url_launcher:   ^6.0.9
+  responsive_framework: ^0.1.4
+  url_launcher: ^6.0.9
+  webview_flutter: ^4.0.1
 
-dev_dependencies: 
+dev_dependencies:
   flutter_lints: ^2.0.0
   flutter_test:
     sdk: flutter
@@ -41,8 +42,6 @@ flutter_icons:
     generate: true
     image_path: "assets/image/app-icon.png"
     icon_size: 48 # min:48, max:256, default: 48flutter:
-
-
 
 flutter:
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:social_media/components/all_theme.dart';
+import 'all_theme.dart';
 
 // ignore: must_be_immutable
 class BackgroundColorPage extends StatefulWidget {
