@@ -1,5 +1,6 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:social_media/favorite/favorite.dart';
 
 import '../Pages/home_page.dart';
 import 'all_theme.dart';
@@ -36,8 +37,11 @@ class _BottomNavigationBarAllState extends State<BottomNavigationBarAll> {
           //   Navigator.pushNamed(context, '/search');
           // } else if (index == 2) {
           //   Navigator.pushNamed(context, '/add');
-          // } else if (index == 3) {
-          //   Navigator.pushNamed(context, '/favorite');
+        } else if (index == 3) {
+          Navigator.pop(
+            context,
+            MaterialPageRoute(builder: (context) => const Favorite()),
+          );
           // } else if (index == 4) {
           //   Navigator.pushNamed(context, '/person');
         }

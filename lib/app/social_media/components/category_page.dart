@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'all_theme.dart';
 
@@ -43,7 +44,7 @@ class _CategoryPageState extends State<CategoryPage> {
           alignment: Alignment.center,
           child: Text(
             widget.text!,
-            style: const TextStyle(fontSize: 18, color: Colors.white),
+            style: TextStyle(fontSize: 18.sp, color: Colors.white),
           ),
         ),
       ),

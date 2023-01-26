@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../models/launch_url.dart';
@@ -34,19 +35,19 @@ class _CategorySvgState extends State<CategorySvg> {
         ],
         borderRadius: BorderRadius.circular(16.0),
       ),
-      height: 115.0,
-      width: 110,
+      height: 115.0.h,
+      width: 110.w,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           SizedBox(
-            width: 90.0,
-            height: 80,
+            width: 90.0.w,
+            height: 80.h,
             child: IconButton(
               icon: SvgPicture.asset(
                 widget.svg,
-                height: 65,
-                width: 65,
+                height: 65.h,
+                width: 650.w,
               ),
               onPressed: () {
                 launchURL(widget.launchurl);
@@ -55,9 +56,9 @@ class _CategorySvgState extends State<CategorySvg> {
           ),
           Text(
             widget.title,
-            style: const TextStyle(
+            style: TextStyle(
               color: Colors.black,
-              fontSize: 16,
+              fontSize: 16.sp,
             ),
           ),
         ],

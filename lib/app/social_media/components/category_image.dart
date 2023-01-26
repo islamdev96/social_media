@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../models/launch_url.dart';
 
@@ -38,13 +39,13 @@ class _CategoryImageState extends State<CategoryImage> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           SizedBox(
-            width: 90.0,
-            height: 80,
+            width: 90.0.w,
+            height: 80.h,
             child: IconButton(
               icon: Image.asset(
                 widget.image,
-                height: 65,
-                width: 65,
+                height: 65.w,
+                width: 65.h,
               ),
               onPressed: () {
                 launchURL(widget.launchurl);
@@ -53,9 +54,9 @@ class _CategoryImageState extends State<CategoryImage> {
           ),
           Text(
             widget.title,
-            style: const TextStyle(
+            style: TextStyle(
               color: Colors.black,
-              fontSize: 16,
+              fontSize: 16.sp,
             ),
           ),
         ],

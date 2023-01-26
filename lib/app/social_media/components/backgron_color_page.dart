@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'all_theme.dart';
 
 // ignore: must_be_immutable
@@ -44,32 +45,10 @@ class _BackgroundColorPageState extends State<BackgroundColorPage> {
               padding: const EdgeInsets.only(bottom: 50),
               child: Text(
                 widget.text!,
-                style: const TextStyle(fontSize: 18, color: Colors.white),
+                style: TextStyle(fontSize: 18.sp, color: Colors.white),
               ),
             ),
           ),
-          // Center(
-          //   child: Container(
-          //     decoration: BoxDecoration(
-          //       boxShadow: <BoxShadow>[
-          //         BoxShadow(
-          //             color: ThemeColors(context),
-          //             blurRadius: 1.0,
-          //             spreadRadius: 1.0,
-          //             // offset: Offset(-1.0, 1.0),
-          //             blurStyle: BlurStyle.solid),
-          //       ],
-          //       borderRadius: const BorderRadius.only(
-          //         topLeft: Radius.zero,
-          //         topRight: Radius.zero,
-          //         bottomLeft: Radius.circular(100.0),
-          //         bottomRight: Radius.zero,
-          //       ),
-          //     ),
-          //     height: 17.0,
-          //     width: 17,
-          //   ),
-          // ),
         ],
       ),
     );
