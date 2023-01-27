@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 // ignore: non_constant_identifier_names
 Color ThemeBackgroundColorPage(BuildContext context) {
@@ -10,6 +11,6 @@ Color ThemeBackgroundColorPage(BuildContext context) {
 // ignore: non_constant_identifier_names
 Text ThemeTextAllApp(BuildContext context, {required String text}) {
   return Text(text,
-      style: const TextStyle(
-          color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold));
+      style: TextStyle(
+          color: Colors.black, fontSize: 20.sp, fontWeight: FontWeight.bold));
 }

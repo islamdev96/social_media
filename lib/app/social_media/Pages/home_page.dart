@@ -15,6 +15,7 @@ import 'news.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
+  static const routeName = '/homePage';
 
   @override
   Widget build(BuildContext context) {
@@ -146,23 +147,32 @@ class HomePage extends StatelessWidget {
               ),
             ],
           ),
-          // bottomSheet: const SizedBox(
-          //   height: 5,
-          //   child: AdsBottomNavigation(),
-          // ),
+          // bottomNavigationBar: const BottomNavigationBarAll(),
           bottomNavigationBar: CurvedNavigationBar(
             color: ThemeBackgroundColorPage(context),
             backgroundColor: Colors.white,
             buttonBackgroundColor: ThemeBackgroundColorPage(context),
             height: 60,
             items: const <Widget>[
-              Icon(Icons.home, size: 25, color: Colors.white, shadows: []),
+              Icon(Icons.home, size: 25, color: Colors.white),
               Icon(Icons.search, size: 25, color: Colors.white),
               Icon(Icons.add, size: 25, color: Colors.white),
               Icon(Icons.favorite, size: 25, color: Colors.white),
               Icon(Icons.person, size: 25, color: Colors.white),
             ],
-            onTap: (index) {},
+            onTap: (index) {
+              if (index == 0) {
+                // Navigator.pushNamed(context, '/homePage');
+              } else if (index == 1) {
+                Navigator.pushNamed(context, '/search');
+              } else if (index == 2) {
+                Navigator.pushNamed(context, '/add');
+              } else if (index == 3) {
+                Navigator.pushNamed(context, '/favorite');
+              } else if (index == 4) {
+                Navigator.pushNamed(context, '/person');
+              }
+            },
           ),
         ),
         const AnimatedPositioned(
