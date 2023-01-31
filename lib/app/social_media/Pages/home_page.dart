@@ -1,8 +1,8 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:social_media/app/social_media/Pages/programing.dart';
-import 'package:social_media/app/social_media/Pages/social_media.dart';
-import 'package:social_media/app/social_media/Pages/sport.dart';
+import 'package:social_media/app/social_media/pages/programing.dart';
+import 'package:social_media/app/social_media/pages/sport.dart';
+import '../../../main.dart';
 import '../components/all_theme.dart';
 import '../components/backgron_color_page.dart';
 import '../components/category_page.dart';
@@ -80,7 +80,7 @@ class HomePage extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(builder: (context) {
-                          return const SocialMediaPage();
+                          return const SocialMedia();
                         }),
                       );
                     },

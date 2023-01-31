@@ -6,8 +6,8 @@ import '../components/category_image.dart';
 import '../components/category_svg.dart';
 import '../manage_ads/banner_ads.dart';
 
-class SocialMediaPage extends StatelessWidget {
-  const SocialMediaPage({Key? key}) : super(key: key);
+class SocialMedia extends StatelessWidget {
+  const SocialMedia({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

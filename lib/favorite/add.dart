@@ -1,7 +1,10 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../app/social_media/components/all_theme.dart';
+import 'favorite_pages/favorite_social_media.dart';
+import 'favorite_pages/favorite_sport.dart';
 
 class Add extends StatelessWidget {
   const Add({super.key});
@@ -10,8 +13,21 @@ class Add extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: const Center(
-        child: Text('Add'),
+      body: ListView(
+        children: [
+          Column(
+            children: [
+              SizedBox(
+                height: 45.h,
+              ),
+              const FavoriteSocialMedi(),
+              SizedBox(
+                height: 45.h,
+              ),
+              const FavoriteSport(),
+            ],
+          ),
+        ],
       ),
       // bottomNavigationBar: const BottomNavigationBarAll(),
       bottomNavigationBar: CurvedNavigationBar(
