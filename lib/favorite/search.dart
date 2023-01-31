@@ -4,15 +4,31 @@ import 'package:flutter/material.dart';
 import '../app/social_media/components/all_theme.dart';
 
 class Search extends StatelessWidget {
-  const Search({super.key});
+  Search({super.key});
+
+  final List<String> itemsList = [
+    'Favorite Social Media',
+    'Favorite Freelancer',
+    'Favorite News',
+    'Favorite Islami',
+    'Favorite Programing',
+    'Favorite Sport',
+  ];
+
+  String slecte = 'Favorite Social Media';
   static const routeName = '/search';
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: const Center(
-        child: Text('Search'),
-      ),
+      body: Center(
+          child: DropdownButton<String>(
+        items: itemsList
+            .map((item) => DropdownMenuItem(value: item, child: Text(item)))
+            .toList(),
+        onChanged: (item) {},
+        value: slecte,
+      )),
       // bottomNavigationBar: const BottomNavigationBarAll(),
       bottomNavigationBar: CurvedNavigationBar(
         color: ThemeBackgroundColorPage(context),

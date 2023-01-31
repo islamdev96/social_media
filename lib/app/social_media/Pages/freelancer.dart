@@ -33,37 +33,15 @@ class Freelancer extends StatelessWidget {
                     child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: const [
-                          CategoryImage(
-                            launchurl: 'https://www.upwork.com/nx/find-work/',
-                            title: 'Upwork',
-                            image: 'assets/image/freelancer/upwork.png',
-                          ),
-                          CategorySvg(
-                            launchurl: 'https://www.freelancer.com/',
-                            title: 'Freelancer',
-                            svg: 'assets/image/freelancer/freelancer1.svg',
-                          ),
-                          CategoryImage(
-                            launchurl: 'https://www.peopleperhour.com/',
-                            title: 'Peopleper',
-                            image: 'assets/image/freelancer/peopleperhour.png',
-                          ),
-                        ]),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.all(16.0),
-                    child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceAround,
-                        children: const [
                           CategorySvg(
                             launchurl: 'https://www.linkedin.com/services/',
                             title: 'Linkservices',
                             svg: 'assets/image/freelancer/linkedin.svg',
                           ),
-                          CategoryImage(
-                            launchurl: 'https://www.guru.com/',
-                            title: 'Guru',
-                            image: 'assets/image/freelancer/guru.jpg',
+                          CategorySvg(
+                            launchurl: 'https://www.freelancer.com/',
+                            title: 'Freelancer',
+                            svg: 'assets/image/freelancer/freelancer1.svg',
                           ),
                           CategorySvg(
                             launchurl: 'https://speedlancer.com/',
@@ -82,11 +60,10 @@ class Freelancer extends StatelessWidget {
                             title: 'Angel',
                             svg: 'assets/image/freelancer/angel.svg',
                           ),
-                          CategoryImage(
-                            launchurl: 'https://www.smashingmagazine.com/jobs/',
-                            title: 'smashingma',
-                            image:
-                                'assets/image/freelancer/smashingmagazine.png',
+                          CategorySvg(
+                            launchurl: 'https://speedlancer.com/',
+                            title: 'Speedlancer',
+                            svg: 'assets/image/freelancer/speedlancer.svg',
                           ),
                           CategorySvg(
                             launchurl: 'https://weworkremotely.com/',
@@ -100,20 +77,20 @@ class Freelancer extends StatelessWidget {
                     child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: const [
-                          CategoryImage(
-                            launchurl: 'https://www.simplyhired.com/',
-                            title: 'Simplyhired',
-                            image: 'assets/image/freelancer/simplyhired.png',
+                          CategorySvg(
+                            launchurl: 'https://jo.mostaql.com/',
+                            title: 'Mostaql',
+                            svg: 'assets/image/freelancer/mostaql.svg',
                           ),
                           CategorySvg(
-                            launchurl: 'https://speedlancer.com/',
-                            title: 'Speedlancer',
-                            svg: 'assets/image/freelancer/speedlancer.svg',
+                            launchurl: 'https://souqfann.com/',
+                            title: 'Souqfann',
+                            svg: 'assets/image/freelancer/souqfann.svg',
                           ),
                           CategoryImage(
-                            launchurl: 'https://www.toptal.com/',
-                            title: 'Toptal',
-                            image: 'assets/image/freelancer/toptal.png',
+                            launchurl: 'https://www.upwork.com/nx/find-work/',
+                            title: 'Upwork',
+                            image: 'assets/image/freelancer/upwork.png',
                           ),
                         ]),
                   ),
@@ -122,20 +99,43 @@ class Freelancer extends StatelessWidget {
                     child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: const [
-                          CategorySvg(
-                            launchurl: 'https://jo.mostaql.com/',
-                            title: 'Mostaql',
-                            svg: 'assets/image/freelancer/mostaql.svg',
-                          ),
                           CategoryImage(
                             launchurl: 'https://kafiil.com/',
                             title: 'Kafiil',
                             image: 'assets/image/freelancer/kafiil.png',
                           ),
-                          CategorySvg(
-                            launchurl: 'https://souqfann.com/',
-                            title: 'Souqfann',
-                            svg: 'assets/image/freelancer/souqfann.svg',
+                          CategoryImage(
+                            launchurl: 'https://www.peopleperhour.com/',
+                            title: 'Peopleper',
+                            image: 'assets/image/freelancer/peopleperhour.png',
+                          ),
+                          CategoryImage(
+                            launchurl: 'https://www.guru.com/',
+                            title: 'Guru',
+                            image: 'assets/image/freelancer/guru.jpg',
+                          ),
+                        ]),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        children: const [
+                          CategoryImage(
+                            launchurl: 'https://www.smashingmagazine.com/jobs/',
+                            title: 'smashingma',
+                            image:
+                                'assets/image/freelancer/smashingmagazine.png',
+                          ),
+                          CategoryImage(
+                            launchurl: 'https://www.simplyhired.com/',
+                            title: 'Simplyhired',
+                            image: 'assets/image/freelancer/simplyhired.png',
+                          ),
+                          CategoryImage(
+                            launchurl: 'https://www.toptal.com/',
+                            title: 'Toptal',
+                            image: 'assets/image/freelancer/toptal.png',
                           ),
                         ]),
                   ),

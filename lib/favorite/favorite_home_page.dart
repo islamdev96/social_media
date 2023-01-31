@@ -3,18 +3,22 @@ import 'package:flutter/material.dart';
 
 import '../app/social_media/components/all_theme.dart';
 
-class Favorite extends StatefulWidget {
-  const Favorite({super.key});
+class FavoriteHomePage extends StatefulWidget {
+  const FavoriteHomePage({super.key});
   static const routeName = '/favorite';
 
   @override
-  State<Favorite> createState() => _FavoriteState();
+  State<FavoriteHomePage> createState() => _FavoriteHomePageState();
 }
 
-class _FavoriteState extends State<Favorite> {
+class _FavoriteHomePageState extends State<FavoriteHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: ThemeBackgroundColorPage(context),
+        title: const Text('Favorite'),
+      ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: const [],

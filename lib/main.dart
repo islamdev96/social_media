@@ -5,8 +5,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:social_media/app/social_media/pages/home_page.dart';
 
 import 'favorite/add.dart';
+import 'favorite/favorite_home_page.dart';
 import 'favorite/person.dart';
-import 'favorite/favorite.dart';
 import 'favorite/search.dart';
 
 void main() {
@@ -39,9 +39,9 @@ class _SocialMediaState extends State<SocialMedia> {
             initialRoute: HomePage.routeName,
             routes: {
               HomePage.routeName: (_) => const HomePage(),
-              Favorite.routeName: (_) => const Favorite(),
+              FavoriteHomePage.routeName: (_) => const FavoriteHomePage(),
               Add.routeName: (_) => const Add(),
-              Search.routeName: (_) => const Search(),
+              Search.routeName: (_) => Search(),
               Person.routeName: (_) => const Person(),
             },
           );

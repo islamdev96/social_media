@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:social_media/favorite/components/svg/card_favorite_svg.dart';
+import 'package:social_media/favorite/components/svg/category_favorite_svg.dart';
 
 import '../../app/social_media/pages/social_media.dart';
 import '../../app/social_media/components/category_page.dart';
 import '../components/image/card_favorite_image.dart';
 import '../components/image/category_favorite_image.dart';
-import '../components/svg/card_favorite_svg.dart';
-import '../components/svg/category_favorite_svg.dart';
 
 class FavoriteNews extends StatelessWidget {
   const FavoriteNews({Key? key}) : super(key: key);
@@ -27,106 +27,11 @@ class FavoriteNews extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
-                launchurl: 'https://www.google.com',
-                title: 'Google',
-                svg: 'assets/image/soshal/google.svg',
-              ),
-            ),
-          ],
-        ),
-        Column(
-          children: [
-            CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
-                launchurl: 'https://www.youtube.com/',
-                title: 'Youtube',
-                svg: 'assets/image/soshal/youtube.svg',
-              ),
-            ),
-          ],
-        ),
-        Column(
-          children: [
-            CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
-                launchurl: 'https://www.facebook.com/',
-                title: 'Facebook',
-                svg: 'assets/image/soshal/facebook.svg',
-              ),
-            ),
-          ],
-        ),
-        Column(
-          children: [
-            CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
-                launchurl: 'https://twitter.com/',
-                title: 'Twitter',
-                svg: 'assets/image/soshal/twitter.svg',
-              ),
-            ),
-          ],
-        ),
-        Column(
-          children: [
-            CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
-                launchurl: 'https://www.instagram.com/',
-                title: 'Instagram',
-                svg: 'assets/image/soshal/instagram.svg',
-              ),
-            ),
-          ],
-        ),
-        Column(
-          children: [
-            CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
-                launchurl: 'https://www.linkedin.com/',
-                title: 'Linkedin',
-                svg: 'assets/image/soshal/linkedin.svg',
-              ),
-            ),
-          ],
-        ),
-        Column(
-          children: [
-            CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
-                launchurl: 'https://www.tiktok.com/',
-                title: 'Tiktok',
-                svg: 'assets/image/soshal/tiktok.svg',
-              ),
-            ),
-          ],
-        ),
-        Column(
-          children: [
-            CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
-                launchurl: 'https://zoom.us/',
-                title: 'Zoom',
-                svg: 'assets/image/soshal/zoom.svg',
-              ),
-            ),
-          ],
-        ),
-        CardFavoriteSvg(
-          categoryFavoriteSvg: const CategoryFavoriteSvg(
-            launchurl: 'https://www.snapchat.com/',
-            title: 'Snapchat',
-            svg: 'assets/image/soshal/snapchat.svg',
-          ),
-        ),
-        Column(
-          children: [
-            CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
-                launchurl: 'https://web.whatsapp.com/',
-                title: 'ًWhatsapp',
-                svg: 'assets/image/soshal/whatsapp.svg',
+            CardFavoriteImage(
+              categoryFavoriteImage: const CategoryFavoriteImage(
+                launchurl: 'https://www.aljazeera.net/',
+                title: 'Aljazeera',
+                image: 'assets/image/news/aljazeera.png',
               ),
             ),
           ],
@@ -135,9 +40,108 @@ class FavoriteNews extends StatelessWidget {
           children: [
             CardFavoriteImage(
               categoryFavoriteImage: const CategoryFavoriteImage(
-                launchurl: 'https://podcastluisteren.nl/',
-                title: 'Podcast',
-                image: 'assets/image/soshal/podcast.png',
+                launchurl: 'https://www.france24.com/ar/',
+                title: 'France24',
+                image: 'assets/image/news/france24.png',
+              ),
+            ),
+          ],
+        ),
+        Column(
+          children: [
+            CardFavoriteImage(
+              categoryFavoriteImage: const CategoryFavoriteImage(
+                launchurl: 'https://www.bbc.com/arabic',
+                title: 'BBC',
+                image: 'assets/image/news/bbc.png',
+              ),
+            ),
+          ],
+        ),
+        Column(
+          children: [
+            CardFavoriteImage(
+              categoryFavoriteImage: const CategoryFavoriteImage(
+                launchurl: 'https://arabic.cnn.com/',
+                title: 'CNN',
+                image: 'assets/image/news/cnn.png',
+              ),
+            ),
+          ],
+        ),
+        Column(
+          children: [
+            CardFavoriteImage(
+              categoryFavoriteImage: const CategoryFavoriteImage(
+                launchurl: 'https://www.reuters.com/',
+                title: 'Reuters',
+                image: 'assets/image/news/reuters.png',
+              ),
+            ),
+          ],
+        ),
+        Column(
+          children: [
+            CardFavoriteImage(
+              categoryFavoriteImage: const CategoryFavoriteImage(
+                launchurl: 'https://www.alarabiya.net/',
+                title: 'Alarabiya',
+                image: 'assets/image/news/alarabiya.png',
+              ),
+            ),
+          ],
+        ),
+        Column(
+          children: [
+            CardFavoriteImage(
+              categoryFavoriteImage: const CategoryFavoriteImage(
+                launchurl: 'https://aawsat.com/',
+                title: 'Aawsat',
+                image: 'assets/image/news/aawsat.png',
+              ),
+            ),
+          ],
+        ),
+        Column(
+          children: [
+            CardFavoriteImage(
+              categoryFavoriteImage: const CategoryFavoriteImage(
+                launchurl: 'https://arabic.euronews.com/',
+                title: 'EuroNews',
+                image: 'assets/image/news/euronews.jpg',
+              ),
+            ),
+          ],
+        ),
+        Column(
+          children: [
+            CardFavoriteImage(
+              categoryFavoriteImage: const CategoryFavoriteImage(
+                launchurl: 'https://www.aa.com.tr/ar',
+                title: 'Anadolu',
+                image: 'assets/image/news/aa.jpg',
+              ),
+            ),
+          ],
+        ),
+        Column(
+          children: [
+            CardFavoriteImage(
+              categoryFavoriteImage: const CategoryFavoriteImage(
+                launchurl: 'https://elaph.com/',
+                title: 'Elaph',
+                image: 'assets/image/news/elaph.png',
+              ),
+            ),
+          ],
+        ),
+        Column(
+          children: [
+            CardFavoriteImage(
+              categoryFavoriteImage: const CategoryFavoriteImage(
+                launchurl: 'https://www.alhurra.com/latest',
+                title: 'Alhurra',
+                image: 'assets/image/news/alhurra.png',
               ),
             ),
           ],
@@ -146,9 +150,31 @@ class FavoriteNews extends StatelessWidget {
           children: [
             CardFavoriteSvg(
               categoryFavoriteSvg: const CategoryFavoriteSvg(
-                launchurl: 'https://web.telegram.org/',
-                title: 'Telegram',
-                svg: 'assets/image/soshal/telegram.svg',
+                launchurl: 'https://www.skynewsarabia.com/',
+                title: 'SkyNews',
+                svg: 'assets/image/news/skynewsarabia.svg',
+              ),
+            ),
+          ],
+        ),
+        Column(
+          children: [
+            CardFavoriteSvg(
+              categoryFavoriteSvg: const CategoryFavoriteSvg(
+                launchurl: 'https://www.alaraby.com/alaraby2',
+                title: 'Alaraby2',
+                svg: 'assets/image/news/alaraby2.svg',
+              ),
+            ),
+          ],
+        ),
+        Column(
+          children: [
+            CardFavoriteImage(
+              categoryFavoriteImage: const CategoryFavoriteImage(
+                launchurl: 'https://www.dw.com/ar/',
+                title: 'DW',
+                image: 'assets/image/news/dw.png',
               ),
             ),
           ],
