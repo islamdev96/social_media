@@ -93,11 +93,11 @@ class FavoriteFreelancer extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
+            CardFavoriteImage(
+              categoryFavoriteImage: const CategoryFavoriteImage(
                 launchurl: 'https://souqfann.com/',
                 title: 'Souqfann',
-                svg: 'assets/image/freelancer/souqfann.svg',
+                image: 'assets/image/freelancer/souqfann.jpeg',
               ),
             ),
           ],

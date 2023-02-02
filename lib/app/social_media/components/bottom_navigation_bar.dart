@@ -22,7 +22,7 @@ class _BottomNavigationBarAllState extends State<BottomNavigationBarAll> {
       items: const <Widget>[
         Icon(Icons.home, size: 25, color: Colors.white),
         Icon(Icons.search, size: 25, color: Colors.white),
-        Icon(Icons.add, size: 25, color: Colors.white),
+        // Icon(Icons.add, size: 25, color: Colors.white),
         Icon(Icons.favorite, size: 25, color: Colors.white),
         Icon(Icons.person, size: 25, color: Colors.white),
       ],
@@ -32,10 +32,8 @@ class _BottomNavigationBarAllState extends State<BottomNavigationBarAll> {
         } else if (index == 1) {
           Navigator.pushNamed(context, '/search');
         } else if (index == 2) {
-          Navigator.pushNamed(context, '/add');
-        } else if (index == 3) {
           Navigator.pushNamed(context, '/favorite');
-        } else if (index == 4) {
+        } else if (index == 3) {
           Navigator.pushNamed(context, '/person');
         }
       },

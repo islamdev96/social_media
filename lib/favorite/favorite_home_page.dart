@@ -2,6 +2,7 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
 import '../app/social_media/components/all_theme.dart';
+import '../app/social_media/components/backgron_color_page.dart';
 
 class FavoriteHomePage extends StatefulWidget {
   const FavoriteHomePage({super.key});
@@ -16,12 +17,19 @@ class _FavoriteHomePageState extends State<FavoriteHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
+        elevation: 0,
         backgroundColor: ThemeBackgroundColorPage(context),
-        title: const Text('Favorite'),
       ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: const [],
+      body: ListView(
+        children: [
+          BackgroundColorPage(
+            text: 'Favorite',
+          ),
+          Column(
+            children: const [],
+          ),
+        ],
       ),
       // bottomNavigationBar: const BottomNavigationBarAll(),
       bottomNavigationBar: CurvedNavigationBar(
@@ -39,6 +47,13 @@ class _FavoriteHomePageState extends State<FavoriteHomePage> {
           }
         },
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.pushNamed(context, '/add');
+        },
+        tooltip: 'Increment',
+        child: const Icon(Icons.add),
+      ), // This trailing comma makes auto-formatting nicer
     );
   }
 }

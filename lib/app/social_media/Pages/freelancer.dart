@@ -82,10 +82,10 @@ class Freelancer extends StatelessWidget {
                             title: 'Mostaql',
                             svg: 'assets/image/freelancer/mostaql.svg',
                           ),
-                          CategorySvg(
+                          CategoryImage(
                             launchurl: 'https://souqfann.com/',
                             title: 'Souqfann',
-                            svg: 'assets/image/freelancer/souqfann.svg',
+                            image: 'assets/image/freelancer/souqfann.jpeg',
                           ),
                           CategoryImage(
                             launchurl: 'https://www.upwork.com/nx/find-work/',

@@ -1,8 +1,8 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:social_media/app/social_media/Pages/social_media.dart';
 import 'package:social_media/app/social_media/pages/programing.dart';
 import 'package:social_media/app/social_media/pages/sport.dart';
-import '../../../main.dart';
 import '../components/all_theme.dart';
 import '../components/backgron_color_page.dart';
 import '../components/category_page.dart';
@@ -156,7 +156,6 @@ class HomePage extends StatelessWidget {
             items: const <Widget>[
               Icon(Icons.home, size: 25, color: Colors.white),
               Icon(Icons.search, size: 25, color: Colors.white),
-              Icon(Icons.add, size: 25, color: Colors.white),
               Icon(Icons.favorite, size: 25, color: Colors.white),
               Icon(Icons.person, size: 25, color: Colors.white),
             ],
@@ -166,10 +165,8 @@ class HomePage extends StatelessWidget {
               } else if (index == 1) {
                 Navigator.pushNamed(context, '/search');
               } else if (index == 2) {
-                Navigator.pushNamed(context, '/add');
-              } else if (index == 3) {
                 Navigator.pushNamed(context, '/favorite');
-              } else if (index == 4) {
+              } else if (index == 3) {
                 Navigator.pushNamed(context, '/person');
               }
             },

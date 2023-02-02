@@ -7,6 +7,7 @@ import 'package:social_media/favorite/favorite_pages/favorite_news.dart';
 import 'package:social_media/favorite/favorite_pages/favorite_programing.dart';
 
 import '../app/social_media/components/all_theme.dart';
+import '../app/social_media/components/backgron_color_page.dart';
 import 'favorite_pages/favorite_social_media.dart';
 import 'favorite_pages/favorite_sport.dart';
 
@@ -17,8 +18,16 @@ class Add extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        automaticallyImplyLeading: false,
+        elevation: 0,
+        backgroundColor: ThemeBackgroundColorPage(context),
+      ),
       body: ListView(
         children: [
+          BackgroundColorPage(
+            text: 'Add Favorite',
+          ),
           Column(
             children: [
               SizedBox(

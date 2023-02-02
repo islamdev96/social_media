@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:social_media/app/social_media/Pages/social_media.dart';
 
-import '../../app/social_media/pages/social_media.dart';
 import '../../app/social_media/components/category_page.dart';
 import '../components/image/card_favorite_image.dart';
 import '../components/image/category_favorite_image.dart';

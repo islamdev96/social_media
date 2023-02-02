@@ -1,7 +1,10 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
 import '../app/social_media/components/all_theme.dart';
+import '../app/social_media/components/backgron_color_page.dart';
 
 class Search extends StatelessWidget {
   Search({super.key});
@@ -21,14 +24,31 @@ class Search extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-          child: DropdownButton<String>(
-        items: itemsList
-            .map((item) => DropdownMenuItem(value: item, child: Text(item)))
-            .toList(),
-        onChanged: (item) {},
-        value: slecte,
-      )),
+      appBar: AppBar(
+        automaticallyImplyLeading: false,
+        elevation: 0,
+        backgroundColor: ThemeBackgroundColorPage(context),
+      ),
+      body: ListView(
+        children: [
+          BackgroundColorPage(
+            text: 'Social Media',
+          ),
+          Column(
+            children: [
+              Center(
+                  child: DropdownButton<String>(
+                items: itemsList
+                    .map((item) =>
+                        DropdownMenuItem(value: item, child: Text(item)))
+                    .toList(),
+                onChanged: (item) {},
+                value: slecte,
+              )),
+            ],
+          ),
+        ],
+      ),
       // bottomNavigationBar: const BottomNavigationBarAll(),
       bottomNavigationBar: CurvedNavigationBar(
         color: ThemeBackgroundColorPage(context),

@@ -2,6 +2,7 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
 import '../app/social_media/components/all_theme.dart';
+import '../app/social_media/components/backgron_color_page.dart';
 
 class Person extends StatelessWidget {
   const Person({super.key});
@@ -10,10 +11,25 @@ class Person extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: const Center(
-        child: Text('Person'),
+      appBar: AppBar(
+        automaticallyImplyLeading: false,
+        elevation: 0,
+        backgroundColor: ThemeBackgroundColorPage(context),
       ),
-      // bottomNavigationBar: const BottomNavigationBarAll(),
+      body: ListView(
+        children: [
+          BackgroundColorPage(
+            text: 'Social Media',
+          ),
+          Column(
+            children: const [
+              Center(
+                child: Text('Person'),
+              ),
+            ],
+          ),
+        ],
+      ), // bottomNavigationBar: const BottomNavigationBarAll(),
       bottomNavigationBar: CurvedNavigationBar(
         color: ThemeBackgroundColorPage(context),
         backgroundColor: Colors.white,
