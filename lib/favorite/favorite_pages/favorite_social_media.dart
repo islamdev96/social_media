@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:social_media/app/social_media/Pages/social_media.dart';
 
 import '../../app/social_media/components/category_page.dart';
-import '../components/image/card_favorite_image.dart';
-import '../components/image/category_favorite_image.dart';
 import '../components/svg/card_favorite_svg.dart';
 import '../components/svg/category_favorite_svg.dart';
 
@@ -131,17 +129,18 @@ class FavoriteSocialMedi extends StatelessWidget {
             ),
           ],
         ),
-        Column(
-          children: [
-            CardFavoriteImage(
-              categoryFavoriteImage: const CategoryFavoriteImage(
-                launchurl: 'https://podcastluisteren.nl/',
-                title: 'Podcast',
-                image: 'assets/image/soshal/podcast.png',
-              ),
-            ),
-          ],
-        ),
+        // Column(
+        //   children: [
+        //     CardFavoriteImage(
+        //       categoryFavoriteImage: const CategoryFavoriteImage(
+        //         launchurl: 'https://podcastluisteren.nl/',
+        //         title: 'Podcast',
+        //         image: 'assets/image/soshal/podcast.png',
+        //         svg: '',
+        //       ),
+        //     ),
+        //   ],
+        // ),
         Column(
           children: [
             CardFavoriteSvg(

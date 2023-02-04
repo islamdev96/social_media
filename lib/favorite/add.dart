@@ -23,52 +23,25 @@ class Add extends StatelessWidget {
         elevation: 0,
         backgroundColor: ThemeBackgroundColorPage(context),
       ),
-      body: ListView(
-        children: [
-          BackgroundColorPage(
-            text: 'Add Favorite',
-          ),
-          Column(
-            children: [
-              SizedBox(
-                height: 45.h,
-              ),
-              const FavoriteSocialMedi(),
-              SizedBox(
-                height: 45.h,
-              ),
-              const FavoriteSport(),
-              SizedBox(
-                height: 45.h,
-              ),
-              const FavoritePrograming(),
-              SizedBox(
-                height: 45.h,
-              ),
-              SizedBox(
-                height: 45.h,
-              ),
-              const FavoriteNews(),
-              SizedBox(
-                height: 45.h,
-              ),
-              SizedBox(
-                height: 45.h,
-              ),
-              const FavoriteIslamic(),
-              SizedBox(
-                height: 45.h,
-              ),
-              SizedBox(
-                height: 45.h,
-              ),
-              const FavoriteFreelancer(),
-              SizedBox(
-                height: 45.h,
-              ),
-            ],
-          ),
-        ],
+      body: ListView.builder(
+        itemCount: 1,
+        itemBuilder: (context, index) => Column(
+          children: [
+            BackgroundColorPage(
+              text: 'Add Favorite',
+            ),
+            Column(
+              children: const [
+                FavoriteSocialMedi(),
+                // FavoriteSport(),
+                // FavoritePrograming(),
+                // FavoriteNews(),
+                // FavoriteIslamic(),
+                // FavoriteFreelancer(),
+              ],
+            ),
+          ],
+        ),
       ),
       // bottomNavigationBar: const BottomNavigationBarAll(),
       bottomNavigationBar: CurvedNavigationBar(

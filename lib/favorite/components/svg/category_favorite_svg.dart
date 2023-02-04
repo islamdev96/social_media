@@ -12,6 +12,7 @@ class CategoryFavoriteSvg extends StatefulWidget {
   final String launchurl;
 
   final String svg;
+
   final String title;
 
   @override

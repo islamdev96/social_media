@@ -64,9 +64,10 @@ class HomePage extends StatelessWidget {
             elevation: 0,
             backgroundColor: ThemeBackgroundColorPage(context),
           ),
-          body: ListView(
-            children: [
-              Column(
+          body: ListView.builder(
+            itemCount: 1,
+            itemBuilder: (BuildContext context, int index) {
+              return Column(
                 children: [
                   BackgroundColorPage(
                     text: 'Social Media',
@@ -140,13 +141,14 @@ class HomePage extends StatelessWidget {
                       );
                     },
                   ),
+                  const SizedBox(
+                    height: 200,
+                  ),
                 ],
-              ),
-              const SizedBox(
-                height: 200,
-              ),
-            ],
+              );
+            },
           ),
+
           // bottomNavigationBar: const BottomNavigationBarAll(),
           bottomNavigationBar: CurvedNavigationBar(
             color: ThemeBackgroundColorPage(context),
