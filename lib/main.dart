@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:social_media/app/social_media/pages/home_page.dart';
+import 'package:social_media/view/screen/home/home_page.dart';
 
 import 'view/screen/favorite/add.dart';
 import 'view/screen/favorite/favorite_home_page.dart';

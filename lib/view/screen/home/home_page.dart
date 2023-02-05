@@ -1,14 +1,14 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:social_media/app/social_media/Pages/social_media.dart';
-import 'package:social_media/app/social_media/pages/programing.dart';
-import 'package:social_media/app/social_media/pages/sport.dart';
-import '../../../app/social_media/components/all_theme.dart';
-import '../../../app/social_media/components/backgron_color_page.dart';
-import '../../../app/social_media/components/category_page.dart';
-import '../../../app/social_media/manage_ads/banner_ads.dart';
+import 'package:social_media/view/screen/home/programing.dart';
+import 'package:social_media/view/screen/home/sport.dart';
+import '../../../controller/components/all_theme.dart';
+import '../../../controller/components/backgron_color_page.dart';
+import '../../../controller/components/category_page.dart';
+import '../../../data/models/manage_ads/banner_ads.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import '../../../main.dart';
 import 'freelancer.dart';
 import 'islami.dart';
 import 'news.dart';

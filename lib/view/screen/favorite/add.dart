@@ -5,8 +5,8 @@ import 'package:social_media/view/screen/favorite/favorite_pages/favorite_islami
 import 'package:social_media/view/screen/favorite/favorite_pages/favorite_news.dart';
 import 'package:social_media/view/screen/favorite/favorite_pages/favorite_programing.dart';
 
-import '../../../app/social_media/components/all_theme.dart';
-import '../../../app/social_media/components/backgron_color_page.dart';
+import '../../../controller/components/all_theme.dart';
+import '../../../controller/components/backgron_color_page.dart';
 import 'favorite_pages/favorite_social_media.dart';
 import 'favorite_pages/favorite_sport.dart';
 

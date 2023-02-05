@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:social_media/controller/components/components/svg/card_favorite_svg.dart';
 import 'package:social_media/controller/components/components/svg/category_favorite_svg.dart';
 
-import '../../../../app/social_media/components/resources/assets_manager.dart';
-import '../../../../app/social_media/pages/social_media.dart';
-import '../../../../app/social_media/components/category_page.dart';
+import '../../../../controller/components/category_page.dart';
 import '../../../../controller/components/components/image/card_favorite_image.dart';
 import '../../../../controller/components/components/image/category_favorite_image.dart';
+import '../../../../core/constant/resources/assets_manager.dart';
+import '../../../../main.dart';
 
 class FavoriteIslamic extends StatelessWidget {
   const FavoriteIslamic({Key? key}) : super(key: key);

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:social_media/app/social_media/components/resources/color_manager.dart';
+import 'package:social_media/core/constant/resources/color_manager.dart';
 
 ThemeData getApplicationTheme() {
   return ThemeData(

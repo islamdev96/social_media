@@ -3,8 +3,8 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
-import '../../../app/social_media/components/all_theme.dart';
-import '../../../app/social_media/components/backgron_color_page.dart';
+import '../../../controller/components/all_theme.dart';
+import '../../../controller/components/backgron_color_page.dart';
 
 class Search extends StatelessWidget {
   Search({super.key});
