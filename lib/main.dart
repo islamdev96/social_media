@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:social_media/app/social_media/pages/home_page.dart';
 
-import 'favorite/add.dart';
-import 'favorite/favorite_home_page.dart';
-import 'favorite/person.dart';
-import 'favorite/search.dart';
+import 'view/screen/favorite/add.dart';
+import 'view/screen/favorite/favorite_home_page.dart';
+import 'view/screen/favorite/person.dart';
+import 'view/screen/favorite/search.dart';
 
 void main() {
   runApp(const SocialMedia());
