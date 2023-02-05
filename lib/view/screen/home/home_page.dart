@@ -2,9 +2,9 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:social_media/view/screen/home/programing.dart';
 import 'package:social_media/view/screen/home/sport.dart';
-import '../../../controller/components/all_theme.dart';
 import '../../../controller/components/backgron_color_page.dart';
 import '../../../controller/components/category_page.dart';
+import '../../../core/constant/resources/color_manager.dart';
 import '../../../data/models/manage_ads/banner_ads.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -24,13 +24,13 @@ class HomePage extends StatelessWidget {
       children: [
         Scaffold(
           drawer: Drawer(
-            backgroundColor: ThemeBackgroundColorPage(context),
+            backgroundColor: ColorManager.kPrimary,
             elevation: 10.0,
             child: ListView(
               children: [
                 const DrawerHeader(
                   decoration: BoxDecoration(
-                      // color: ThemeBackgroundColorPage(context),
+                      // color:ColorManager.kPrimary,
                       ),
                   child: Text(
                     'Drawer Header',
@@ -62,7 +62,7 @@ class HomePage extends StatelessWidget {
             // leading: const Icon(Icons.menu,
             //     color: Colors.redAccent, textDirection: TextDirection.rtl),
             elevation: 0,
-            backgroundColor: ThemeBackgroundColorPage(context),
+            backgroundColor: ColorManager.kPrimary,
           ),
           body: ListView.builder(
             itemCount: 1,
@@ -151,9 +151,9 @@ class HomePage extends StatelessWidget {
 
           // bottomNavigationBar: const BottomNavigationBarAll(),
           bottomNavigationBar: CurvedNavigationBar(
-            color: ThemeBackgroundColorPage(context),
+            color: ColorManager.kPrimary,
             backgroundColor: Colors.white,
-            buttonBackgroundColor: ThemeBackgroundColorPage(context),
+            buttonBackgroundColor: ColorManager.kPrimary,
             height: 60,
             items: const <Widget>[
               Icon(Icons.home, size: 25, color: Colors.white),

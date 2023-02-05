@@ -2,7 +2,7 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import 'all_theme.dart';
+import '../../core/constant/resources/color_manager.dart';
 
 class BottomNavigationBarAll extends StatefulWidget {
   const BottomNavigationBarAll({super.key});
@@ -15,9 +15,9 @@ class _BottomNavigationBarAllState extends State<BottomNavigationBarAll> {
   @override
   Widget build(BuildContext context) {
     return CurvedNavigationBar(
-      color: ThemeBackgroundColorPage(context),
+      color: ColorManager.kPrimary,
       backgroundColor: Colors.white,
-      buttonBackgroundColor: ThemeBackgroundColorPage(context),
+      buttonBackgroundColor: ColorManager.kPrimary,
       height: 60.h,
       items: const <Widget>[
         Icon(Icons.home, size: 25, color: Colors.white),

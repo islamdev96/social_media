@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import '../../../controller/components/all_theme.dart';
 import '../../../controller/components/backgron_color_page.dart';
 import '../../../controller/components/bottom_navigation_bar.dart';
 import '../../../controller/components/category_image.dart';
 import '../../../controller/components/category_svg.dart';
 import '../../../core/constant/resources/assets_manager.dart';
+import '../../../core/constant/resources/color_manager.dart';
 import '../../../data/models/manage_ads/banner_ads.dart';
 
 class News extends StatelessWidget {
@@ -18,7 +18,7 @@ class News extends StatelessWidget {
           appBar: AppBar(
             automaticallyImplyLeading: false,
             elevation: 0,
-            backgroundColor: ThemeBackgroundColorPage(context),
+            backgroundColor: ColorManager.kPrimary,
           ),
           body: ListView(
             children: [

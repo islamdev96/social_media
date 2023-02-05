@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'all_theme.dart';
+import '../../core/constant/resources/color_manager.dart';
 
 // ignore: must_be_immutable
 class BackgroundColorPage extends StatefulWidget {
@@ -25,7 +25,7 @@ class _BackgroundColorPageState extends State<BackgroundColorPage> {
             decoration: BoxDecoration(
               boxShadow: <BoxShadow>[
                 BoxShadow(
-                    color: ThemeBackgroundColorPage(context),
+                    color: ColorManager.kPrimary,
                     blurRadius: 2.0,
                     spreadRadius: 1.0,
                     // offset: Offset(-1.0, 1.0),

@@ -1,8 +1,8 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
-import '../../../controller/components/all_theme.dart';
 import '../../../controller/components/backgron_color_page.dart';
+import '../../../core/constant/resources/color_manager.dart';
 
 class FavoriteHomePage extends StatefulWidget {
   const FavoriteHomePage({super.key});
@@ -19,7 +19,7 @@ class _FavoriteHomePageState extends State<FavoriteHomePage> {
       appBar: AppBar(
         automaticallyImplyLeading: false,
         elevation: 0,
-        backgroundColor: ThemeBackgroundColorPage(context),
+        backgroundColor: ColorManager.kPrimary,
       ),
       body: ListView(
         children: [
@@ -33,9 +33,9 @@ class _FavoriteHomePageState extends State<FavoriteHomePage> {
       ),
       // bottomNavigationBar: const BottomNavigationBarAll(),
       bottomNavigationBar: CurvedNavigationBar(
-        color: ThemeBackgroundColorPage(context),
+        color: ColorManager.kPrimary,
         backgroundColor: Colors.white,
-        buttonBackgroundColor: ThemeBackgroundColorPage(context),
+        buttonBackgroundColor: ColorManager.kPrimary,
         height: 60,
         items: const <Widget>[
           Icon(Icons.home, size: 25, color: Colors.white),
