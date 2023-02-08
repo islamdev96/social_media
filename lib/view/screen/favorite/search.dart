@@ -19,7 +19,7 @@ class Search extends StatelessWidget {
   ];
 
   String slecte = 'Favorite Social Media';
-  static const routeName = '/search';
+  // static const routeName = '/search';
 
   @override
   Widget build(BuildContext context) {

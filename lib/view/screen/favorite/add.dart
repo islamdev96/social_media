@@ -1,7 +1,7 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:social_media/view/screen/favorite/favorite_pages/favorite_freelancer.dart';
-import 'package:social_media/view/screen/favorite/favorite_pages/favorite_islami.dart';
+import 'package:social_media/view/screen/favorite/favorite_pages/favorite_islamic.dart';
 import 'package:social_media/view/screen/favorite/favorite_pages/favorite_news.dart';
 import 'package:social_media/view/screen/favorite/favorite_pages/favorite_programing.dart';
 
@@ -12,7 +12,7 @@ import 'favorite_pages/favorite_sport.dart';
 
 class Add extends StatelessWidget {
   const Add({super.key});
-  static const routeName = '/add';
+  // static const routeName = '/add';
 
   @override
   Widget build(BuildContext context) {

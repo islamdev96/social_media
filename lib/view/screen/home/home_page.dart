@@ -8,14 +8,15 @@ import '../../../core/constant/resources/color_manager.dart';
 import '../../../data/models/manage_ads/banner_ads.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import '../../../main.dart';
 import 'freelancer.dart';
-import 'islami.dart';
+import 'islamic.dart';
 import 'news.dart';
+import 'social_media.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
-  static const routeName = '/homePage';
+
+  // static const routeName = '/homePage';
 
   @override
   Widget build(BuildContext context) {
@@ -125,7 +126,7 @@ class HomePage extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(builder: (context) {
-                          return const Islami();
+                          return const Islamic();
                         }),
                       );
                     },

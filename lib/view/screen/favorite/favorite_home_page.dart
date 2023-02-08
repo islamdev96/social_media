@@ -6,7 +6,7 @@ import '../../../core/constant/resources/color_manager.dart';
 
 class FavoriteHomePage extends StatefulWidget {
   const FavoriteHomePage({super.key});
-  static const routeName = '/favorite';
+  // static const routeName = '/favorite';
 
   @override
   State<FavoriteHomePage> createState() => _FavoriteHomePageState();

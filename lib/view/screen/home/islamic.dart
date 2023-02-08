@@ -7,8 +7,8 @@ import '../../../core/constant/resources/assets_manager.dart';
 import '../../../core/constant/resources/color_manager.dart';
 import '../../../data/models/manage_ads/banner_ads.dart';
 
-class Islami extends StatelessWidget {
-  const Islami({Key? key}) : super(key: key);
+class Islamic extends StatelessWidget {
+  const Islamic({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class Islami extends StatelessWidget {
           body: ListView(
             children: [
               BackgroundColorPage(
-                text: 'Islami',
+                text: 'Islamic',
               ),
               Column(
                 children: [

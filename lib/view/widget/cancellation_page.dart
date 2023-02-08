@@ -1,79 +1,83 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
+// import 'package:flutter/material.dart';
+// import 'package:flutter_localizations/flutter_localizations.dart';
 
-class CancellationPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(Translations.of(context)?.translate('cancellation_title') ??
-            'Cancellation'),
-      ),
-      body: Center(
-        child: Text(
-            Translations.of(context)?.translate('cancellation_message') ??
-                'You can manage your cancellations .'),
-      ),
-    );
-  }
-}
+// class CancellationPage extends StatelessWidget {
+//   const CancellationPage({super.key});
 
-class Translations {
-  Translations(Locale locale) : _locale = locale;
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       appBar: AppBar(
+//         title: Text(Translations.of(context)?.translate('cancellation_title') ??
+//             'Cancellation'),
+//       ),
+//       body: Center(
+//         child: Text(
+//             Translations.of(context)?.translate('cancellation_message') ??
+//                 'You can manage your cancellations .'),
+//       ),
+//     );
+//   }
+// }
 
-  final Locale _locale;
+// class Translations {
+//   Translations(Locale locale) : _locale = locale;
 
-  static final Map<String, Map<String, String>> _localizedValues = {
-    'en': {
-      'cancellation_title': 'Cancellation',
-      'cancellation_message': 'You can manage your cancellations here.',
-    },
-    'ar': {
-      'cancellation_title': 'الإلغاء',
-      'cancellation_message': 'يمكنك إدارة الإلغاءات الخاصة بك هنا.',
-    },
-  };
+//   final Locale _locale;
 
-  String? translate(String key) {
-    return _localizedValues[_locale.languageCode]![key];
-  }
+//   static final Map<String, Map<String, String>> _localizedValues = {
+//     'en': {
+//       'cancellation_title': 'Cancellation',
+//       'cancellation_message': 'You can manage your cancellations here.',
+//     },
+//     'ar': {
+//       'cancellation_title': 'الإلغاء',
+//       'cancellation_message': 'يمكنك إدارة الإلغاءات الخاصة بك هنا.',
+//     },
+//   };
 
-  static Translations? of(BuildContext context) {
-    return Localizations.of<Translations>(context, Translations);
-  }
-}
+//   String? translate(String key) {
+//     return _localizedValues[_locale.languageCode]![key];
+//   }
 
-class TranslationsDelegate extends LocalizationsDelegate<Translations> {
-  const TranslationsDelegate();
+//   static Translations? of(BuildContext context) {
+//     return Localizations.of<Translations>(context, Translations);
+//   }
+// }
 
-  @override
-  bool isSupported(Locale locale) => ['en', 'ar'].contains(locale.languageCode);
+// class TranslationsDelegate extends LocalizationsDelegate<Translations> {
+//   const TranslationsDelegate();
 
-  @override
-  Future<Translations> load(Locale locale) {
-    return Future.value(Translations(locale));
-  }
+//   @override
+//   bool isSupported(Locale locale) => ['en', 'ar'].contains(locale.languageCode);
 
-  @override
-  bool shouldReload(TranslationsDelegate old) => false;
-}
+//   @override
+//   Future<Translations> load(Locale locale) {
+//     return Future.value(Translations(locale));
+//   }
 
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      localizationsDelegates: const [
-        TranslationsDelegate(),
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-      ],
-      supportedLocales: const [
-        Locale('en'),
-        Locale('ar'),
-      ],
-      home: CancellationPage(),
-    );
-  }
-}
+//   @override
+//   bool shouldReload(TranslationsDelegate old) => false;
+// }
 
-void main() => runApp(MyApp());
+// class MyApp extends StatelessWidget {
+//   const MyApp({super.key});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return const MaterialApp(
+//       localizationsDelegates: [
+//         TranslationsDelegate(),
+//         GlobalMaterialLocalizations.delegate,
+//         GlobalWidgetsLocalizations.delegate,
+//       ],
+//       supportedLocales: [
+//         Locale('en'),
+//         Locale('ar'),
+//       ],
+//       home: CancellationPage(),
+//     );
+//   }
+// }
+
+// void main() => runApp(const MyApp());

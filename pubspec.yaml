@@ -20,10 +20,12 @@ dependencies:
   flutter_screenutil: ^5.6.0
   flutter_svg: ^0.22.0
   font_awesome_flutter: ^9.1.0
+  get: ^4.6.5
   google_mobile_ads: ^2.0.1
   http: ^0.13.3
   rename: ^2.0.1
   responsive_framework: ^0.1.4
+  shared_preferences: ^2.0.17
   url_launcher: ^6.0.9
   webview_flutter: ^4.0.1
 
@@ -35,16 +37,16 @@ dev_dependencies:
 flutter_icons:
   android: true
   ios: true
-  image_path: "assets/image/app-icon.png"
+  images_path: "assets/images/app-icon.png"
   min_sdk_android: 21 # android min sdk min:16, default 21
   web:
     generate: true
-    image_path: "assets/image/app-icon.png"
+    images_path: "assets/images/app-icon.png"
     background_color: "#hexcode"
     theme_color: "#hexcode"
   windows:
     generate: true
-    image_path: "assets/image/app-icon.png"
+    images_path: "assets/images/app-icon.png"
     icon_size: 48 # min:48, max:256, default: 48flutter:
 
 flutter:
@@ -52,10 +54,10 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/image/
-    - assets/image/programing/
-    - assets/image/soshal/
-    - assets/image/news/
-    - assets/image/sport/
-    - assets/image/islami/
-    - assets/image/freelancer/
+    - assets/images/
+    - assets/images/programing/
+    - assets/images/soshal/
+    - assets/images/news/
+    - assets/images/sport/
+    - assets/images/islami/
+    - assets/images/freelancer/

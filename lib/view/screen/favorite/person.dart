@@ -6,7 +6,7 @@ import '../../../core/constant/resources/color_manager.dart';
 
 class Person extends StatelessWidget {
   const Person({super.key});
-  static const routeName = '/person';
+  // static const routeName = '/person';
 
   @override
   Widget build(BuildContext context) {
