@@ -2,7 +2,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+<<<<<<< HEAD
 import 'package:get/get.dart';
+=======
+import 'package:get/get_navigation/src/root/get_material_app.dart';
+>>>>>>> 6d2db6ef609e06599dfc66e9d445c8fe82032cd1
 import 'package:social_media/app_routes.dart';
 
 void main() {
