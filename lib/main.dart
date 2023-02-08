@@ -34,6 +34,7 @@ class _SocialMediaState extends State<SocialMedia> {
             visualDensity: VisualDensity.adaptivePlatformDensity,
           ),
           getPages: appRoutes,
+
           // initialBinding: MyBindings(),
 
           initialRoute: '/homePage',
