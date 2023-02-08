@@ -20,6 +20,7 @@ dependencies:
   flutter_screenutil: ^5.6.0
   flutter_svg: ^0.22.0
   font_awesome_flutter: ^9.1.0
+  get: ^4.6.5
   google_mobile_ads: ^2.0.1
   http: ^0.13.3
   rename: ^2.0.1
