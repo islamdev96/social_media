@@ -1,8 +1,10 @@
-import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import '../../../controller/components/backgron_color_page.dart';
+import '../../../controller/components/bottom_navigation_bar.dart';
 import '../../../core/constant/resources/color_manager.dart';
+import '../../../test/test.dart';
 
 class Person extends StatelessWidget {
   const Person({super.key});
@@ -29,22 +31,31 @@ class Person extends StatelessWidget {
             ],
           ),
         ],
-      ), // bottomNavigationBar: const BottomNavigationBarAll(),
-      bottomNavigationBar: CurvedNavigationBar(
-        color: ColorManager.kPrimary,
-        backgroundColor: Colors.white,
-        buttonBackgroundColor: ColorManager.kPrimary,
-        height: 60,
-        items: const <Widget>[
-          Icon(Icons.home, size: 25, color: Colors.white),
-          Icon(Icons.person, size: 25, color: Colors.white),
-        ],
-        onTap: (index) {
-          if (index == 0) {
-            Navigator.pushNamed(context, '/homePage');
-          }
-        },
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Get.to(() => const TestNav());
+        },
+        tooltip: 'Increment',
+        child: const Icon(Icons.add),
+      ), // This trailing comma makes auto-formatting nicer// bottomNavigationBar: const BottomNavigationBarAll(),
+      bottomNavigationBar: BottomNavigationBarAll(),
+
+      // CurvedNavigationBar(
+      //   color: ColorManager.kPrimary,
+      //   backgroundColor: Colors.white,
+      //   buttonBackgroundColor: ColorManager.kPrimary,
+      //   height: 60,
+      //   items: const <Widget>[
+      //     Icon(Icons.home, size: 25, color: Colors.white),
+      //     Icon(Icons.person, size: 25, color: Colors.white),
+      //   ],
+      //   onTap: (index) {
+      //     if (index == 0) {
+      //       Navigator.pushNamed(context, '/homePage');
+      //     }
+      //   },
+      // ),
     );
   }
 }

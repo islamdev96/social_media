@@ -1,4 +1,3 @@
-import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:social_media/view/screen/favorite/favorite_pages/favorite_freelancer.dart';
 import 'package:social_media/view/screen/favorite/favorite_pages/favorite_islamic.dart';
@@ -6,6 +5,7 @@ import 'package:social_media/view/screen/favorite/favorite_pages/favorite_news.d
 import 'package:social_media/view/screen/favorite/favorite_pages/favorite_programing.dart';
 
 import '../../../controller/components/backgron_color_page.dart';
+import '../../../controller/components/bottom_navigation_bar.dart';
 import '../../../core/constant/resources/color_manager.dart';
 import 'favorite_pages/favorite_social_media.dart';
 import 'favorite_pages/favorite_sport.dart';
@@ -43,21 +43,23 @@ class Add extends StatelessWidget {
         ),
       ),
       // bottomNavigationBar: const BottomNavigationBarAll(),
-      bottomNavigationBar: CurvedNavigationBar(
-        color: ColorManager.kPrimary,
-        backgroundColor: Colors.white,
-        buttonBackgroundColor: ColorManager.kPrimary,
-        height: 60,
-        items: const <Widget>[
-          Icon(Icons.home, size: 25, color: Colors.white),
-          Icon(Icons.add, size: 25, color: Colors.white),
-        ],
-        onTap: (index) {
-          if (index == 0) {
-            Navigator.pushNamed(context, '/homePage');
-          }
-        },
-      ),
+      bottomNavigationBar: BottomNavigationBarAll(),
+
+      // CurvedNavigationBar(
+      //   color: ColorManager.kPrimary,
+      //   backgroundColor: Colors.white,
+      //   buttonBackgroundColor: ColorManager.kPrimary,
+      //   height: 60,
+      //   items: const <Widget>[
+      //     Icon(Icons.home, size: 25, color: Colors.white),
+      //     Icon(Icons.add, size: 25, color: Colors.white),
+      //   ],
+      //   onTap: (index) {
+      //     if (index == 0) {
+      //       Navigator.pushNamed(context, '/homePage');
+      //     }
+      //   },
+      // ),
     );
   }
 }

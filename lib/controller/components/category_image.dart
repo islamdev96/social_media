@@ -64,3 +64,28 @@ class _CategoryImageState extends State<CategoryImage> {
     );
   }
 }
+
+//  IconButton(
+//           icon: const Icon(Icons.home, size: 25, color: Colors.white),
+//           onPressed: () {
+//             Navigator.pushNamed(context, '/homePage');
+//           },
+//         ),
+//         IconButton(
+//           icon: const Icon(Icons.search, size: 25, color: Colors.white),
+//           onPressed: () {
+//             Navigator.pushNamed(context, '/search');
+//           },
+//         ),
+//         IconButton(
+//           icon: const Icon(Icons.favorite, size: 25, color: Colors.redAccent),
+//           onPressed: () {
+//             Navigator.pushNamed(context, '/favorite');
+//           },
+//         ),
+//         IconButton(
+//           icon: const Icon(Icons.person, size: 25, color: Colors.white),
+//           onPressed: () {
+//             Navigator.pushNamed(context, '/person');
+//           },
+//         ),

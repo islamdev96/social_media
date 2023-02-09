@@ -3,7 +3,8 @@
 import 'package:favorite_button/favorite_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:social_media/controller/components/components/image/category_favorite_image.dart';
+
+import 'category_favorite_image.dart';
 
 class CardFavoriteImage extends StatefulWidget {
   CardFavoriteImage(

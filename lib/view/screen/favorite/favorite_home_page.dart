@@ -1,7 +1,7 @@
-import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
 import '../../../controller/components/backgron_color_page.dart';
+import '../../../controller/components/bottom_navigation_bar.dart';
 import '../../../core/constant/resources/color_manager.dart';
 
 class FavoriteHomePage extends StatefulWidget {
@@ -31,22 +31,23 @@ class _FavoriteHomePageState extends State<FavoriteHomePage> {
           ),
         ],
       ),
-      // bottomNavigationBar: const BottomNavigationBarAll(),
-      bottomNavigationBar: CurvedNavigationBar(
-        color: ColorManager.kPrimary,
-        backgroundColor: Colors.white,
-        buttonBackgroundColor: ColorManager.kPrimary,
-        height: 60,
-        items: const <Widget>[
-          Icon(Icons.home, size: 25, color: Colors.white),
-          Icon(Icons.favorite, size: 25, color: Colors.white),
-        ],
-        onTap: (index) {
-          if (index == 0) {
-            Navigator.pushNamed(context, '/homePage');
-          }
-        },
-      ),
+      bottomNavigationBar: BottomNavigationBarAll(),
+
+      // CurvedNavigationBar(
+      //   color: ColorManager.kPrimary,
+      //   backgroundColor: Colors.white,
+      //   buttonBackgroundColor: ColorManager.kPrimary,
+      //   height: 60,
+      //   items: const <Widget>[
+      //     Icon(Icons.home, size: 25, color: Colors.white),
+      //     Icon(Icons.favorite, size: 25, color: Colors.white),
+      //   ],
+      //   onTap: (index) {
+      //     if (index == 0) {
+      //       Navigator.pushNamed(context, '/homePage');
+      //     }
+      //   },
+      // ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           Navigator.pushNamed(context, '/add');

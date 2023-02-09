@@ -3,9 +3,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:social_media/app_routes.dart';
 
-void main() {
+SharedPreferences? sharedprefs;
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  sharedprefs = await SharedPreferences.getInstance();
+  // await Firebase.initializeApp();
+
   runApp(const SocialMedia());
 }
 

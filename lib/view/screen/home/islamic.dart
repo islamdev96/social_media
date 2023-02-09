@@ -189,7 +189,7 @@ class Islamic extends StatelessWidget {
               ),
             ],
           ),
-          bottomNavigationBar: const BottomNavigationBarAll(),
+          bottomNavigationBar: BottomNavigationBarAll(),
         ),
         const AnimatedPositioned(
           duration: Duration(seconds: 2),

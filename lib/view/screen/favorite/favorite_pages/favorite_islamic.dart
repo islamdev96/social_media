@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:social_media/controller/components/components/svg/card_favorite_svg.dart';
-import 'package:social_media/controller/components/components/svg/category_favorite_svg.dart';
-
 import '../../../../controller/components/category_page.dart';
-import '../../../../controller/components/components/image/card_favorite_image.dart';
-import '../../../../controller/components/components/image/category_favorite_image.dart';
+import '../../../../controller/components/image/card_favorite_image.dart';
+import '../../../../controller/components/image/category_favorite_image.dart';
+import '../../../../controller/components/svg/card_favorite_svg.dart';
+import '../../../../controller/components/svg/category_favorite_svg.dart';
 import '../../../../core/constant/resources/assets_manager.dart';
 import '../../../../main.dart';
 

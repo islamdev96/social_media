@@ -1,8 +1,8 @@
-import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:social_media/view/screen/home/programing.dart';
 import 'package:social_media/view/screen/home/sport.dart';
 import '../../../controller/components/backgron_color_page.dart';
+import '../../../controller/components/bottom_navigation_bar.dart';
 import '../../../controller/components/category_page.dart';
 import '../../../core/constant/resources/color_manager.dart';
 import '../../../data/models/manage_ads/banner_ads.dart';
@@ -151,29 +151,31 @@ class HomePage extends StatelessWidget {
           ),
 
           // bottomNavigationBar: const BottomNavigationBarAll(),
-          bottomNavigationBar: CurvedNavigationBar(
-            color: ColorManager.kPrimary,
-            backgroundColor: Colors.white,
-            buttonBackgroundColor: ColorManager.kPrimary,
-            height: 60,
-            items: const <Widget>[
-              Icon(Icons.home, size: 25, color: Colors.white),
-              Icon(Icons.search, size: 25, color: Colors.white),
-              Icon(Icons.favorite, size: 25, color: Colors.white),
-              Icon(Icons.person, size: 25, color: Colors.white),
-            ],
-            onTap: (index) {
-              if (index == 0) {
-                // Navigator.pushNamed(context, '/homePage');
-              } else if (index == 1) {
-                Navigator.pushNamed(context, '/search');
-              } else if (index == 2) {
-                Navigator.pushNamed(context, '/favorite');
-              } else if (index == 3) {
-                Navigator.pushNamed(context, '/person');
-              }
-            },
-          ),
+          bottomNavigationBar: BottomNavigationBarAll(),
+
+          //  CurvedNavigationBar(
+          //   color: ColorManager.kPrimary,
+          //   backgroundColor: Colors.white,
+          //   buttonBackgroundColor: ColorManager.kPrimary,
+          //   height: 60,
+          //   items: const <Widget>[
+          //     Icon(Icons.home, size: 25, color: Colors.white),
+          //     Icon(Icons.search, size: 25, color: Colors.white),
+          //     Icon(Icons.favorite, size: 25, color: Colors.white),
+          //     Icon(Icons.person, size: 25, color: Colors.white),
+          //   ],
+          //   onTap: (index) {
+          //     if (index == 0) {
+          //       Get.offAllNamed('/homePage');
+          //     } else if (index == 1) {
+          //       Get.toNamed('/search');
+          //     } else if (index == 2) {
+          //       Get.toNamed('/favorite');
+          //     } else if (index == 3) {
+          //       Get.toNamed('/person');
+          //     }
+          //   },
+          // ),
         ),
         const AnimatedPositioned(
           duration: Duration(seconds: 2),

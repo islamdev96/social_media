@@ -1,9 +1,9 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
 import '../../../controller/components/backgron_color_page.dart';
+import '../../../controller/components/bottom_navigation_bar.dart';
 import '../../../core/constant/resources/color_manager.dart';
 
 class Search extends StatelessWidget {
@@ -50,21 +50,23 @@ class Search extends StatelessWidget {
         ],
       ),
       // bottomNavigationBar: const BottomNavigationBarAll(),
-      bottomNavigationBar: CurvedNavigationBar(
-        color: ColorManager.kPrimary,
-        backgroundColor: Colors.white,
-        buttonBackgroundColor: ColorManager.kPrimary,
-        height: 60,
-        items: const <Widget>[
-          Icon(Icons.home, size: 25, color: Colors.white),
-          Icon(Icons.search, size: 25, color: Colors.white),
-        ],
-        onTap: (index) {
-          if (index == 0) {
-            Navigator.pushNamed(context, '/homePage');
-          }
-        },
-      ),
+      bottomNavigationBar: BottomNavigationBarAll(),
+
+      // CurvedNavigationBar(
+      //   color: ColorManager.kPrimary,
+      //   backgroundColor: Colors.white,
+      //   buttonBackgroundColor: ColorManager.kPrimary,
+      //   height: 60,
+      //   items: const <Widget>[
+      //     Icon(Icons.home, size: 25, color: Colors.white),
+      //     Icon(Icons.search, size: 25, color: Colors.white),
+      //   ],
+      //   onTap: (index) {
+      //     if (index == 0) {
+      //       Navigator.pushNamed(context, '/homePage');
+      //     }
+      //   },
+      // ),
     );
   }
 }
