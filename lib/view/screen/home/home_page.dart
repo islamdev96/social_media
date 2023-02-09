@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:social_media/view/screen/home/programing.dart';
 import 'package:social_media/view/screen/home/sport.dart';
 import '../../../controller/components/backgron_color_page.dart';
@@ -29,13 +30,13 @@ class HomePage extends StatelessWidget {
             elevation: 10.0,
             child: ListView(
               children: [
-                const DrawerHeader(
-                  decoration: BoxDecoration(
+                DrawerHeader(
+                  decoration: const BoxDecoration(
                       // color:ColorManager.kPrimary,
                       ),
                   child: Text(
-                    'Drawer Header',
-                    style: TextStyle(
+                    'listOfServices'.tr,
+                    style: const TextStyle(
                       color: Colors.white,
                       fontSize: 12,
                     ),
@@ -47,9 +48,9 @@ class HomePage extends StatelessWidget {
                     // ignore: deprecated_member_use
                     onTap: () => launch(
                         'https://play.google.com/store/apps/developer?id=ISLAM+SAYED'),
-                    child: const Text(
-                      'Google Play',
-                      style: TextStyle(
+                    child: Text(
+                      'googlePlay'.tr,
+                      style: const TextStyle(
                         color: Colors.white,
                         fontSize: 24,
                       ),
@@ -71,13 +72,13 @@ class HomePage extends StatelessWidget {
               return Column(
                 children: [
                   BackgroundColorPage(
-                    text: 'Social Media',
+                    text: 'socialMedia'.tr,
                   ),
                   const SizedBox(
                     height: 20,
                   ),
                   CategoryPage(
-                    text: 'Social Media',
+                    text: 'socialMedia'.tr,
                     onTap: () {
                       Navigator.push(
                         context,
@@ -88,7 +89,7 @@ class HomePage extends StatelessWidget {
                     },
                   ),
                   CategoryPage(
-                    text: 'News',
+                    text: 'news'.tr,
                     onTap: () {
                       Navigator.push(
                         context,
@@ -99,7 +100,7 @@ class HomePage extends StatelessWidget {
                     },
                   ),
                   CategoryPage(
-                    text: 'Sports',
+                    text: 'sport'.tr,
                     onTap: () {
                       Navigator.push(
                         context,
@@ -110,7 +111,7 @@ class HomePage extends StatelessWidget {
                     },
                   ),
                   CategoryPage(
-                    text: 'Programing',
+                    text: 'programing'.tr,
                     onTap: () {
                       Navigator.push(
                         context,
@@ -121,7 +122,7 @@ class HomePage extends StatelessWidget {
                     },
                   ),
                   CategoryPage(
-                    text: 'Islami',
+                    text: 'islamic'.tr,
                     onTap: () {
                       Navigator.push(
                         context,
@@ -132,7 +133,7 @@ class HomePage extends StatelessWidget {
                     },
                   ),
                   CategoryPage(
-                    text: 'Freelancer',
+                    text: 'freelancer'.tr,
                     onTap: () {
                       Navigator.push(
                         context,
@@ -151,7 +152,7 @@ class HomePage extends StatelessWidget {
           ),
 
           // bottomNavigationBar: const BottomNavigationBarAll(),
-          bottomNavigationBar: BottomNavigationBarAll(),
+          bottomNavigationBar: const BottomNavigationBarAll(),
 
           //  CurvedNavigationBar(
           //   color: ColorManager.kPrimary,

@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:social_media/controller/components/svg/category_favorite_svg.dart';
 
+import '../../../main.dart';
+
 class CardFavoriteSvg extends StatefulWidget {
   CardFavoriteSvg(
       {super.key = const Key('CardFavorite'),
@@ -18,6 +20,12 @@ class CardFavoriteSvg extends StatefulWidget {
 
 class _CardFavoriteSvgState extends State<CardFavoriteSvg> {
   @override
+  void initState() {
+    super.initState();
+    getSelectedPreference();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Column(
       children: [
@@ -29,13 +37,12 @@ class _CardFavoriteSvgState extends State<CardFavoriteSvg> {
               FavoriteButton(
                 iconSize: 85.sp,
                 isFavorite: false,
-                valueChanged: (isFavorite) {
-                  // ignore: avoid_print
-                  // print('Is Favorite : $isFavorite');
-
+                valueChanged: (isFavorite) async {
                   // setState(() {
-                  //   sharedprefs!.setString('isFavorite', isFavorite);
+                  //   sharedPreferences?.setString('isFavorite', isFavorite);
                   // });
+
+                  print('Is Favorite : $isFavorite');
                 },
               ),
             ],
@@ -43,5 +50,11 @@ class _CardFavoriteSvgState extends State<CardFavoriteSvg> {
         ),
       ],
     ); //SizedBox;
+  }
+
+  getSelectedPreference() async {
+    setState(() {
+      sharedPreferences!.getString('isFavorite');
+    });
   }
 }

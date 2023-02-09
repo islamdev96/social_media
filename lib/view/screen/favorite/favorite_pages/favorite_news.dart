@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import '../../../../controller/components/category_page.dart';
 import '../../../../controller/components/image/card_favorite_image.dart';
 import '../../../../controller/components/image/category_favorite_image.dart';
@@ -15,7 +16,7 @@ class FavoriteNews extends StatelessWidget {
     return Column(
       children: [
         CategoryPage(
-          text: 'Favorite News',
+          text: 'news'.tr,
           onTap: () {
             Navigator.push(
               context,

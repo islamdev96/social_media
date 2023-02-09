@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import '../../../controller/components/backgron_color_page.dart';
 import '../../../controller/components/bottom_navigation_bar.dart';
@@ -24,7 +25,7 @@ class Freelancer extends StatelessWidget {
           body: ListView(
             children: [
               BackgroundColorPage(
-                text: 'Freelancer',
+                text: 'freelancer'.tr,
               ),
               Column(
                 children: [
@@ -168,7 +169,7 @@ class Freelancer extends StatelessWidget {
               ),
             ],
           ),
-          bottomNavigationBar: BottomNavigationBarAll(),
+          bottomNavigationBar: const BottomNavigationBarAll(),
         ),
         const AnimatedPositioned(
           duration: Duration(seconds: 2),

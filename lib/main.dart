@@ -6,11 +6,13 @@ import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:social_media/app_routes.dart';
 
-SharedPreferences? sharedprefs;
+import 'controller/components/localizetion/translate.dart';
+
+SharedPreferences? sharedPreferences;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  sharedprefs = await SharedPreferences.getInstance();
+  sharedPreferences = await SharedPreferences.getInstance();
   // await Firebase.initializeApp();
 
   runApp(const SocialMedia());
@@ -40,6 +42,9 @@ class _SocialMediaState extends State<SocialMedia> {
             primarySwatch: Colors.blue,
             visualDensity: VisualDensity.adaptivePlatformDensity,
           ),
+          locale: Locale(Get.deviceLocale!.languageCode),
+          fallbackLocale: const Locale('en', 'ar'),
+          translations: MyTranslation(),
           getPages: appRoutes,
 
           // initialBinding: MyBindings(),

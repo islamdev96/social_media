@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import '../../../../controller/components/category_page.dart';
 import '../../../../controller/components/image/card_favorite_image.dart';
 import '../../../../controller/components/image/category_favorite_image.dart';
@@ -13,7 +14,7 @@ class FavoriteSport extends StatelessWidget {
     return Column(
       children: [
         CategoryPage(
-          text: 'Favorite Sport',
+          text: 'sport'.tr,
           onTap: () {
             Navigator.push(
               context,

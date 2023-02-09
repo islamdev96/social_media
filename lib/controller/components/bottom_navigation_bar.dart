@@ -8,7 +8,6 @@ import 'package:get/get.dart';
 import '../../core/constant/resources/color_manager.dart';
 import '../../view/screen/favorite/favorite_home_page.dart';
 import '../../view/screen/favorite/person.dart';
-import '../../view/screen/favorite/search.dart';
 import '../../view/screen/home/home_page.dart';
 
 class BottomNavigationBarAll extends StatefulWidget {
@@ -19,20 +18,27 @@ class BottomNavigationBarAll extends StatefulWidget {
 }
 
 class _BottomNavigationBarAllState extends State<BottomNavigationBarAll> {
-  final int page = int.parse(Get.parameters['page'] ?? '0');
+  final int page = value;
 
-  int index = 0;
+  int index = value;
 
   final screen = [
-    const HomePage(),
-    Search(),
+    // Search(),
     const FavoriteHomePage(),
+    const HomePage(),
+
     const Person(),
   ];
+
+  static int get value => 1;
 
   @override
   Widget build(BuildContext context) {
     return CurvedNavigationBar(
+      letIndexChange: (value) {
+        index = value;
+        return true;
+      },
       animationDuration: const Duration(milliseconds: 1000),
       animationCurve: Curves.easeInOutCubicEmphasized,
       // index: true ? 3 : 1,
@@ -42,16 +48,19 @@ class _BottomNavigationBarAllState extends State<BottomNavigationBarAll> {
       height: 48.h,
       index: index,
       items: const <Widget>[
-        Icon(Icons.home, size: 25, color: Colors.white),
-        Icon(Icons.search, size: 25, color: Colors.white),
+        // Icon(Icons.search, size: 25, color: Colors.white),
         // Icon(Icons.add, size: 25, color: Colors.white),
-        Icon(Icons.favorite, size: 25, color: Colors.redAccent),
+        Icon(Icons.favorite, size: 25, color: Colors.white),
+        Icon(Icons.home, size: 25, color: Colors.white),
+
         Icon(Icons.person, size: 25, color: Colors.white),
       ],
-      onTap: (index) => setState(() {
-        this.index = index;
-        // Get.to(screen[index]);
-      }),
+      onTap: (index) {
+        Get.put(() {
+          this.index = value;
+        });
+        Get.to(screen[index]);
+      },
     );
   }
 }

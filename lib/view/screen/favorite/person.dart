@@ -39,7 +39,7 @@ class Person extends StatelessWidget {
         tooltip: 'Increment',
         child: const Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer// bottomNavigationBar: const BottomNavigationBarAll(),
-      bottomNavigationBar: BottomNavigationBarAll(),
+      bottomNavigationBar: const BottomNavigationBarAll(),
 
       // CurvedNavigationBar(
       //   color: ColorManager.kPrimary,

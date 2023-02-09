@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import '../../../controller/components/backgron_color_page.dart';
 import '../../../controller/components/bottom_navigation_bar.dart';
@@ -24,14 +25,14 @@ class _FavoriteHomePageState extends State<FavoriteHomePage> {
       body: ListView(
         children: [
           BackgroundColorPage(
-            text: 'Favorite',
+            text: 'favorite'.tr,
           ),
           Column(
             children: const [],
           ),
         ],
       ),
-      bottomNavigationBar: BottomNavigationBarAll(),
+      bottomNavigationBar: const BottomNavigationBarAll(),
 
       // CurvedNavigationBar(
       //   color: ColorManager.kPrimary,

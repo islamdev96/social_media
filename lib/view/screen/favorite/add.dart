@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:social_media/view/screen/favorite/favorite_pages/favorite_freelancer.dart';
 import 'package:social_media/view/screen/favorite/favorite_pages/favorite_islamic.dart';
 import 'package:social_media/view/screen/favorite/favorite_pages/favorite_news.dart';
@@ -27,7 +28,7 @@ class Add extends StatelessWidget {
         itemBuilder: (context, index) => Column(
           children: [
             BackgroundColorPage(
-              text: 'Add Favorite',
+              text: 'addFavorite'.tr,
             ),
             Column(
               children: const [
@@ -43,7 +44,7 @@ class Add extends StatelessWidget {
         ),
       ),
       // bottomNavigationBar: const BottomNavigationBarAll(),
-      bottomNavigationBar: BottomNavigationBarAll(),
+      bottomNavigationBar: const BottomNavigationBarAll(),
 
       // CurvedNavigationBar(
       //   color: ColorManager.kPrimary,

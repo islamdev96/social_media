@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import '../../../controller/components/backgron_color_page.dart';
 import '../../../controller/components/bottom_navigation_bar.dart';
 import '../../../controller/components/category_image.dart';
@@ -23,7 +24,7 @@ class Islamic extends StatelessWidget {
           body: ListView(
             children: [
               BackgroundColorPage(
-                text: 'Islamic',
+                text: 'islamic'.tr,
               ),
               Column(
                 children: [
@@ -189,7 +190,7 @@ class Islamic extends StatelessWidget {
               ),
             ],
           ),
-          bottomNavigationBar: BottomNavigationBarAll(),
+          bottomNavigationBar: const BottomNavigationBarAll(),
         ),
         const AnimatedPositioned(
           duration: Duration(seconds: 2),
