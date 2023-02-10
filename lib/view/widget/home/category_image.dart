@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../../data/models/launch_url.dart';
+import '../../../data/models/launch_url.dart';
 
 class CategoryImage extends StatefulWidget {
   const CategoryImage({

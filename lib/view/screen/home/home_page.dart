@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:social_media/view/screen/home/programing.dart';
 import 'package:social_media/view/screen/home/sport.dart';
-import '../../../controller/components/backgron_color_page.dart';
-import '../../../controller/components/bottom_navigation_bar.dart';
-import '../../../controller/components/category_page.dart';
 import '../../../core/constant/resources/color_manager.dart';
 import '../../../data/models/manage_ads/banner_ads.dart';
+import '../../widget/home/category_page.dart';
+import '../../widget/navigation/backgron_color_page.dart';
+import '../../widget/navigation/bottom_navigation_bar.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import 'freelancer.dart';

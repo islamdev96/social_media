@@ -5,10 +5,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
-import '../../core/constant/resources/color_manager.dart';
-import '../../view/screen/favorite/favorite_home_page.dart';
-import '../../view/screen/favorite/person.dart';
-import '../../view/screen/home/home_page.dart';
+import '../../../core/constant/resources/color_manager.dart';
+import '../../screen/favorite/favorite_home_page.dart';
+import '../../screen/favorite/person.dart';
+import '../../screen/home/home_page.dart';
 
 class BottomNavigationBarAll extends StatefulWidget {
   const BottomNavigationBarAll({super.key});

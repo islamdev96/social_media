@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../../controller/components/category_page.dart';
-import '../../../../controller/components/image/card_favorite_image.dart';
-import '../../../../controller/components/image/category_favorite_image.dart';
+import '../../../widget/favorite/image/card_favorite_image.dart';
+import '../../../widget/favorite/image/category_favorite_image.dart';
 import '../../../../core/constant/resources/assets_manager.dart';
 import '../../../../main.dart';
+import '../../../widget/home/category_page.dart';
 
 class FavoriteSport extends StatelessWidget {
   const FavoriteSport({Key? key}) : super(key: key);

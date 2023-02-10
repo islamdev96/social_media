@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../controller/components/backgron_color_page.dart';
-import '../../../controller/components/bottom_navigation_bar.dart';
-import '../../../controller/components/category_image.dart';
-import '../../../controller/components/category_svg.dart';
 import '../../../core/constant/resources/assets_manager.dart';
 import '../../../core/constant/resources/color_manager.dart';
 import '../../../data/models/manage_ads/banner_ads.dart';
+import '../../widget/home/category_image.dart';
+import '../../widget/home/category_svg.dart';
+import '../../widget/navigation/backgron_color_page.dart';
+import '../../widget/navigation/bottom_navigation_bar.dart';
 
 class Programing extends StatelessWidget {
   const Programing({Key? key}) : super(key: key);

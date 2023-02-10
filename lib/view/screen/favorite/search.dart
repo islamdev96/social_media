@@ -2,8 +2,9 @@
 
 import 'package:flutter/material.dart';
 
-import '../../../controller/components/backgron_color_page.dart';
-import '../../../controller/components/bottom_navigation_bar.dart';
+import '../../../core/constant/resources/color_manager.dart';
+import '../../widget/navigation/backgron_color_page.dart';
+import '../../widget/navigation/bottom_navigation_bar.dart';
 import '../../../core/constant/resources/color_manager.dart';
 
 class Search extends StatelessWidget {
@@ -50,7 +51,7 @@ class Search extends StatelessWidget {
         ],
       ),
       // bottomNavigationBar: const BottomNavigationBarAll(),
-      bottomNavigationBar: BottomNavigationBarAll(),
+      bottomNavigationBar: const BottomNavigationBarAll(),
 
       // CurvedNavigationBar(
       //   color: ColorManager.kPrimary,

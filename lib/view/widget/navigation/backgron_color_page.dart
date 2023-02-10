@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import '../../core/constant/resources/color_manager.dart';
+
+import '../../../core/constant/resources/color_manager.dart';
 
 // ignore: must_be_immutable
-class BackgroundColorPage extends StatefulWidget {
+class BackgroundColorPage extends StatelessWidget {
   BackgroundColorPage({Key? key, this.text, this.color, this.onTap})
       : super(key: key);
   String? text;
@@ -11,14 +12,9 @@ class BackgroundColorPage extends StatefulWidget {
   Function()? onTap;
 
   @override
-  State<BackgroundColorPage> createState() => _BackgroundColorPageState();
-}
-
-class _BackgroundColorPageState extends State<BackgroundColorPage> {
-  @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: widget.onTap,
+      onTap: onTap,
       child: Column(
         children: [
           Container(
@@ -44,7 +40,7 @@ class _BackgroundColorPageState extends State<BackgroundColorPage> {
             child: Padding(
               padding: const EdgeInsets.only(bottom: 50),
               child: Text(
-                widget.text!,
+                text!,
                 style: TextStyle(fontSize: 18.sp, color: Colors.white),
               ),
             ),

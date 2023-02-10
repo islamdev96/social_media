@@ -6,7 +6,7 @@ import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:social_media/app_routes.dart';
 
-import 'controller/components/localizetion/translate.dart';
+import 'core/constant/localizetion/translate.dart';
 
 SharedPreferences? sharedPreferences;
 

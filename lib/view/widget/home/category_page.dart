@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../../core/constant/resources/color_manager.dart';
+import '../../../core/constant/resources/color_manager.dart';
 
 // ignore: must_be_immutable
 class CategoryPage extends StatefulWidget {
