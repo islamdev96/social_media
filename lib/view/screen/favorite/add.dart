@@ -6,8 +6,8 @@ import 'package:social_media/view/screen/favorite/favorite_pages/favorite_news.d
 import 'package:social_media/view/screen/favorite/favorite_pages/favorite_programing.dart';
 
 import '../../../core/constant/resources/color_manager.dart';
-import '../../widget/navigation/backgron_color_page.dart';
-import '../../widget/navigation/bottom_navigation_bar.dart';
+import '../../widget/navigation_widget/backgron_color_page.dart';
+import '../../widget/navigation_widget/bottom_navigation_bar.dart';
 import 'favorite_pages/favorite_social_media.dart';
 import 'favorite_pages/favorite_sport.dart';
 

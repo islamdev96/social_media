@@ -3,9 +3,8 @@
 import 'package:flutter/material.dart';
 
 import '../../../core/constant/resources/color_manager.dart';
-import '../../widget/navigation/backgron_color_page.dart';
-import '../../widget/navigation/bottom_navigation_bar.dart';
-import '../../../core/constant/resources/color_manager.dart';
+import '../../widget/navigation_widget/backgron_color_page.dart';
+import '../../widget/navigation_widget/bottom_navigation_bar.dart';
 
 class Search extends StatelessWidget {
   Search({super.key});

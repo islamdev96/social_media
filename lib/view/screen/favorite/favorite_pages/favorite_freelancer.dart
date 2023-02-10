@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../widget/favorite/image/card_favorite_image.dart';
-import '../../../widget/favorite/image/category_favorite_image.dart';
+import '../../../widget/favorite_widget/image/card_favorite_image.dart';
+import '../../../widget/favorite_widget/image/category_favorite_image.dart';
 import '../../../../core/constant/resources/assets_manager.dart';
 import '../../../../main.dart';
-import '../../../widget/favorite/svg/card_favorite_svg.dart';
-import '../../../widget/favorite/svg/category_favorite_svg.dart';
-import '../../../widget/home/category_page.dart';
+import '../../../widget/favorite_widget/svg/card_favorite_svg.dart';
+import '../../../widget/favorite_widget/svg/category_favorite_svg.dart';
+import '../../../widget/home_widget/category_page.dart';
 
 class FavoriteFreelancer extends StatelessWidget {
   const FavoriteFreelancer({Key? key}) : super(key: key);

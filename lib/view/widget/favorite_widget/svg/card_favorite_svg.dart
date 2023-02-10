@@ -3,7 +3,7 @@
 import 'package:favorite_button/favorite_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:social_media/view/widget/favorite/svg/category_favorite_svg.dart';
+import 'package:social_media/view/widget/favorite_widget/svg/category_favorite_svg.dart';
 
 import '../../../../main.dart';
 
