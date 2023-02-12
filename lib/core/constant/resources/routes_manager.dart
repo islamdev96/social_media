@@ -4,6 +4,7 @@ class Routes {
   static const String add = "/add";
   static const String search = "/search";
   static const String person = "/person";
+  static const String socialMedia = "/socialMedia";
 
   // static const String welcomRoute = "/";
   // static const String loginRoute = "/login";

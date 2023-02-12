@@ -1,4 +1,6 @@
-import 'package:flutter/cupertino.dart';
+// ignore_for_file: file_names
+
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../../../../core/constant/resources/assets_manager.dart';

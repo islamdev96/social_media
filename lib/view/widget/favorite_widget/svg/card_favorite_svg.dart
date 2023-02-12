@@ -41,8 +41,6 @@ class _CardFavoriteSvgState extends State<CardFavoriteSvg> {
                   // setState(() {
                   //   sharedPreferences?.setString('isFavorite', isFavorite);
                   // });
-
-                  print('Is Favorite : $isFavorite');
                 },
               ),
             ],

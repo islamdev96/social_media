@@ -8,7 +8,6 @@ import '../../../test/test.dart';
 
 class Person extends StatelessWidget {
   const Person({super.key});
-  // static const routeName = '/person';
 
   @override
   Widget build(BuildContext context) {

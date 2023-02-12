@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../../../core/constant/resources/color_manager.dart';
 import '../../../data/models/manage_ads/banner_ads.dart';
 import '../../widget/home_widget/home_drawer.dart';
-import '../../widget/home_widget/home_list_view.dart';
+import '../../widget/home_widget/home_page_list_view/home_list_view.dart';
 import '../../widget/navigation_widget/bottom_navigation_bar.dart';
 
 class HomePage extends StatelessWidget {

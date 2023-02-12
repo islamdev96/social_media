@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../main.dart';
-import '../../screen/home/freelancer.dart';
-import '../../screen/home/islamic.dart';
-import '../../screen/home/news.dart';
-import '../../screen/home/programing.dart';
-import '../../screen/home/sport.dart';
-import '../navigation_widget/backgron_color_page.dart';
-import 'category_page.dart';
+import '../../../screen/home/freelancer.dart';
+import '../../../screen/home/islamic.dart';
+import '../../../screen/home/news.dart';
+import '../../../screen/home/programing.dart';
+import '../../../screen/home/social_media_page.dart';
+import '../../../screen/home/sport.dart';
+import '../../navigation_widget/backgron_color_page.dart';
+import '../category_page.dart';
 
 class HomeListView extends StatelessWidget {
   const HomeListView({super.key});
@@ -27,16 +27,10 @@ class HomeListView extends StatelessWidget {
               height: 20,
             ),
             CategoryPage(
-              text: 'socialMedia'.tr,
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) {
-                    return const SocialMedia();
-                  }),
-                );
-              },
-            ),
+                text: 'socialMedia'.tr,
+                onTap: () {
+                  Get.to(const SocialMediaPage());
+                }),
             CategoryPage(
               text: 'news'.tr,
               onTap: () {
