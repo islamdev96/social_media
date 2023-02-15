@@ -4,23 +4,18 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../../../core/constant/resources/color_manager.dart';
 
 // ignore: must_be_immutable
-class CategoryPage extends StatefulWidget {
+class CategoryPage extends StatelessWidget {
   CategoryPage({Key? key, this.text, this.color, this.onTap}) : super(key: key);
   String? text;
   Color? color;
   Function()? onTap;
 
   @override
-  State<CategoryPage> createState() => _CategoryPageState();
-}
-
-class _CategoryPageState extends State<CategoryPage> {
-  @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.all(16.0),
       child: GestureDetector(
-        onTap: widget.onTap,
+        onTap: onTap,
         child: Container(
           decoration: BoxDecoration(
             boxShadow: <BoxShadow>[
@@ -43,7 +38,7 @@ class _CategoryPageState extends State<CategoryPage> {
           padding: const EdgeInsets.only(left: 20),
           alignment: Alignment.center,
           child: Text(
-            widget.text!,
+            text!,
             style: TextStyle(fontSize: 18.sp, color: Colors.white),
           ),
         ),

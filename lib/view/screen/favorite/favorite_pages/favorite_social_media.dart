@@ -3,8 +3,8 @@ import 'package:get/get.dart';
 import 'package:social_media/core/constant/resources/assets_manager.dart';
 import '../../../../main.dart';
 import '../../../../test/svg/category_favorite_svg.dart';
-import '../../../widget/favorite_widget/image/card_favorite_image.dart';
-import '../../../widget/favorite_widget/svg/card_favorite_svg.dart';
+import '../../../widget/favorite_widget/card_favorite_image.dart';
+import '../../../widget/favorite_widget/card_favorite_svg.dart';
 import '../../../widget/home_widget/category_image.dart';
 import '../../../widget/home_widget/category_page.dart';
 

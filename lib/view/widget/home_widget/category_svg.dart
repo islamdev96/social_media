@@ -4,7 +4,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../data/models/launch_url.dart';
 
-class CategorySvg extends StatefulWidget {
+class CategorySvg extends StatelessWidget {
   const CategorySvg({
     Key? key,
     required this.launchurl,
@@ -16,11 +16,6 @@ class CategorySvg extends StatefulWidget {
   final String svg;
   final String title;
 
-  @override
-  State<CategorySvg> createState() => _CategorySvgState();
-}
-
-class _CategorySvgState extends State<CategorySvg> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -45,17 +40,17 @@ class _CategorySvgState extends State<CategorySvg> {
             height: 80.h,
             child: IconButton(
               icon: SvgPicture.asset(
-                widget.svg,
+                svg,
                 height: 65.h,
                 width: 650.w,
               ),
               onPressed: () {
-                launchURL(widget.launchurl);
+                launchURL(launchurl);
               },
             ),
           ),
           Text(
-            widget.title,
+            title,
             style: TextStyle(
               color: Colors.black,
               fontSize: 16.sp,
