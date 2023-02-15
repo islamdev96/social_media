@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../../../test/svg/category_favorite_svg.dart';
 import '../../../widget/favorite_widget/image/card_favorite_image.dart';
-import '../../../widget/favorite_widget/image/category_favorite_image.dart';
 import '../../../../core/constant/resources/assets_manager.dart';
 import '../../../../main.dart';
 import '../../../widget/favorite_widget/svg/card_favorite_svg.dart';
-import '../../../widget/favorite_widget/svg/category_favorite_svg.dart';
+import '../../../widget/home_widget/category_image.dart';
 import '../../../widget/home_widget/category_page.dart';
 
 class FavoritePrograming extends StatelessWidget {
@@ -30,7 +30,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
+              categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://flutter.dev/',
                 title: 'Flutter',
                 svg: '$imagePath/programing/flutter.svg',
@@ -41,7 +41,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
+              categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://dart.dev/',
                 title: 'Dart',
                 svg: '$imagePath/programing/dart.svg',
@@ -52,7 +52,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
+              categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://github.com/',
                 title: 'Github',
                 svg: '$imagePath/programing/github.svg',
@@ -63,7 +63,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
+              categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://stackoverflow.com/',
                 title: 'Stackoverflow',
                 svg: '$imagePath/programing/stackoverflow.svg',
@@ -74,7 +74,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
+              categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://medium.com/',
                 title: 'Medium',
                 svg: '$imagePath/programing/medium.svg',
@@ -85,7 +85,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
+              categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://translate.google.com.eg/?hl=ar',
                 title: 'Translate',
                 svg: '$imagePath/programing/translate.svg',
@@ -96,7 +96,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
+              categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://www.hackerrank.com/',
                 title: 'Hackerrank',
                 svg: '$imagePath/programing/hackerrank.svg',
@@ -107,7 +107,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
+              categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://www.behance.net/',
                 title: 'Behance',
                 svg: '$imagePath/programing/behance.svg',
@@ -116,7 +116,7 @@ class FavoritePrograming extends StatelessWidget {
           ],
         ),
         CardFavoriteSvg(
-          categoryFavoriteSvg: const CategoryFavoriteSvg(
+          categoryFavoriteSvg: const CategorySvg(
             launchurl: 'https://wordpress.com/',
             title: 'Wordpress',
             svg: '$imagePath/programing/wordpress.svg',
@@ -125,7 +125,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
+              categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://www.codewars.com/',
                 title: 'Codewars',
                 svg: '$imagePath/programing/codewars.svg',
@@ -136,7 +136,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
+              categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://www.bitdegree.org/',
                 title: 'Bitdegree',
                 svg: '$imagePath/programing/bitdegree.svg',
@@ -147,7 +147,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
+              categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://www.codecademy.com/',
                 title: 'Codecademy',
                 svg: '$imagePath/programing/codecademy.svg',
@@ -158,7 +158,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryFavoriteImage(
+              categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.codeavengers.com/',
                 title: 'Codeavengers',
                 image: '$imagePath/programing/codeavengers.png',
@@ -169,7 +169,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryFavoriteImage(
+              categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.codeproject.com/',
                 title: 'Codeproject',
                 image: '$imagePath/programing/codeproject.png',
@@ -180,7 +180,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryFavoriteImage(
+              categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://codeanywhere.com/',
                 title: 'Codeanywhere',
                 image: '$imagePath/programing/codeanywhere.png',
@@ -191,7 +191,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
+              categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://www.khanacademy.org/',
                 title: 'Khanacademy',
                 svg: '$imagePath/programing/khanacademy.svg',
@@ -202,7 +202,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryFavoriteImage(
+              categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://flutter.github.io/samples/',
                 title: 'FlutterSample',
                 image: '$imagePath/programing/samples.png',
@@ -213,7 +213,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryFavoriteImage(
+              categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.w3schools.com/',
                 title: 'W3schools',
                 image: '$imagePath/programing/w3schools.png',
@@ -224,7 +224,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryFavoriteImage(
+              categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.codota.com/',
                 title: 'Codota',
                 image: '$imagePath/programing/codota.png',

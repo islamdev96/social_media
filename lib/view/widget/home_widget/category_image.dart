@@ -33,8 +33,8 @@ class _CategoryImageState extends State<CategoryImage> {
         ],
         borderRadius: BorderRadius.circular(16.0),
       ),
-      height: 115.0,
-      width: 110,
+      height: 115.0.h,
+      width: 110.w,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../../../test/svg/category_favorite_svg.dart';
 import '../../../widget/favorite_widget/image/card_favorite_image.dart';
-import '../../../widget/favorite_widget/image/category_favorite_image.dart';
 import '../../../../core/constant/resources/assets_manager.dart';
 import '../../../../main.dart';
 import '../../../widget/favorite_widget/svg/card_favorite_svg.dart';
-import '../../../widget/favorite_widget/svg/category_favorite_svg.dart';
+import '../../../widget/home_widget/category_image.dart';
 import '../../../widget/home_widget/category_page.dart';
 
 class FavoriteFreelancer extends StatelessWidget {
@@ -30,7 +30,7 @@ class FavoriteFreelancer extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
+              categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://www.linkedin.com/services/',
                 title: 'Linkservices',
                 svg: '$imagePath/freelancer/linkedin.svg',
@@ -41,7 +41,7 @@ class FavoriteFreelancer extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
+              categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://www.freelancer.com/',
                 title: 'Freelancer',
                 svg: '$imagePath/freelancer/freelancer1.svg',
@@ -52,7 +52,7 @@ class FavoriteFreelancer extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
+              categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://speedlancer.com/',
                 title: 'Speedlancer',
                 svg: '$imagePath/freelancer/speedlancer.svg',
@@ -63,7 +63,7 @@ class FavoriteFreelancer extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
+              categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://angel.co/',
                 title: 'Angel',
                 svg: '$imagePath/freelancer/angel.svg',
@@ -74,7 +74,7 @@ class FavoriteFreelancer extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
+              categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://weworkremotely.com/',
                 title: 'weworkremot',
                 svg: '$imagePath/freelancer/weworkremotely.svg',
@@ -85,7 +85,7 @@ class FavoriteFreelancer extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategoryFavoriteSvg(
+              categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://jo.mostaql.com/',
                 title: 'Mostaql',
                 svg: '$imagePath/freelancer/mostaql.svg',
@@ -96,7 +96,7 @@ class FavoriteFreelancer extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryFavoriteImage(
+              categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://souqfann.com/',
                 title: 'Souqfann',
                 image: '$imagePath/freelancer/souqfann.jpeg',
@@ -107,7 +107,7 @@ class FavoriteFreelancer extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryFavoriteImage(
+              categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.upwork.com/nx/find-work/',
                 title: 'Upwork',
                 image: '$imagePath/freelancer/upwork.png',
@@ -118,7 +118,7 @@ class FavoriteFreelancer extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryFavoriteImage(
+              categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://kafiil.com/',
                 title: 'Kafiil',
                 image: '$imagePath/freelancer/kafiil.png',
@@ -129,7 +129,7 @@ class FavoriteFreelancer extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryFavoriteImage(
+              categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.guru.com/',
                 title: 'Guru',
                 image: '$imagePath/freelancer/guru.jpg',
@@ -140,7 +140,7 @@ class FavoriteFreelancer extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryFavoriteImage(
+              categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.smashingmagazine.com/jobs/',
                 title: 'smashingma',
                 image: '$imagePath/freelancer/smashingmagazine.png',
@@ -151,7 +151,7 @@ class FavoriteFreelancer extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryFavoriteImage(
+              categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.simplyhired.com/',
                 title: 'Simplyhired',
                 image: '$imagePath/freelancer/simplyhired.png',
@@ -162,7 +162,7 @@ class FavoriteFreelancer extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryFavoriteImage(
+              categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.toptal.com/',
                 title: 'Toptal',
                 image: '$imagePath/freelancer/toptal.png',
@@ -173,7 +173,7 @@ class FavoriteFreelancer extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryFavoriteImage(
+              categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://khamsat.com/',
                 title: 'Khamsat',
                 image: '$imagePath/freelancer/khamsat.jpg',
@@ -184,7 +184,7 @@ class FavoriteFreelancer extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryFavoriteImage(
+              categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://ureed.com/',
                 title: 'Ureed',
                 image: '$imagePath/freelancer/ureed.png',
@@ -195,7 +195,7 @@ class FavoriteFreelancer extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryFavoriteImage(
+              categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.tasmeemme.com/',
                 title: 'Tasmeemme',
                 image: '$imagePath/freelancer/tasmeemme.png',

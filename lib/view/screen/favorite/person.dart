@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../../core/constant/resources/assets_manager.dart';
 import '../../../core/constant/resources/color_manager.dart';
+import '../../../test/svg/card_favorite_svg.dart';
+import '../../../test/svg/category_favorite_svg.dart';
 import '../../widget/navigation_widget/backgron_color_page.dart';
 import '../../widget/navigation_widget/bottom_navigation_bar.dart';
 import '../../../test/test.dart';
@@ -23,8 +26,15 @@ class Person extends StatelessWidget {
             text: 'Social Media',
           ),
           Column(
-            children: const [
-              Center(
+            children: [
+              TestCardFavoriteSvg(
+                categoryFavoriteSvg: const CategorySvg(
+                  launchurl: 'https://www.google.com',
+                  title: 'Google',
+                  svg: '$imagePath/soshal/google.svg',
+                ),
+              ),
+              const Center(
                 child: Text('Person'),
               ),
             ],

@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class CategoryFavoriteSvg extends StatefulWidget {
-  const CategoryFavoriteSvg({
+import '../../../data/models/launch_url.dart';
+
+class CategorySvg extends StatefulWidget {
+  const CategorySvg({
     Key? key,
     required this.launchurl,
     required this.title,
@@ -12,14 +14,13 @@ class CategoryFavoriteSvg extends StatefulWidget {
   final String launchurl;
 
   final String svg;
-
   final String title;
 
   @override
-  State<CategoryFavoriteSvg> createState() => _CategoryFavoriteSvgState();
+  State<CategorySvg> createState() => _CategorySvgState();
 }
 
-class _CategoryFavoriteSvgState extends State<CategoryFavoriteSvg> {
+class _CategorySvgState extends State<CategorySvg> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -48,7 +49,9 @@ class _CategoryFavoriteSvgState extends State<CategoryFavoriteSvg> {
                 height: 65.h,
                 width: 650.w,
               ),
-              onPressed: () {},
+              onPressed: () {
+                launchURL(widget.launchurl);
+              },
             ),
           ),
           Text(
