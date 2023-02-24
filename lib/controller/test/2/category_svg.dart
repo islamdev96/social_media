@@ -1,20 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-
-import '../../../../data/models/launch_url.dart';
+import 'package:social_media/controller/test/2/model/onboardingmodel.dart';
+import 'package:social_media/controller/test/2/static/static.dart';
 
 class TestCategorySvg extends StatelessWidget {
   const TestCategorySvg({
     Key? key,
     required this.launchurl,
     required this.title,
-    required this.svg,
+    required this.image,
   }) : super(key: key);
   final String launchurl;
 
-  final String svg;
-  final String title;
+  final OnBoardingModel image;
+  final OnBoardingModel title;
+
+  get index => [];
 
   @override
   Widget build(BuildContext context) {
@@ -40,17 +42,17 @@ class TestCategorySvg extends StatelessWidget {
             height: 80.h,
             child: IconButton(
               icon: SvgPicture.asset(
-                svg,
+                onBoardingList[index].image!,
                 height: 65.h,
                 width: 650.w,
               ),
               onPressed: () {
-                launchURL(launchurl);
+                onBoardingList[index].link!;
               },
             ),
           ),
           Text(
-            title,
+            onBoardingList[index].title!,
             style: TextStyle(
               color: Colors.black,
               fontSize: 16.sp,

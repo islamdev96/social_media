@@ -14,8 +14,8 @@ class TESTListViewSocialMedia extends StatelessWidget {
           children: [
             TestCategorySvg(
               launchurl: onBoardingList[index].link!,
-              title: onBoardingList[index].title!,
-              svg: onBoardingList[index].image!,
+              title: onBoardingList[index],
+              image: onBoardingList[index],
             ),
           ],
         );
