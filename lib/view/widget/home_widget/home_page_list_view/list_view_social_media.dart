@@ -23,20 +23,20 @@ class ListViewSocialMedia extends StatelessWidget {
                   bottom: 16, left: 16, right: 16, top: 32),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategorySvg(
                       launchurl: 'https://www.google.com',
-                      title: 'Google',
+                      title: 'google'.tr,
                       svg: '$imagePath/soshal/google.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://www.youtube.com/',
-                      title: 'Youtube',
+                      title: 'youtube'.tr,
                       svg: '$imagePath/soshal/youtube.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://www.facebook.com/',
-                      title: 'Facebook',
+                      title: 'facebook'.tr,
                       svg: '$imagePath/soshal/facebook.svg',
                     ),
                   ]),
@@ -45,20 +45,20 @@ class ListViewSocialMedia extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategorySvg(
                       launchurl: 'https://twitter.com/',
-                      title: 'Twitter',
+                      title: 'twitter'.tr,
                       svg: '$imagePath/soshal/twitter.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://www.instagram.com/',
-                      title: 'Instagram',
+                      title: 'instagram'.tr,
                       svg: '$imagePath/soshal/instagram.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://www.linkedin.com/',
-                      title: 'Linkedin',
+                      title: 'linkedin'.tr,
                       svg: '$imagePath/soshal/linkedin.svg',
                     ),
                   ]),
@@ -67,20 +67,20 @@ class ListViewSocialMedia extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategorySvg(
                       launchurl: 'https://www.tiktok.com/',
-                      title: 'Tiktok',
+                      title: 'tiktok'.tr,
                       svg: '$imagePath/soshal/tiktok.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://zoom.us/',
-                      title: 'Zoom',
+                      title: 'zoom'.tr,
                       svg: '$imagePath/soshal/zoom.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://www.snapchat.com/',
-                      title: 'Snapchat',
+                      title: 'snapchat'.tr,
                       svg: '$imagePath/soshal/snapchat.svg',
                     ),
                   ]),
@@ -89,20 +89,20 @@ class ListViewSocialMedia extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: const [
+                children: [
                   CategorySvg(
                     launchurl: 'https://web.whatsapp.com/',
-                    title: 'ًWhatsapp',
+                    title: 'whatsapp'.tr,
                     svg: '$imagePath/soshal/whatsapp.svg',
                   ),
                   CategoryImage(
                     launchurl: 'https://podcastluisteren.nl/',
-                    title: 'Podcast',
+                    title: 'podcast'.tr,
                     image: '$imagePath/soshal/podcast.png',
                   ),
                   CategorySvg(
                     launchurl: 'https://web.telegram.org/',
-                    title: 'Telegram',
+                    title: 'telegram'.tr,
                     svg: '$imagePath/soshal/telegram.svg',
                   ),
                 ],

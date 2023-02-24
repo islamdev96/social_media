@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:social_media/view/widget/home_widget/home_page_list_view/List_view_islamic.dart';
 import '../../../core/constant/resources/color_manager.dart';
 import '../../../data/models/manage_ads/banner_ads.dart';
+import '../../widget/home_widget/home_page_list_view/list_view_news.dart';
 import '../../widget/navigation_widget/bottom_navigation_bar.dart';
 
 class News extends StatelessWidget {
@@ -17,7 +17,7 @@ class News extends StatelessWidget {
             elevation: 0,
             backgroundColor: ColorManager.kPrimary,
           ),
-          body: const ListViewIslamic(),
+          body: const ListViewNews(),
           bottomNavigationBar: const BottomNavigationBarAll(),
         ),
         const AnimatedPositioned(

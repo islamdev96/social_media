@@ -3,7 +3,6 @@
 import 'package:favorite_button/favorite_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:social_media/main.dart';
 
 import 'category_favorite_svg.dart';
 
@@ -51,8 +50,6 @@ class _CardFavoriteSvgState extends State<TestCardFavoriteSvg> {
   }
 
   getSelectedPreference() async {
-    setState(() {
-      sharedPreferences!.getString('isFavorite');
-    });
+    setState(() {});
   }
 }

@@ -3,17 +3,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:social_media/core/constant/resources/app_routes.dart';
 
 import 'core/constant/localizetion/translate.dart';
-
-SharedPreferences? sharedPreferences;
+import 'core/services/services.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  sharedPreferences = await SharedPreferences.getInstance();
-  // await Firebase.initializeApp();
+  initialServices();
 
   runApp(const SocialMedia());
 }

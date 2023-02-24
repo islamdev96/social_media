@@ -23,20 +23,20 @@ class ListViewNews extends StatelessWidget {
                   bottom: 16, left: 16, right: 16, top: 32),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategoryImage(
                       launchurl: 'https://www.aljazeera.net/',
-                      title: 'Aljazeera',
+                      title: 'aljazeera'.tr,
                       image: '$imagePath/news/aljazeera.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.france24.com/ar/',
-                      title: 'France24',
+                      title: 'france24'.tr,
                       image: '$imagePath/news/france24.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.bbc.com/arabic',
-                      title: 'BBC',
+                      title: 'bbc'.tr,
                       image: '$imagePath/news/bbc.png',
                     ),
                   ]),
@@ -45,20 +45,20 @@ class ListViewNews extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategoryImage(
                       launchurl: 'https://arabic.cnn.com/',
-                      title: 'CNN',
+                      title: 'cnn'.tr,
                       image: '$imagePath/news/cnn.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.reuters.com/',
-                      title: 'Reuters',
+                      title: 'reuters'.tr,
                       image: '$imagePath/news/reuters.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.alarabiya.net/',
-                      title: 'Alarabiya',
+                      title: 'alarabiya'.tr,
                       image: '$imagePath/news/alarabiya.png',
                     ),
                   ]),
@@ -67,20 +67,20 @@ class ListViewNews extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategoryImage(
                       launchurl: 'https://aawsat.com/',
-                      title: 'Aawsat',
+                      title: 'aawsat'.tr,
                       image: '$imagePath/news/aawsat.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://arabic.euronews.com/',
-                      title: 'EuroNews',
+                      title: 'euronews'.tr,
                       image: '$imagePath/news/euronews.jpg',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.aa.com.tr/ar',
-                      title: 'Anadolu',
+                      title: 'anadolu'.tr,
                       image: '$imagePath/news/aa.jpg',
                     ),
                   ]),
@@ -89,20 +89,20 @@ class ListViewNews extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategoryImage(
                       launchurl: 'https://elaph.com/',
-                      title: 'Elaph',
+                      title: 'elaph'.tr,
                       image: '$imagePath/news/elaph.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.alhurra.com/latest',
-                      title: 'Alhurra',
+                      title: 'alhurra'.tr,
                       image: '$imagePath/news/alhurra.png',
                     ),
                     CategorySvg(
                       launchurl: 'https://www.skynewsarabia.com/',
-                      title: 'SkyNews',
+                      title: 'skynewsarabia'.tr,
                       svg: '$imagePath/news/skynewsarabia.svg',
                     ),
                   ]),
@@ -111,20 +111,20 @@ class ListViewNews extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategoryImage(
                       launchurl: 'https://www.alaraby.co.uk/news',
-                      title: 'Alaraby',
+                      title: 'alaraby'.tr,
                       image: '$imagePath/news/alaraby.png',
                     ),
                     CategorySvg(
                       launchurl: 'https://www.alaraby.com/alaraby2',
-                      title: 'Alaraby2',
+                      title: 'alaraby2'.tr,
                       svg: '$imagePath/news/alaraby2.svg',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.dw.com/ar/',
-                      title: 'DW',
+                      title: 'dw'.tr,
                       image: '$imagePath/news/dw.png',
                     ),
                   ]),
