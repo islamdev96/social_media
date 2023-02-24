@@ -28,11 +28,6 @@ class FavoriteSocialMedi extends StatelessWidget {
         ),
         Column(
           children: [
-            // const CategorySvg(
-            //   launchurl: 'https://www.google.com',
-            //   title: 'Google',
-            //   svg: '$imagePath/soshal/google.svg',
-            // ),
             CardFavoriteSvg(
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://www.google.com',
