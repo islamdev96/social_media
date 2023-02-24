@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
+import '../../../controller/test/2/social_media_page.dart';
 import '../../../core/constant/resources/color_manager.dart';
 import '../../screen/favorite/favorite_home_page.dart';
 import '../../screen/favorite/person.dart';
@@ -28,6 +29,7 @@ class _BottomNavigationBarAllState extends State<BottomNavigationBarAll> {
     const HomePage(),
 
     const Person(),
+    const TESTSocialMediaPage()
   ];
 
   static int get value => 1;
@@ -48,12 +50,10 @@ class _BottomNavigationBarAllState extends State<BottomNavigationBarAll> {
       height: 48.h,
       index: index,
       items: const <Widget>[
-        // Icon(Icons.search, size: 25, color: Colors.white),
-        // Icon(Icons.add, size: 25, color: Colors.white),
         Icon(Icons.favorite, size: 25, color: Colors.white),
         Icon(Icons.home, size: 25, color: Colors.white),
-
         Icon(Icons.person, size: 25, color: Colors.white),
+        Icon(Icons.textsms, size: 25, color: Colors.white),
       ],
       onTap: (index) {
         Get.put(() {

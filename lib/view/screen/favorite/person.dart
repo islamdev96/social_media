@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../../controller/test/2/social_media_page.dart';
 import '../../../core/constant/resources/color_manager.dart';
 import '../../widget/navigation_widget/backgron_color_page.dart';
 import '../../widget/navigation_widget/bottom_navigation_bar.dart';
-import '../../../controller/test/test.dart';
 
 class Person extends StatelessWidget {
   const Person({super.key});
@@ -33,7 +33,7 @@ class Person extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          Get.to(() => const TestNav());
+          Get.to(() => const TESTSocialMediaPage());
         },
         tooltip: 'Increment',
         child: const Icon(Icons.add),

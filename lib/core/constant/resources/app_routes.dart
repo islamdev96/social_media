@@ -21,12 +21,10 @@ List<GetPage<dynamic>> appRoutes = [
     name: Routes.add,
     page: () => const Add(),
   ),
-
   GetPage(
     name: Routes.search,
     page: () => Search(),
   ),
-
   GetPage(
     name: Routes.person,
     page: () => const Person(),
@@ -35,5 +33,4 @@ List<GetPage<dynamic>> appRoutes = [
     name: Routes.socialMedia,
     page: () => const SocialMediaPage(),
   ),
-// /
 ];

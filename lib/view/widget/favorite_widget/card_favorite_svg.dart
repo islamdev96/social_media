@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../main.dart';
-import '../../../controller/test/svg/category_favorite_svg.dart';
+import '../../../controller/test/2/svg/category_favorite_svg.dart';
 
 class CardFavoriteSvg extends StatefulWidget {
   CardFavoriteSvg(

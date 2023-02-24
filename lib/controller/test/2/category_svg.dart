@@ -1,24 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
-import '../../../data/models/launch_url.dart';
+import '../../../../data/models/launch_url.dart';
 
-class CategoryImage extends StatefulWidget {
-  const CategoryImage({
+class TestCategorySvg extends StatelessWidget {
+  const TestCategorySvg({
     Key? key,
     required this.launchurl,
     required this.title,
-    required this.image,
+    required this.svg,
   }) : super(key: key);
   final String launchurl;
-  final String image;
+
+  final String svg;
   final String title;
 
-  @override
-  State<CategoryImage> createState() => _CategoryImageState();
-}
-
-class _CategoryImageState extends State<CategoryImage> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -42,18 +39,18 @@ class _CategoryImageState extends State<CategoryImage> {
             width: 90.0.w,
             height: 80.h,
             child: IconButton(
-              icon: Image.asset(
-                widget.image,
-                height: 65.w,
-                width: 65.h,
+              icon: SvgPicture.asset(
+                svg,
+                height: 65.h,
+                width: 650.w,
               ),
               onPressed: () {
-                launchURL(widget.launchurl);
+                launchURL(launchurl);
               },
             ),
           ),
           Text(
-            widget.title,
+            title,
             style: TextStyle(
               color: Colors.black,
               fontSize: 16.sp,

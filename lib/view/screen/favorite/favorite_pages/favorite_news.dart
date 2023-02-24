@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../../controller/test/svg/category_favorite_svg.dart';
+import '../../../../controller/test/2/svg/category_favorite_svg.dart';
 import '../../../widget/favorite_widget/card_favorite_image.dart';
 import '../../../../core/constant/resources/assets_manager.dart';
 import '../../../../main.dart';
