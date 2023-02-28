@@ -22,20 +22,20 @@ class ListViewSport extends StatelessWidget {
                   bottom: 16, left: 16, right: 16, top: 32),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategoryImage(
                       launchurl: 'https://www.beinsports.com/ar/',
-                      title: 'beins Sports',
+                      title: 'beinsSports'.tr,
                       image: '$imagePath/sport/beinsports.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.yallakora.com/',
-                      title: 'Yallakora',
+                      title: 'yallakora'.tr,
                       image: '$imagePath/sport/yallakora.jpg',
                     ),
                     CategoryImage(
                       launchurl: 'https://arkooora.live-kooora-tv.com/',
-                      title: 'Kora Live',
+                      title: 'koraLive'.tr,
                       image: '$imagePath/sport/arkoooralive.jpg',
                     ),
                   ]),
@@ -44,20 +44,20 @@ class ListViewSport extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategoryImage(
                       launchurl: 'https://egylive.online/',
-                      title: 'EgyLive',
+                      title: 'egyLive'.tr,
                       image: '$imagePath/sport/egylive.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://m.livehd7.cc/m3/',
-                      title: 'livehd7',
+                      title: 'livehd7'.tr,
                       image: '$imagePath/sport/livehd7.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://arabic.sport360.com/',
-                      title: 'Sport360',
+                      title: 'sport360'.tr,
                       image: '$imagePath/sport/sport360.jpg',
                     ),
                   ]),
@@ -66,20 +66,20 @@ class ListViewSport extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategoryImage(
                       launchurl: 'https://sports.koooragoal.com/',
-                      title: 'KoraGoal',
+                      title: 'koraGoal'.tr,
                       image: '$imagePath/sport/koooragoal.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.yalla-shoots.com/',
-                      title: 'yalla_Shoot',
+                      title: 'yallaShoot'.tr,
                       image: '$imagePath/sport/yalla-shoots.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://on.koooora-online.com/',
-                      title: 'Kora_online',
+                      title: 'koraonline'.tr,
                       image: '$imagePath/sport/koooora-online.jpg',
                     ),
                   ]),
@@ -88,20 +88,20 @@ class ListViewSport extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategoryImage(
                       launchurl: 'https://www.filgoal.com/',
-                      title: 'Filgoal',
+                      title: 'filgoal'.tr,
                       image: '$imagePath/sport/filgoal.jpg',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.kooora.com/',
-                      title: 'Kooora',
+                      title: 'kooora'.tr,
                       image: '$imagePath/sport/kooora.jpg',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.goal.com/ar',
-                      title: 'Goal',
+                      title: 'goal'.tr,
                       image: '$imagePath/sport/goal.jpg',
                     ),
                   ]),

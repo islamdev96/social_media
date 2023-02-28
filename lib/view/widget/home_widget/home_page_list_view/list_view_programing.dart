@@ -23,20 +23,20 @@ class ListViewPrograming extends StatelessWidget {
                   bottom: 16, left: 16, right: 16, top: 32),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategorySvg(
                       launchurl: 'https://flutter.dev/',
-                      title: 'Flutter',
+                      title: 'flutter'.tr,
                       svg: '$imagePath/programing/flutter.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://dart.dev/',
-                      title: 'Dart',
+                      title: 'dart'.tr,
                       svg: '$imagePath/programing/dart.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://github.com/',
-                      title: 'Github',
+                      title: 'github'.tr,
                       svg: '$imagePath/programing/github.svg',
                     ),
                   ]),
@@ -45,20 +45,20 @@ class ListViewPrograming extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategorySvg(
                       launchurl: 'https://stackoverflow.com/',
-                      title: 'Stackoverflow',
+                      title: 'Stackoverflow'.tr,
                       svg: '$imagePath/programing/stackoverflow.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://medium.com/',
-                      title: 'Medium',
+                      title: 'medium'.tr,
                       svg: '$imagePath/programing/medium.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://translate.google.com.eg/?hl=ar',
-                      title: 'Translate',
+                      title: 'translate'.tr,
                       svg: '$imagePath/programing/translate.svg',
                     ),
                   ]),
@@ -67,20 +67,20 @@ class ListViewPrograming extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategorySvg(
                       launchurl: 'https://www.hackerrank.com/',
-                      title: 'Hackerrank',
+                      title: 'hackerrank'.tr,
                       svg: '$imagePath/programing/hackerrank.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://www.behance.net/',
-                      title: 'Behance',
+                      title: 'behance'.tr,
                       svg: '$imagePath/programing/behance.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://wordpress.com/',
-                      title: 'Wordpress',
+                      title: 'wordpress'.tr,
                       svg: '$imagePath/programing/wordpress.svg',
                     ),
                   ]),
@@ -89,20 +89,20 @@ class ListViewPrograming extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategorySvg(
                       launchurl: 'https://www.codewars.com/',
-                      title: 'Codewars',
+                      title: 'codewars'.tr,
                       svg: '$imagePath/programing/codewars.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://www.bitdegree.org/',
-                      title: 'Bitdegree',
+                      title: 'bitdegree'.tr,
                       svg: '$imagePath/programing/bitdegree.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://www.codecademy.com/',
-                      title: 'Codecademy',
+                      title: 'codecademy'.tr,
                       svg: '$imagePath/programing/codecademy.svg',
                     ),
                   ]),
@@ -111,20 +111,20 @@ class ListViewPrograming extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategoryImage(
                       launchurl: 'https://www.codeavengers.com/',
-                      title: 'Codeavengers',
+                      title: 'codeavengers'.tr,
                       image: '$imagePath/programing/codeavengers.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.codeproject.com/',
-                      title: 'Codeproject',
+                      title: 'codeproject'.tr,
                       image: '$imagePath/programing/codeproject.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://codeanywhere.com/',
-                      title: 'Codeanywhere',
+                      title: 'codeanywhere'.tr,
                       image: '$imagePath/programing/codeanywhere.png',
                     ),
                   ]),
@@ -133,20 +133,20 @@ class ListViewPrograming extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategorySvg(
                       launchurl: 'https://www.khanacademy.org/',
-                      title: 'Khanacademy',
+                      title: 'khanacademy'.tr,
                       svg: '$imagePath/programing/khanacademy.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://codepen.io/',
-                      title: 'Codepen',
+                      title: 'codepen'.tr,
                       svg: '$imagePath/programing/codepen.svg',
                     ),
                     CategoryImage(
                       launchurl: 'https://flutter.github.io/samples/',
-                      title: 'FlutterSample',
+                      title: 'flutterSample'.tr,
                       image: '$imagePath/programing/samples.png',
                     ),
                   ]),
@@ -155,15 +155,15 @@ class ListViewPrograming extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategoryImage(
                       launchurl: 'https://www.w3schools.com/',
-                      title: 'W3schools',
+                      title: 'w3schools'.tr,
                       image: '$imagePath/programing/w3schools.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.codota.com/',
-                      title: 'Codota',
+                      title: 'codota'.tr,
                       image: '$imagePath/programing/codota.png',
                     ),
                   ]),

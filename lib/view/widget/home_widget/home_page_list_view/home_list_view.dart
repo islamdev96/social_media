@@ -36,9 +36,11 @@ class HomeListView extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) {
-                    return const News();
-                  }),
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return const News();
+                    },
+                  ),
                 );
               },
             ),
@@ -47,9 +49,11 @@ class HomeListView extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) {
-                    return const Sports();
-                  }),
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return const Sports();
+                    },
+                  ),
                 );
               },
             ),

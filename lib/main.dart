@@ -6,11 +6,11 @@ import 'package:get/get.dart';
 import 'package:social_media/core/constant/resources/app_routes.dart';
 
 import 'core/constant/localizetion/translate.dart';
-import 'core/services/services.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  initialServices();
+
+  // initialServices();
 
   runApp(const SocialMedia());
 }
@@ -27,6 +27,7 @@ class SocialMedia extends StatefulWidget {
 class _SocialMediaState extends State<SocialMedia> {
   @override
   Widget build(BuildContext context) {
+    // LocaleController controller = Get.put(LocaleController());
     return ScreenUtilInit(
       useInheritedMediaQuery: true,
       designSize: const Size(360, 690),

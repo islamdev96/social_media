@@ -10,10 +10,14 @@ class CategoryImage extends StatefulWidget {
     required this.title,
     required this.image,
   }) : super(key: key);
+
   final String launchurl;
   final String image;
   final String title;
-
+  // const CategoryImage({super.key,
+  //   required this.title,
+  //   required this.image, required this.launchurl,
+  // }) ;
   @override
   State<CategoryImage> createState() => _CategoryImageState();
 }

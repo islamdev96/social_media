@@ -4,13 +4,17 @@ import 'package:shared_preferences/shared_preferences.dart';
 class MyServices extends GetxService {
   late SharedPreferences sharedPreferences;
 
-  Future<MyServices> init() async {
-    // await Firebase.initializeApp();
+  @override
+  Future<void> onInit() async {
     sharedPreferences = await SharedPreferences.getInstance();
-    return this;
+    super.onInit();
+  }
+
+  Future<void> init() async {
+    await Future.delayed(const Duration(seconds: 2));
   }
 }
 
-initialServices() async {
-  await Get.putAsync(() => MyServices().init());
-}
+// initialServices() async {
+//   await Get.putAsync(() => MyServices().init());
+// }
