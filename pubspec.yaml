@@ -11,7 +11,9 @@ environment:
 dependencies:
   cupertino_icons: ^1.0.2
   curved_navigation_bar: ^1.0.3
+  either_dart: ^0.3.0
   favorite_button: ^0.0.4
+  firebase_core: ^2.7.0
   flutter:
     sdk: flutter
   flutter_launcher_icons: ^0.10.0
@@ -62,3 +64,18 @@ flutter:
     - assets/images/sport/
     - assets/images/islami/
     - assets/images/freelancer/
+
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo/Cairo-Bold.ttf
+          weight: 700
+
+    - family: PlayfairDisplay
+      fonts:
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf
+          weight: 700
+
