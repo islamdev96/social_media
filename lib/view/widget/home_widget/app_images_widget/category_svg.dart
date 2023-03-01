@@ -52,10 +52,12 @@ class CategorySvg extends StatelessWidget {
           ),
           Text(
             title,
+            textAlign: TextAlign.center,
             style: TextStyle(
-              color: Colors.black,
-              fontSize: 14.sp,
-            ),
+                color: Colors.black,
+                fontSize: 15.sp,
+                overflow: TextOverflow.ellipsis,
+                fontWeight: FontWeight.bold),
           ),
         ],
       ),
