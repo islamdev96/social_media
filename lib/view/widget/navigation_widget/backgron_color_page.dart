@@ -34,11 +34,11 @@ class BackgroundColorPage extends StatelessWidget {
                 // bottomRight: Radius.circular(200.0),
               ),
             ),
-            height: 75.0,
+            height: 75.0.h,
             width: double.infinity,
             alignment: Alignment.center,
             child: Padding(
-              padding: const EdgeInsets.only(bottom: 50),
+              padding: EdgeInsets.only(bottom: 30.h),
               child: Text(
                 text!,
                 style: TextStyle(fontSize: 18.sp, color: Colors.white),

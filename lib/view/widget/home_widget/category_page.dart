@@ -13,7 +13,7 @@ class CategoryPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(16.0),
+      padding: EdgeInsets.all(16.0.h),
       child: GestureDetector(
         onTap: onTap,
         child: Container(
@@ -33,8 +33,8 @@ class CategoryPage extends StatelessWidget {
               bottomRight: Radius.circular(55.0),
             ),
           ),
-          height: 45.0,
-          width: double.infinity,
+          height: 45.0.h,
+          width: double.infinity.w,
           padding: const EdgeInsets.only(left: 20),
           alignment: Alignment.center,
           child: Text(
