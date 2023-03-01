@@ -46,9 +46,9 @@ class ArabicTranslation extends MyTranslation {
           "anadolu": "انادولو",
           "elaph": "الف",
           "alhurra": "الحرة",
-          "skynewsarabia": "سكاي نيوز عربية",
+          "skynewsarabia": "سكاي نيوز ",
           "alaraby": "العربي",
-          "alaraby2": "العربي 2",
+          "alaraby2": "العربي2",
           "dw": "دويتشه فيله ",
 
           //---------------------------sport-----------------------------------------

@@ -49,7 +49,7 @@ class _SocialMediaState extends State<SocialMedia> {
           theme: controller.appTheme,
           // initialBinding: InitialBindings(),
 
-          initialRoute: '/homePage',
+          initialRoute: '/language',
         );
       },
     );

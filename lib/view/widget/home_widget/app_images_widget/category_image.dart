@@ -26,46 +26,6 @@ class CategoryImage extends StatefulWidget {
 class _CategoryImageState extends State<CategoryImage> {
   @override
   Widget build(BuildContext context) {
-    // return Container(
-    // decoration: BoxDecoration(
-    //   boxShadow: const <BoxShadow>[
-    //     BoxShadow(
-    //         color: Color.fromARGB(255, 218, 210, 213),
-    //         blurRadius: 12.0,
-    //         spreadRadius: 1.0,
-    //         // offset: Offset(-1.0, 1.0),
-    //         blurStyle: BlurStyle.outer),
-    //   ],
-    //   borderRadius: BorderRadius.circular(16.0),
-    // ),
-    // height: 115.0.h,
-    // width: 110.w,
-    // child: Column(
-    //   mainAxisAlignment: MainAxisAlignment.center,
-    //   children: [
-    //     SizedBox(
-    //       width: 90.0.w,
-    //       height: 80.h,
-    //       child: IconButton(
-    //         icon: SvgPicture.asset(
-    //           svg,
-    //           height: 65.h,
-    //           width: 650.w,
-    //         ),
-    //         onPressed: () {
-    //           launchURL(launchurl);
-    //         },
-    //       ),
-    //     ),
-    //     Text(
-    //       title,
-    //       style: TextStyle(
-    //         color: Colors.black,
-    //         fontSize: 16.sp,
-    //       ),
-    //     ),
-    //   ],
-    // ),
     return Container(
       decoration: BoxDecoration(
         boxShadow: <BoxShadow>[

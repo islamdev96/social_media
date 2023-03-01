@@ -48,7 +48,7 @@ class ListViewPrograming extends StatelessWidget {
                   children: [
                     CategorySvg(
                       launchurl: 'https://stackoverflow.com/',
-                      title: 'Stackoverflow'.tr,
+                      title: 'stackoverflow'.tr,
                       svg: '$imagePath/programing/stackoverflow.svg',
                     ),
                     CategorySvg(

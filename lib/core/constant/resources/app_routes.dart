@@ -7,11 +7,16 @@ import 'package:social_media/view/screen/favorite/search.dart';
 import 'package:social_media/view/screen/home/social_media_page.dart';
 
 import '../../../view/screen/home/home_page.dart';
+import '../../../view/screen/language/language.dart';
 
 List<GetPage<dynamic>> appRoutes = [
   GetPage(
     name: Routes.homePage,
     page: () => const HomePage(),
+  ),
+  GetPage(
+    name: Routes.language,
+    page: () => const Language(),
   ),
   GetPage(
     name: Routes.favoriteHomePage,

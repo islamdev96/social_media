@@ -43,7 +43,7 @@ class CategorySvg extends StatelessWidget {
               icon: SvgPicture.asset(
                 svg,
                 height: 65.h,
-                width: 650.w,
+                width: 65.w,
               ),
               onPressed: () {
                 launchURL(launchurl);
@@ -54,7 +54,7 @@ class CategorySvg extends StatelessWidget {
             title,
             style: TextStyle(
               color: Colors.black,
-              fontSize: 16.sp,
+              fontSize: 14.sp,
             ),
           ),
         ],
