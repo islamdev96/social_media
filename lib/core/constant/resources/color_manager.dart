@@ -18,6 +18,7 @@ class ColorManager {
   static Color kTextgray = const Color(0xffBCBCBC);
   static Color kTextblue = const Color(0xff385CAD);
   static Color kTextblack = const Color(0xff000000);
+  static Color boxShadowAllApp = const Color.fromARGB(255, 218, 210, 213);
   // new colors
   static Color backgroundcatogeryimage = const Color(0xff1d63aa);
   // static Color lightPrimary = const Color(0xCCd17d11); // color with 80% opacity

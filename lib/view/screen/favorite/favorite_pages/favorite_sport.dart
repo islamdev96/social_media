@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import '../../../widget/favorite_widget/card_favorite_image.dart';
 import '../../../../core/constant/resources/assets_manager.dart';
 import '../../../../main.dart';
-import '../../../widget/home_widget/category_image.dart';
+import '../../../widget/home_widget/app_images_widget/category_image.dart';
 import '../../../widget/home_widget/category_page.dart';
 
 class FavoriteSport extends StatelessWidget {

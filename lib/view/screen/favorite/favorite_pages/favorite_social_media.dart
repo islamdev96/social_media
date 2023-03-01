@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:social_media/core/constant/resources/assets_manager.dart';
 import '../../../../main.dart';
-import '../../../../controller/test/2/svg/category_favorite_svg.dart';
 import '../../../widget/favorite_widget/card_favorite_image.dart';
 import '../../../widget/favorite_widget/card_favorite_svg.dart';
-import '../../../widget/home_widget/category_image.dart';
+import '../../../widget/home_widget/app_images_widget/category_image.dart';
 import '../../../widget/home_widget/category_page.dart';
+import '../../../widget/home_widget/app_images_widget/category_svg.dart';
 
 class FavoriteSocialMedi extends StatelessWidget {
   const FavoriteSocialMedi({Key? key}) : super(key: key);

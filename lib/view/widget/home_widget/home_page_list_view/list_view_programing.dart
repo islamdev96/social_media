@@ -3,8 +3,8 @@ import 'package:get/get.dart';
 
 import '../../../../core/constant/resources/assets_manager.dart';
 import '../../navigation_widget/backgron_color_page.dart';
-import '../category_image.dart';
-import '../category_svg.dart';
+import '../app_images_widget/category_image.dart';
+import '../app_images_widget/category_svg.dart';
 
 class ListViewPrograming extends StatelessWidget {
   const ListViewPrograming({super.key});
