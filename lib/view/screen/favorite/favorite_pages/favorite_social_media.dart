@@ -32,7 +32,7 @@ class FavoriteSocialMedi extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://www.google.com',
                 title: 'Google',
-                svg: '$imagePath/soshal/google.svg',
+                svg: '$imagePathWebsitesImages/soshal/google.svg',
               ),
             ),
           ],
@@ -43,7 +43,7 @@ class FavoriteSocialMedi extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://www.youtube.com/',
                 title: 'Youtube',
-                svg: '$imagePath/soshal/youtube.svg',
+                svg: '$imagePathWebsitesImages/soshal/youtube.svg',
               ),
             ),
           ],
@@ -54,7 +54,7 @@ class FavoriteSocialMedi extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://www.facebook.com/',
                 title: 'Facebook',
-                svg: '$imagePath/soshal/facebook.svg',
+                svg: '$imagePathWebsitesImages/soshal/facebook.svg',
               ),
             ),
           ],
@@ -65,7 +65,7 @@ class FavoriteSocialMedi extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://twitter.com/',
                 title: 'Twitter',
-                svg: '$imagePath/soshal/twitter.svg',
+                svg: '$imagePathWebsitesImages/soshal/twitter.svg',
               ),
             ),
           ],
@@ -76,7 +76,7 @@ class FavoriteSocialMedi extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://www.instagram.com/',
                 title: 'Instagram',
-                svg: '$imagePath/soshal/instagram.svg',
+                svg: '$imagePathWebsitesImages/soshal/instagram.svg',
               ),
             ),
           ],
@@ -87,7 +87,7 @@ class FavoriteSocialMedi extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://www.linkedin.com/',
                 title: 'Linkedin',
-                svg: '$imagePath/soshal/linkedin.svg',
+                svg: '$imagePathWebsitesImages/soshal/linkedin.svg',
               ),
             ),
           ],
@@ -98,7 +98,7 @@ class FavoriteSocialMedi extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://www.tiktok.com/',
                 title: 'Tiktok',
-                svg: '$imagePath/soshal/tiktok.svg',
+                svg: '$imagePathWebsitesImages/soshal/tiktok.svg',
               ),
             ),
           ],
@@ -109,7 +109,7 @@ class FavoriteSocialMedi extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://zoom.us/',
                 title: 'Zoom',
-                svg: '$imagePath/soshal/zoom.svg',
+                svg: '$imagePathWebsitesImages/soshal/zoom.svg',
               ),
             ),
           ],
@@ -118,7 +118,7 @@ class FavoriteSocialMedi extends StatelessWidget {
           categoryFavoriteSvg: const CategorySvg(
             launchurl: 'https://www.snapchat.com/',
             title: 'Snapchat',
-            svg: '$imagePath/soshal/snapchat.svg',
+            svg: '$imagePathWebsitesImages/soshal/snapchat.svg',
           ),
         ),
         Column(
@@ -127,7 +127,7 @@ class FavoriteSocialMedi extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://web.whatsapp.com/',
                 title: 'ًWhatsapp',
-                svg: '$imagePath/soshal/whatsapp.svg',
+                svg: '$imagePathWebsitesImages/soshal/whatsapp.svg',
               ),
             ),
           ],
@@ -138,7 +138,7 @@ class FavoriteSocialMedi extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://podcastluisteren.nl/',
                 title: 'Podcast',
-                image: '$imagePath/soshal/podcast.png',
+                image: '$imagePathWebsitesImages/soshal/podcast.png',
               ),
             ),
           ],
@@ -149,7 +149,7 @@ class FavoriteSocialMedi extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://web.telegram.org/',
                 title: 'Telegram',
-                svg: '$imagePath/soshal/telegram.svg',
+                svg: '$imagePathWebsitesImages/soshal/telegram.svg',
               ),
             ),
           ],

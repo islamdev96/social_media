@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../core/constant/resources/color_manager.dart';
+import '../../../resources/color_manager.dart';
 
 class CustomButtonLang extends StatelessWidget {
   final String textbutton;

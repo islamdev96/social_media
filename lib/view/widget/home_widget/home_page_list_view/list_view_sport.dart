@@ -26,17 +26,17 @@ class ListViewSport extends StatelessWidget {
                     CategoryImage(
                       launchurl: 'https://www.beinsports.com/ar/',
                       title: 'beinsSports'.tr,
-                      image: '$imagePath/sport/beinsports.png',
+                      image: '$imagePathWebsitesImages/sport/beinsports.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.yallakora.com/',
                       title: 'yallakora'.tr,
-                      image: '$imagePath/sport/yallakora.jpg',
+                      image: '$imagePathWebsitesImages/sport/yallakora.jpg',
                     ),
                     CategoryImage(
                       launchurl: 'https://arkooora.live-kooora-tv.com/',
                       title: 'koraLive'.tr,
-                      image: '$imagePath/sport/arkoooralive.jpg',
+                      image: '$imagePathWebsitesImages/sport/arkoooralive.jpg',
                     ),
                   ]),
             ),
@@ -48,17 +48,17 @@ class ListViewSport extends StatelessWidget {
                     CategoryImage(
                       launchurl: 'https://egylive.online/',
                       title: 'egyLive'.tr,
-                      image: '$imagePath/sport/egylive.png',
+                      image: '$imagePathWebsitesImages/sport/egylive.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://m.livehd7.cc/m3/',
                       title: 'livehd7'.tr,
-                      image: '$imagePath/sport/livehd7.png',
+                      image: '$imagePathWebsitesImages/sport/livehd7.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://arabic.sport360.com/',
                       title: 'sport360'.tr,
-                      image: '$imagePath/sport/sport360.jpg',
+                      image: '$imagePathWebsitesImages/sport/sport360.jpg',
                     ),
                   ]),
             ),
@@ -70,17 +70,18 @@ class ListViewSport extends StatelessWidget {
                     CategoryImage(
                       launchurl: 'https://sports.koooragoal.com/',
                       title: 'koraGoal'.tr,
-                      image: '$imagePath/sport/koooragoal.png',
+                      image: '$imagePathWebsitesImages/sport/koooragoal.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.yalla-shoots.com/',
                       title: 'yallaShoot'.tr,
-                      image: '$imagePath/sport/yalla-shoots.png',
+                      image: '$imagePathWebsitesImages/sport/yalla-shoots.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://on.koooora-online.com/',
                       title: 'koraonline'.tr,
-                      image: '$imagePath/sport/koooora-online.jpg',
+                      image:
+                          '$imagePathWebsitesImages/sport/koooora-online.jpg',
                     ),
                   ]),
             ),
@@ -92,17 +93,17 @@ class ListViewSport extends StatelessWidget {
                     CategoryImage(
                       launchurl: 'https://www.filgoal.com/',
                       title: 'filgoal'.tr,
-                      image: '$imagePath/sport/filgoal.jpg',
+                      image: '$imagePathWebsitesImages/sport/filgoal.jpg',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.kooora.com/',
                       title: 'kooora'.tr,
-                      image: '$imagePath/sport/kooora.jpg',
+                      image: '$imagePathWebsitesImages/sport/kooora.jpg',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.goal.com/ar',
                       title: 'goal'.tr,
-                      image: '$imagePath/sport/goal.jpg',
+                      image: '$imagePathWebsitesImages/sport/goal.jpg',
                     ),
                   ]),
             ),

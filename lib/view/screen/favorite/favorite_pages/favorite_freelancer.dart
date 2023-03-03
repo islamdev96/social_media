@@ -33,7 +33,7 @@ class FavoriteFreelancer extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://www.linkedin.com/services/',
                 title: 'Linkservices',
-                svg: '$imagePath/freelancer/linkedin.svg',
+                svg: '$imagePathWebsitesImages/freelancer/linkedin.svg',
               ),
             ),
           ],
@@ -44,7 +44,7 @@ class FavoriteFreelancer extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://www.freelancer.com/',
                 title: 'Freelancer',
-                svg: '$imagePath/freelancer/freelancer1.svg',
+                svg: '$imagePathWebsitesImages/freelancer/freelancer1.svg',
               ),
             ),
           ],
@@ -55,7 +55,7 @@ class FavoriteFreelancer extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://speedlancer.com/',
                 title: 'Speedlancer',
-                svg: '$imagePath/freelancer/speedlancer.svg',
+                svg: '$imagePathWebsitesImages/freelancer/speedlancer.svg',
               ),
             ),
           ],
@@ -66,7 +66,7 @@ class FavoriteFreelancer extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://angel.co/',
                 title: 'Angel',
-                svg: '$imagePath/freelancer/angel.svg',
+                svg: '$imagePathWebsitesImages/freelancer/angel.svg',
               ),
             ),
           ],
@@ -77,7 +77,7 @@ class FavoriteFreelancer extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://weworkremotely.com/',
                 title: 'weworkremot',
-                svg: '$imagePath/freelancer/weworkremotely.svg',
+                svg: '$imagePathWebsitesImages/freelancer/weworkremotely.svg',
               ),
             ),
           ],
@@ -88,7 +88,7 @@ class FavoriteFreelancer extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://jo.mostaql.com/',
                 title: 'Mostaql',
-                svg: '$imagePath/freelancer/mostaql.svg',
+                svg: '$imagePathWebsitesImages/freelancer/mostaql.svg',
               ),
             ),
           ],
@@ -99,7 +99,7 @@ class FavoriteFreelancer extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://souqfann.com/',
                 title: 'Souqfann',
-                image: '$imagePath/freelancer/souqfann.jpeg',
+                image: '$imagePathWebsitesImages/freelancer/souqfann.jpeg',
               ),
             ),
           ],
@@ -110,7 +110,7 @@ class FavoriteFreelancer extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.upwork.com/nx/find-work/',
                 title: 'Upwork',
-                image: '$imagePath/freelancer/upwork.png',
+                image: '$imagePathWebsitesImages/freelancer/upwork.png',
               ),
             ),
           ],
@@ -121,7 +121,7 @@ class FavoriteFreelancer extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://kafiil.com/',
                 title: 'Kafiil',
-                image: '$imagePath/freelancer/kafiil.png',
+                image: '$imagePathWebsitesImages/freelancer/kafiil.png',
               ),
             ),
           ],
@@ -132,7 +132,7 @@ class FavoriteFreelancer extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.guru.com/',
                 title: 'Guru',
-                image: '$imagePath/freelancer/guru.jpg',
+                image: '$imagePathWebsitesImages/freelancer/guru.jpg',
               ),
             ),
           ],
@@ -143,7 +143,8 @@ class FavoriteFreelancer extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.smashingmagazine.com/jobs/',
                 title: 'smashingma',
-                image: '$imagePath/freelancer/smashingmagazine.png',
+                image:
+                    '$imagePathWebsitesImages/freelancer/smashingmagazine.png',
               ),
             ),
           ],
@@ -154,7 +155,7 @@ class FavoriteFreelancer extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.simplyhired.com/',
                 title: 'Simplyhired',
-                image: '$imagePath/freelancer/simplyhired.png',
+                image: '$imagePathWebsitesImages/freelancer/simplyhired.png',
               ),
             ),
           ],
@@ -165,7 +166,7 @@ class FavoriteFreelancer extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.toptal.com/',
                 title: 'Toptal',
-                image: '$imagePath/freelancer/toptal.png',
+                image: '$imagePathWebsitesImages/freelancer/toptal.png',
               ),
             ),
           ],
@@ -176,7 +177,7 @@ class FavoriteFreelancer extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://khamsat.com/',
                 title: 'Khamsat',
-                image: '$imagePath/freelancer/khamsat.jpg',
+                image: '$imagePathWebsitesImages/freelancer/khamsat.jpg',
               ),
             ),
           ],
@@ -187,7 +188,7 @@ class FavoriteFreelancer extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://ureed.com/',
                 title: 'Ureed',
-                image: '$imagePath/freelancer/ureed.png',
+                image: '$imagePathWebsitesImages/freelancer/ureed.png',
               ),
             ),
           ],
@@ -198,7 +199,7 @@ class FavoriteFreelancer extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.tasmeemme.com/',
                 title: 'Tasmeemme',
-                image: '$imagePath/freelancer/tasmeemme.png',
+                image: '$imagePathWebsitesImages/freelancer/tasmeemme.png',
               ),
             ),
           ],

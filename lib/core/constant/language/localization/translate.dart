@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 
-import 'arabic_translation.dart';
-import 'english_translation.dart';
+import 'widget/arabic_translation.dart';
+import 'widget/english_translation.dart';
 
 class MyTranslation extends Translations {
   @override

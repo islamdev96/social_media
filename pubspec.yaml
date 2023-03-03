@@ -40,16 +40,16 @@ dev_dependencies:
 flutter_icons:
   android: true
   ios: true
-  images_path: "assets/images/app-icon.png"
+  images_path: 'appIconPath'
   min_sdk_android: 21 # android min sdk min:16, default 21
   web:
     generate: true
-    images_path: "assets/images/app-icon.png"
+    images_path: 'appIconPath'
     background_color: "#hexcode"
     theme_color: "#hexcode"
   windows:
     generate: true
-    images_path: "assets/images/app-icon.png"
+    images_path: 'appIconPath'
     icon_size: 48 # min:48, max:256, default: 48flutter:
 
 flutter:
@@ -58,12 +58,14 @@ flutter:
 
   assets:
     - assets/images/
-    - assets/images/programing/
-    - assets/images/soshal/
-    - assets/images/news/
-    - assets/images/sport/
-    - assets/images/islami/
-    - assets/images/freelancer/
+    - assets/json/
+    - assets/images/websites_images/
+    - assets/images/websites_images/programing/
+    - assets/images/websites_images/soshal/
+    - assets/images/websites_images/news/
+    - assets/images/websites_images/sport/
+    - assets/images/websites_images/islami/
+    - assets/images/websites_images/freelancer/
 
 
   fonts:

@@ -32,7 +32,7 @@ class FavoritePrograming extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://flutter.dev/',
                 title: 'Flutter',
-                svg: '$imagePath/programing/flutter.svg',
+                svg: '$imagePathWebsitesImages/programing/flutter.svg',
               ),
             ),
           ],
@@ -43,7 +43,7 @@ class FavoritePrograming extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://dart.dev/',
                 title: 'Dart',
-                svg: '$imagePath/programing/dart.svg',
+                svg: '$imagePathWebsitesImages/programing/dart.svg',
               ),
             ),
           ],
@@ -54,7 +54,7 @@ class FavoritePrograming extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://github.com/',
                 title: 'Github',
-                svg: '$imagePath/programing/github.svg',
+                svg: '$imagePathWebsitesImages/programing/github.svg',
               ),
             ),
           ],
@@ -65,7 +65,7 @@ class FavoritePrograming extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://stackoverflow.com/',
                 title: 'Stackoverflow',
-                svg: '$imagePath/programing/stackoverflow.svg',
+                svg: '$imagePathWebsitesImages/programing/stackoverflow.svg',
               ),
             ),
           ],
@@ -76,7 +76,7 @@ class FavoritePrograming extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://medium.com/',
                 title: 'Medium',
-                svg: '$imagePath/programing/medium.svg',
+                svg: '$imagePathWebsitesImages/programing/medium.svg',
               ),
             ),
           ],
@@ -87,7 +87,7 @@ class FavoritePrograming extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://translate.google.com.eg/?hl=ar',
                 title: 'Translate',
-                svg: '$imagePath/programing/translate.svg',
+                svg: '$imagePathWebsitesImages/programing/translate.svg',
               ),
             ),
           ],
@@ -98,7 +98,7 @@ class FavoritePrograming extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://www.hackerrank.com/',
                 title: 'Hackerrank',
-                svg: '$imagePath/programing/hackerrank.svg',
+                svg: '$imagePathWebsitesImages/programing/hackerrank.svg',
               ),
             ),
           ],
@@ -109,7 +109,7 @@ class FavoritePrograming extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://www.behance.net/',
                 title: 'Behance',
-                svg: '$imagePath/programing/behance.svg',
+                svg: '$imagePathWebsitesImages/programing/behance.svg',
               ),
             ),
           ],
@@ -118,7 +118,7 @@ class FavoritePrograming extends StatelessWidget {
           categoryFavoriteSvg: const CategorySvg(
             launchurl: 'https://wordpress.com/',
             title: 'Wordpress',
-            svg: '$imagePath/programing/wordpress.svg',
+            svg: '$imagePathWebsitesImages/programing/wordpress.svg',
           ),
         ),
         Column(
@@ -127,7 +127,7 @@ class FavoritePrograming extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://www.codewars.com/',
                 title: 'Codewars',
-                svg: '$imagePath/programing/codewars.svg',
+                svg: '$imagePathWebsitesImages/programing/codewars.svg',
               ),
             ),
           ],
@@ -138,7 +138,7 @@ class FavoritePrograming extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://www.bitdegree.org/',
                 title: 'Bitdegree',
-                svg: '$imagePath/programing/bitdegree.svg',
+                svg: '$imagePathWebsitesImages/programing/bitdegree.svg',
               ),
             ),
           ],
@@ -149,7 +149,7 @@ class FavoritePrograming extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://www.codecademy.com/',
                 title: 'Codecademy',
-                svg: '$imagePath/programing/codecademy.svg',
+                svg: '$imagePathWebsitesImages/programing/codecademy.svg',
               ),
             ),
           ],
@@ -160,7 +160,7 @@ class FavoritePrograming extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.codeavengers.com/',
                 title: 'Codeavengers',
-                image: '$imagePath/programing/codeavengers.png',
+                image: '$imagePathWebsitesImages/programing/codeavengers.png',
               ),
             ),
           ],
@@ -171,7 +171,7 @@ class FavoritePrograming extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.codeproject.com/',
                 title: 'Codeproject',
-                image: '$imagePath/programing/codeproject.png',
+                image: '$imagePathWebsitesImages/programing/codeproject.png',
               ),
             ),
           ],
@@ -182,7 +182,7 @@ class FavoritePrograming extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://codeanywhere.com/',
                 title: 'Codeanywhere',
-                image: '$imagePath/programing/codeanywhere.png',
+                image: '$imagePathWebsitesImages/programing/codeanywhere.png',
               ),
             ),
           ],
@@ -193,7 +193,7 @@ class FavoritePrograming extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://www.khanacademy.org/',
                 title: 'Khanacademy',
-                svg: '$imagePath/programing/khanacademy.svg',
+                svg: '$imagePathWebsitesImages/programing/khanacademy.svg',
               ),
             ),
           ],
@@ -204,7 +204,7 @@ class FavoritePrograming extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://flutter.github.io/samples/',
                 title: 'FlutterSample',
-                image: '$imagePath/programing/samples.png',
+                image: '$imagePathWebsitesImages/programing/samples.png',
               ),
             ),
           ],
@@ -215,7 +215,7 @@ class FavoritePrograming extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.w3schools.com/',
                 title: 'W3schools',
-                image: '$imagePath/programing/w3schools.png',
+                image: '$imagePathWebsitesImages/programing/w3schools.png',
               ),
             ),
           ],
@@ -226,7 +226,7 @@ class FavoritePrograming extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.codota.com/',
                 title: 'Codota',
-                image: '$imagePath/programing/codota.png',
+                image: '$imagePathWebsitesImages/programing/codota.png',
               ),
             ),
           ],

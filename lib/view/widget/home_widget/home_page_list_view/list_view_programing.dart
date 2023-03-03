@@ -27,17 +27,17 @@ class ListViewPrograming extends StatelessWidget {
                     CategorySvg(
                       launchurl: 'https://flutter.dev/',
                       title: 'flutter'.tr,
-                      svg: '$imagePath/programing/flutter.svg',
+                      svg: '$imagePathWebsitesImages/programing/flutter.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://dart.dev/',
                       title: 'dart'.tr,
-                      svg: '$imagePath/programing/dart.svg',
+                      svg: '$imagePathWebsitesImages/programing/dart.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://github.com/',
                       title: 'github'.tr,
-                      svg: '$imagePath/programing/github.svg',
+                      svg: '$imagePathWebsitesImages/programing/github.svg',
                     ),
                   ]),
             ),
@@ -49,17 +49,18 @@ class ListViewPrograming extends StatelessWidget {
                     CategorySvg(
                       launchurl: 'https://stackoverflow.com/',
                       title: 'stackoverflow'.tr,
-                      svg: '$imagePath/programing/stackoverflow.svg',
+                      svg:
+                          '$imagePathWebsitesImages/programing/stackoverflow.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://medium.com/',
                       title: 'medium'.tr,
-                      svg: '$imagePath/programing/medium.svg',
+                      svg: '$imagePathWebsitesImages/programing/medium.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://translate.google.com.eg/?hl=ar',
                       title: 'translate'.tr,
-                      svg: '$imagePath/programing/translate.svg',
+                      svg: '$imagePathWebsitesImages/programing/translate.svg',
                     ),
                   ]),
             ),
@@ -71,17 +72,17 @@ class ListViewPrograming extends StatelessWidget {
                     CategorySvg(
                       launchurl: 'https://www.hackerrank.com/',
                       title: 'hackerrank'.tr,
-                      svg: '$imagePath/programing/hackerrank.svg',
+                      svg: '$imagePathWebsitesImages/programing/hackerrank.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://www.behance.net/',
                       title: 'behance'.tr,
-                      svg: '$imagePath/programing/behance.svg',
+                      svg: '$imagePathWebsitesImages/programing/behance.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://wordpress.com/',
                       title: 'wordpress'.tr,
-                      svg: '$imagePath/programing/wordpress.svg',
+                      svg: '$imagePathWebsitesImages/programing/wordpress.svg',
                     ),
                   ]),
             ),
@@ -93,17 +94,17 @@ class ListViewPrograming extends StatelessWidget {
                     CategorySvg(
                       launchurl: 'https://www.codewars.com/',
                       title: 'codewars'.tr,
-                      svg: '$imagePath/programing/codewars.svg',
+                      svg: '$imagePathWebsitesImages/programing/codewars.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://www.bitdegree.org/',
                       title: 'bitdegree'.tr,
-                      svg: '$imagePath/programing/bitdegree.svg',
+                      svg: '$imagePathWebsitesImages/programing/bitdegree.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://www.codecademy.com/',
                       title: 'codecademy'.tr,
-                      svg: '$imagePath/programing/codecademy.svg',
+                      svg: '$imagePathWebsitesImages/programing/codecademy.svg',
                     ),
                   ]),
             ),
@@ -115,17 +116,20 @@ class ListViewPrograming extends StatelessWidget {
                     CategoryImage(
                       launchurl: 'https://www.codeavengers.com/',
                       title: 'codeavengers'.tr,
-                      image: '$imagePath/programing/codeavengers.png',
+                      image:
+                          '$imagePathWebsitesImages/programing/codeavengers.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.codeproject.com/',
                       title: 'codeproject'.tr,
-                      image: '$imagePath/programing/codeproject.png',
+                      image:
+                          '$imagePathWebsitesImages/programing/codeproject.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://codeanywhere.com/',
                       title: 'codeanywhere'.tr,
-                      image: '$imagePath/programing/codeanywhere.png',
+                      image:
+                          '$imagePathWebsitesImages/programing/codeanywhere.png',
                     ),
                   ]),
             ),
@@ -137,17 +141,18 @@ class ListViewPrograming extends StatelessWidget {
                     CategorySvg(
                       launchurl: 'https://www.khanacademy.org/',
                       title: 'khanacademy'.tr,
-                      svg: '$imagePath/programing/khanacademy.svg',
+                      svg:
+                          '$imagePathWebsitesImages/programing/khanacademy.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://codepen.io/',
                       title: 'codepen'.tr,
-                      svg: '$imagePath/programing/codepen.svg',
+                      svg: '$imagePathWebsitesImages/programing/codepen.svg',
                     ),
                     CategoryImage(
                       launchurl: 'https://flutter.github.io/samples/',
                       title: 'flutterSample'.tr,
-                      image: '$imagePath/programing/samples.png',
+                      image: '$imagePathWebsitesImages/programing/samples.png',
                     ),
                   ]),
             ),
@@ -159,12 +164,13 @@ class ListViewPrograming extends StatelessWidget {
                     CategoryImage(
                       launchurl: 'https://www.w3schools.com/',
                       title: 'w3schools'.tr,
-                      image: '$imagePath/programing/w3schools.png',
+                      image:
+                          '$imagePathWebsitesImages/programing/w3schools.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.codota.com/',
                       title: 'codota'.tr,
-                      image: '$imagePath/programing/codota.png',
+                      image: '$imagePathWebsitesImages/programing/codota.png',
                     ),
                   ]),
             ),

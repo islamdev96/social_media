@@ -7,7 +7,7 @@ import 'package:social_media/view/screen/favorite/search.dart';
 import 'package:social_media/view/screen/home/social_media_page.dart';
 
 import '../../../view/screen/home/home_page.dart';
-import '../../../view/screen/language/language.dart';
+import '../language/view/screen/language.dart';
 
 List<GetPage<dynamic>> appRoutes = [
   GetPage(

@@ -5,8 +5,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:social_media/core/constant/resources/app_routes.dart';
 
-import 'core/constant/localizetion/changelocal.dart';
-import 'core/constant/localizetion/translate.dart';
+import 'core/constant/language/localization/changelocal.dart';
+import 'core/constant/language/localization/translate.dart';
 import 'core/services/services.dart';
 
 void main() async {

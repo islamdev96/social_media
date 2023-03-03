@@ -1,4 +1,4 @@
-import 'package:social_media/core/constant/localizetion/translate.dart';
+import 'package:social_media/core/constant/language/localization/translate.dart';
 
 class ArabicTranslation extends MyTranslation {
   @override
@@ -7,6 +7,8 @@ class ArabicTranslation extends MyTranslation {
           //---------------------------home-----------------------------------------
 
           "chooseLanguage": "اختر اللغة",
+          "arbic": "العربية",
+          "english": "الانجليزية",
           "listOfServices": "قائمة الخدمات",
           "googlePlay": "جوجل بلاي",
           "socialMedia": "وسائل التواصل الاجتماعي",

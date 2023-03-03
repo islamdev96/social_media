@@ -32,7 +32,7 @@ class FavoriteIslamic extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://midad.com/',
                 title: 'Midad',
-                image: '$imagePath/islami/midad.png',
+                image: '$imagePathWebsitesImages/islami/midad.png',
               ),
             ),
           ],
@@ -43,7 +43,7 @@ class FavoriteIslamic extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://islamqa.info/ar',
                 title: 'IslamQA',
-                svg: '$imagePath/islami/islamqa.svg',
+                svg: '$imagePathWebsitesImages/islami/islamqa.svg',
               ),
             ),
           ],
@@ -54,7 +54,7 @@ class FavoriteIslamic extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.dorar.net/',
                 title: 'Aldorar',
-                image: '$imagePath/islami/dorar.png',
+                image: '$imagePathWebsitesImages/islami/dorar.png',
               ),
             ),
           ],
@@ -65,7 +65,7 @@ class FavoriteIslamic extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://ar.islamway.net/',
                 title: 'IslamWay',
-                image: '$imagePath/islami/islamway.png',
+                image: '$imagePathWebsitesImages/islami/islamway.png',
               ),
             ),
           ],
@@ -76,7 +76,7 @@ class FavoriteIslamic extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.islamstory.com/',
                 title: 'IslamStory',
-                image: '$imagePath/islami/islamstory.jpg',
+                image: '$imagePathWebsitesImages/islami/islamstory.jpg',
               ),
             ),
           ],
@@ -87,7 +87,7 @@ class FavoriteIslamic extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.alukah.net/',
                 title: 'Alalukah',
-                image: '$imagePath/islami/alukah.png',
+                image: '$imagePathWebsitesImages/islami/alukah.png',
               ),
             ),
           ],
@@ -98,7 +98,7 @@ class FavoriteIslamic extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'http://saaid.net/',
                 title: 'Saaid',
-                image: '$imagePath/islami/saaid.jpg',
+                image: '$imagePathWebsitesImages/islami/saaid.jpg',
               ),
             ),
           ],
@@ -109,7 +109,7 @@ class FavoriteIslamic extends StatelessWidget {
               categoryFavoriteSvg: const CategorySvg(
                 launchurl: 'https://islamonline.net/',
                 title: 'IslamOnLine',
-                svg: '$imagePath/islami/islamonline.svg',
+                svg: '$imagePathWebsitesImages/islami/islamonline.svg',
               ),
             ),
           ],
@@ -120,7 +120,7 @@ class FavoriteIslamic extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.islamtoday.net/',
                 title: 'IslamToday',
-                image: '$imagePath/islami/islamtoday.png',
+                image: '$imagePathWebsitesImages/islami/islamtoday.png',
               ),
             ),
           ],
@@ -131,7 +131,7 @@ class FavoriteIslamic extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://almunajjid.com/',
                 title: 'Almunajjid',
-                image: '$imagePath/islami/almunajjid.jpg',
+                image: '$imagePathWebsitesImages/islami/almunajjid.jpg',
               ),
             ),
           ],
@@ -142,7 +142,7 @@ class FavoriteIslamic extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://binbaz.org.sa/',
                 title: 'Binbaz',
-                image: '$imagePath/islami/binbaz.png',
+                image: '$imagePathWebsitesImages/islami/binbaz.png',
               ),
             ),
           ],
@@ -153,7 +153,7 @@ class FavoriteIslamic extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.mp3quran.net/ar',
                 title: 'mp3Quran',
-                image: '$imagePath/islami/mp3quran.png',
+                image: '$imagePathWebsitesImages/islami/mp3quran.png',
               ),
             ),
           ],
@@ -164,7 +164,7 @@ class FavoriteIslamic extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://al-maktaba.org/',
                 title: 'Al-maktaba',
-                image: '$imagePath/islami/al-maktaba.jpg',
+                image: '$imagePathWebsitesImages/islami/al-maktaba.jpg',
               ),
             ),
           ],
@@ -175,7 +175,7 @@ class FavoriteIslamic extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://binothaimeen.net/',
                 title: 'Binothaimeen',
-                image: '$imagePath/islami/binothaimeen.jpg',
+                image: '$imagePathWebsitesImages/islami/binothaimeen.jpg',
               ),
             ),
           ],
@@ -186,7 +186,7 @@ class FavoriteIslamic extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://quran.ksu.edu.sa/',
                 title: 'Quran.Ksu',
-                image: '$imagePath/islami/quran.png',
+                image: '$imagePathWebsitesImages/islami/quran.png',
               ),
             ),
           ],
@@ -197,7 +197,7 @@ class FavoriteIslamic extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'http://hdith.com/',
                 title: 'Hdith',
-                image: '$imagePath/islami/hdith.jpg',
+                image: '$imagePathWebsitesImages/islami/hdith.jpg',
               ),
             ),
           ],
@@ -208,7 +208,7 @@ class FavoriteIslamic extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.zad-academy.com/',
                 title: 'Zad-academy',
-                image: '$imagePath/islami/zad-academy.png',
+                image: '$imagePathWebsitesImages/islami/zad-academy.png',
               ),
             ),
           ],
@@ -219,7 +219,7 @@ class FavoriteIslamic extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://zadi.net/',
                 title: 'Zadi',
-                image: '$imagePath/islami/zadi.png',
+                image: '$imagePathWebsitesImages/islami/zadi.png',
               ),
             ),
           ],
@@ -230,7 +230,7 @@ class FavoriteIslamic extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.alfawzan.af.org.sa/ar',
                 title: 'Alfawzan',
-                image: '$imagePath/islami/alfawzan.png',
+                image: '$imagePathWebsitesImages/islami/alfawzan.png',
               ),
             ),
           ],
@@ -241,7 +241,7 @@ class FavoriteIslamic extends StatelessWidget {
               categoryFavoriteImage: const CategoryImage(
                 launchurl: 'https://www.islam-call.com/',
                 title: 'Islam-call',
-                image: '$imagePath/islami/islam-call.png',
+                image: '$imagePathWebsitesImages/islami/islam-call.png',
               ),
             ),
           ],

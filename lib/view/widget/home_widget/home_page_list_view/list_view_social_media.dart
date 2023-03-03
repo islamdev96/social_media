@@ -27,17 +27,17 @@ class ListViewSocialMedia extends StatelessWidget {
                     CategorySvg(
                       launchurl: 'https://www.google.com',
                       title: 'google'.tr,
-                      svg: '$imagePath/soshal/google.svg',
+                      svg: '$imagePathWebsitesImages/soshal/google.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://www.youtube.com/',
                       title: 'youtube'.tr,
-                      svg: '$imagePath/soshal/youtube.svg',
+                      svg: '$imagePathWebsitesImages/soshal/youtube.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://www.facebook.com/',
                       title: 'facebook'.tr,
-                      svg: '$imagePath/soshal/facebook.svg',
+                      svg: '$imagePathWebsitesImages/soshal/facebook.svg',
                     ),
                   ]),
             ),
@@ -49,17 +49,17 @@ class ListViewSocialMedia extends StatelessWidget {
                     CategorySvg(
                       launchurl: 'https://twitter.com/',
                       title: 'twitter'.tr,
-                      svg: '$imagePath/soshal/twitter.svg',
+                      svg: '$imagePathWebsitesImages/soshal/twitter.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://www.instagram.com/',
                       title: 'instagram'.tr,
-                      svg: '$imagePath/soshal/instagram.svg',
+                      svg: '$imagePathWebsitesImages/soshal/instagram.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://www.linkedin.com/',
                       title: 'linkedin'.tr,
-                      svg: '$imagePath/soshal/linkedin.svg',
+                      svg: '$imagePathWebsitesImages/soshal/linkedin.svg',
                     ),
                   ]),
             ),
@@ -71,17 +71,17 @@ class ListViewSocialMedia extends StatelessWidget {
                     CategorySvg(
                       launchurl: 'https://www.tiktok.com/',
                       title: 'tiktok'.tr,
-                      svg: '$imagePath/soshal/tiktok.svg',
+                      svg: '$imagePathWebsitesImages/soshal/tiktok.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://zoom.us/',
                       title: 'zoom'.tr,
-                      svg: '$imagePath/soshal/zoom.svg',
+                      svg: '$imagePathWebsitesImages/soshal/zoom.svg',
                     ),
                     CategorySvg(
                       launchurl: 'https://www.snapchat.com/',
                       title: 'snapchat'.tr,
-                      svg: '$imagePath/soshal/snapchat.svg',
+                      svg: '$imagePathWebsitesImages/soshal/snapchat.svg',
                     ),
                   ]),
             ),
@@ -93,17 +93,17 @@ class ListViewSocialMedia extends StatelessWidget {
                   CategorySvg(
                     launchurl: 'https://web.whatsapp.com/',
                     title: 'whatsapp'.tr,
-                    svg: '$imagePath/soshal/whatsapp.svg',
+                    svg: '$imagePathWebsitesImages/soshal/whatsapp.svg',
                   ),
                   CategoryImage(
                     launchurl: 'https://podcastluisteren.nl/',
                     title: 'podcast'.tr,
-                    image: '$imagePath/soshal/podcast.png',
+                    image: '$imagePathWebsitesImages/soshal/podcast.png',
                   ),
                   CategorySvg(
                     launchurl: 'https://web.telegram.org/',
                     title: 'telegram'.tr,
-                    svg: '$imagePath/soshal/telegram.svg',
+                    svg: '$imagePathWebsitesImages/soshal/telegram.svg',
                   ),
                 ],
               ),
