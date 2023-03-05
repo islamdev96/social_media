@@ -92,6 +92,28 @@ class EnglishTranslation extends MyTranslation {
           "codota": "Codota",
 
           //---------------------------islamic-----------------------------------------
+          "midad": "Midad",
+          "islamQA": "IslamQA",
+          "aldorar": "Aldorar",
+          "islamWay": "IslamWay",
+          "islamStory": "IslamStory",
+          "alalukah": "Alalukah",
+          "saaid": "Saaid",
+          "islamWeb": "IslamWeb",
+          "islamOnLine": "IslamOnLine",
+          "islamToday": "IslamToday",
+          "almunajjid": "Almunajjid",
+          "binbaz": "Binbaz",
+          "mp3Quran": "mp3Quran",
+          "al-maktaba": "Al-maktaba",
+          "binothaimeen": "Binothaimeen",
+          "quran.Ksu": "Quran.Ksu",
+          "hdith": "Hdith",
+          "zad-academy": "Zad-academy",
+          "zadi": "Zadi",
+          "alfawzan": "Alfawzan",
+          "islam-call": "Islam-call",
+
           //---------------------------freelancer-----------------------------------------
         }
       };

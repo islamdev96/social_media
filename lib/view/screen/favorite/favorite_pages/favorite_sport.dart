@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../widget/favorite_widget/card_favorite_image.dart';
 import '../../../../core/constant/resources/assets_manager.dart';
+import '../../../widget/favorite_widget/card_favorite_image.dart';
 import '../../../../main.dart';
 import '../../../widget/home_widget/app_images_widget/category_image.dart';
 import '../../../widget/home_widget/category_page.dart';
@@ -27,9 +27,9 @@ class FavoriteSport extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryImage(
+              categoryFavoriteImage: CategoryImage(
                 launchurl: 'https://www.beinsports.com/ar/',
-                title: 'beins Sports',
+                title: 'beinsSports'.tr,
                 image: '$imagePathWebsitesImages/sport/beinsports.png',
               ),
             ),
@@ -38,9 +38,9 @@ class FavoriteSport extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryImage(
+              categoryFavoriteImage: CategoryImage(
                 launchurl: 'https://www.yallakora.com/',
-                title: 'Yallakora',
+                title: 'yallakora'.tr,
                 image: '$imagePathWebsitesImages/sport/yallakora.jpg',
               ),
             ),
@@ -49,9 +49,9 @@ class FavoriteSport extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryImage(
+              categoryFavoriteImage: CategoryImage(
                 launchurl: 'https://arkooora.live-kooora-tv.com/',
-                title: 'Kora Live',
+                title: 'koraLive'.tr,
                 image: '$imagePathWebsitesImages/sport/arkoooralive.jpg',
               ),
             ),
@@ -60,9 +60,9 @@ class FavoriteSport extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryImage(
+              categoryFavoriteImage: CategoryImage(
                 launchurl: 'https://egylive.online/',
-                title: 'EgyLive',
+                title: 'egyLive'.tr,
                 image: '$imagePathWebsitesImages/sport/egylive.png',
               ),
             ),
@@ -71,9 +71,9 @@ class FavoriteSport extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryImage(
+              categoryFavoriteImage: CategoryImage(
                 launchurl: 'https://m.livehd7.cc/m3/',
-                title: 'livehd7',
+                title: 'livehd7'.tr,
                 image: '$imagePathWebsitesImages/sport/livehd7.png',
               ),
             ),
@@ -82,9 +82,9 @@ class FavoriteSport extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryImage(
+              categoryFavoriteImage: CategoryImage(
                 launchurl: 'https://arabic.sport360.com/',
-                title: 'Sport360',
+                title: 'sport360'.tr,
                 image: '$imagePathWebsitesImages/sport/sport360.jpg',
               ),
             ),
@@ -93,9 +93,9 @@ class FavoriteSport extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryImage(
+              categoryFavoriteImage: CategoryImage(
                 launchurl: 'https://sports.koooragoal.com/',
-                title: 'KoraGoal',
+                title: 'koraGoal'.tr,
                 image: '$imagePathWebsitesImages/sport/koooragoal.png',
               ),
             ),
@@ -104,9 +104,9 @@ class FavoriteSport extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryImage(
+              categoryFavoriteImage: CategoryImage(
                 launchurl: 'https://www.yalla-shoots.com/',
-                title: 'yalla_Shoot',
+                title: 'yallaShoot'.tr,
                 image: '$imagePathWebsitesImages/sport/yalla-shoots.png',
               ),
             ),
@@ -115,9 +115,9 @@ class FavoriteSport extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryImage(
+              categoryFavoriteImage: CategoryImage(
                 launchurl: 'https://on.koooora-online.com/',
-                title: 'Kora_online',
+                title: 'koraonline'.tr,
                 image: '$imagePathWebsitesImages/sport/koooora-online.jpg',
               ),
             ),
@@ -126,9 +126,9 @@ class FavoriteSport extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryImage(
+              categoryFavoriteImage: CategoryImage(
                 launchurl: 'https://www.filgoal.com/',
-                title: 'Filgoal',
+                title: 'filgoal'.tr,
                 image: '$imagePathWebsitesImages/sport/filgoal.jpg',
               ),
             ),
@@ -137,9 +137,9 @@ class FavoriteSport extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryImage(
+              categoryFavoriteImage: CategoryImage(
                 launchurl: 'https://www.kooora.com/',
-                title: 'Kooora',
+                title: 'kooora'.tr,
                 image: '$imagePathWebsitesImages/sport/kooora.jpg',
               ),
             ),
@@ -148,9 +148,9 @@ class FavoriteSport extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: const CategoryImage(
+              categoryFavoriteImage: CategoryImage(
                 launchurl: 'https://www.goal.com/ar',
-                title: 'Goal',
+                title: 'goal'.tr,
                 image: '$imagePathWebsitesImages/sport/goal.jpg',
               ),
             ),

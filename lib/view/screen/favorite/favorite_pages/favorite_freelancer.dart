@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../widget/favorite_widget/card_favorite_image.dart';
 import '../../../../core/constant/resources/assets_manager.dart';
+import '../../../widget/favorite_widget/card_favorite_image.dart';
 import '../../../../main.dart';
 import '../../../widget/favorite_widget/card_favorite_svg.dart';
 import '../../../widget/home_widget/app_images_widget/category_image.dart';
@@ -30,7 +30,7 @@ class FavoriteFreelancer extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.linkedin.com/services/',
                 title: 'Linkservices',
                 svg: '$imagePathWebsitesImages/freelancer/linkedin.svg',
@@ -41,7 +41,7 @@ class FavoriteFreelancer extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.freelancer.com/',
                 title: 'Freelancer',
                 svg: '$imagePathWebsitesImages/freelancer/freelancer1.svg',
@@ -52,7 +52,7 @@ class FavoriteFreelancer extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://speedlancer.com/',
                 title: 'Speedlancer',
                 svg: '$imagePathWebsitesImages/freelancer/speedlancer.svg',
@@ -63,7 +63,7 @@ class FavoriteFreelancer extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://angel.co/',
                 title: 'Angel',
                 svg: '$imagePathWebsitesImages/freelancer/angel.svg',
@@ -74,7 +74,7 @@ class FavoriteFreelancer extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://weworkremotely.com/',
                 title: 'weworkremot',
                 svg: '$imagePathWebsitesImages/freelancer/weworkremotely.svg',
@@ -85,7 +85,7 @@ class FavoriteFreelancer extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://jo.mostaql.com/',
                 title: 'Mostaql',
                 svg: '$imagePathWebsitesImages/freelancer/mostaql.svg',

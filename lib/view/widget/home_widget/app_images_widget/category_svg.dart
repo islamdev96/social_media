@@ -6,15 +6,17 @@ import '../../../../core/constant/resources/color_manager.dart';
 import '../../../../data/models/launch_url.dart';
 
 class CategorySvg extends StatelessWidget {
-  const CategorySvg({
+  CategorySvg({
     Key? key,
     required this.launchurl,
     required this.title,
-    required this.svg,
+    this.svg,
+    this.image,
   }) : super(key: key);
   final String launchurl;
 
-  final String svg;
+  String? svg;
+  String? image;
   final String title;
 
   @override
@@ -41,7 +43,7 @@ class CategorySvg extends StatelessWidget {
             height: 80.h,
             child: IconButton(
               icon: SvgPicture.asset(
-                svg,
+                svg ?? image ?? '',
                 height: 65.h,
                 width: 65.w,
               ),

@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
 import '../../../../core/constant/resources/assets_manager.dart';
 import '../../navigation_widget/backgron_color_page.dart';
 import '../app_images_widget/category_image.dart';
@@ -25,20 +24,20 @@ class ListViewIslamic extends StatelessWidget {
                   bottom: 16, left: 16, right: 16, top: 32),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategoryImage(
                       launchurl: 'https://midad.com/',
-                      title: 'Midad',
+                      title: 'midad'.tr,
                       image: '$imagePathWebsitesImages/islami/midad.png',
                     ),
                     CategorySvg(
                       launchurl: 'https://islamqa.info/ar',
-                      title: 'IslamQA',
+                      title: 'islamQA'.tr,
                       svg: '$imagePathWebsitesImages/islami/islamqa.svg',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.dorar.net/',
-                      title: 'Aldorar',
+                      title: 'aldorar'.tr,
                       image: '$imagePathWebsitesImages/islami/dorar.png',
                     ),
                   ]),
@@ -47,20 +46,20 @@ class ListViewIslamic extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategoryImage(
                       launchurl: 'https://ar.islamway.net/',
-                      title: 'IslamWay',
+                      title: 'islamWay'.tr,
                       image: '$imagePathWebsitesImages/islami/islamway.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.islamstory.com/',
-                      title: 'IslamStory',
+                      title: 'islamStory'.tr,
                       image: '$imagePathWebsitesImages/islami/islamstory.jpg',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.alukah.net/',
-                      title: 'Alalukah',
+                      title: 'alalukah'.tr,
                       image: '$imagePathWebsitesImages/islami/alukah.png',
                     ),
                   ]),
@@ -69,20 +68,20 @@ class ListViewIslamic extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategoryImage(
                       launchurl: 'http://saaid.net/',
-                      title: 'Saaid',
+                      title: 'saaid'.tr,
                       image: '$imagePathWebsitesImages/islami/saaid.jpg',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.islamweb.net/ar/',
-                      title: 'IslamWeb',
+                      title: 'islamWeb'.tr,
                       image: '$imagePathWebsitesImages/islami/islamweb.jpg',
                     ),
                     CategorySvg(
                       launchurl: 'https://islamonline.net/',
-                      title: 'IslamOnLine',
+                      title: 'islamOnLine'.tr,
                       svg: '$imagePathWebsitesImages/islami/islamonline.svg',
                     ),
                   ]),
@@ -91,20 +90,20 @@ class ListViewIslamic extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategoryImage(
                       launchurl: 'https://www.islamtoday.net/',
-                      title: 'IslamToday',
+                      title: 'islamToday'.tr,
                       image: '$imagePathWebsitesImages/islami/islamtoday.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://almunajjid.com/',
-                      title: 'Almunajjid',
+                      title: 'almunajjid'.tr,
                       image: '$imagePathWebsitesImages/islami/almunajjid.jpg',
                     ),
                     CategoryImage(
                       launchurl: 'https://binbaz.org.sa/',
-                      title: 'Binbaz',
+                      title: 'binbaz'.tr,
                       image: '$imagePathWebsitesImages/islami/binbaz.png',
                     ),
                   ]),
@@ -113,20 +112,20 @@ class ListViewIslamic extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategoryImage(
                       launchurl: 'https://www.mp3quran.net/ar',
-                      title: 'mp3Quran',
+                      title: 'mp3Quran'.tr,
                       image: '$imagePathWebsitesImages/islami/mp3quran.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://al-maktaba.org/',
-                      title: 'Al-maktaba',
+                      title: 'al-maktaba'.tr,
                       image: '$imagePathWebsitesImages/islami/al-maktaba.jpg',
                     ),
                     CategoryImage(
                       launchurl: 'https://binothaimeen.net/',
-                      title: 'Binothaimeen',
+                      title: 'binothaimeen'.tr,
                       image: '$imagePathWebsitesImages/islami/binothaimeen.jpg',
                     ),
                   ]),
@@ -135,20 +134,20 @@ class ListViewIslamic extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategoryImage(
                       launchurl: 'https://quran.ksu.edu.sa/',
-                      title: 'Quran.Ksu',
+                      title: 'quran.Ksu'.tr,
                       image: '$imagePathWebsitesImages/islami/quran.png',
                     ),
                     CategoryImage(
                       launchurl: 'http://hdith.com/',
-                      title: 'Hdith',
+                      title: 'hdith'.tr,
                       image: '$imagePathWebsitesImages/islami/hdith.jpg',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.zad-academy.com/',
-                      title: 'Zad-academy',
+                      title: 'zad-academy'.tr,
                       image: '$imagePathWebsitesImages/islami/zad-academy.png',
                     ),
                   ]),
@@ -157,20 +156,20 @@ class ListViewIslamic extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategoryImage(
                       launchurl: 'https://zadi.net/',
-                      title: 'Zadi',
+                      title: 'zadi'.tr,
                       image: '$imagePathWebsitesImages/islami/zadi.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.alfawzan.af.org.sa/ar',
-                      title: 'Alfawzan',
+                      title: 'alfawzan'.tr,
                       image: '$imagePathWebsitesImages/islami/alfawzan.png',
                     ),
                     CategoryImage(
                       launchurl: 'https://www.islam-call.com/',
-                      title: 'Islam-call',
+                      title: 'islam-call'.tr,
                       image: '$imagePathWebsitesImages/islami/islam-call.png',
                     ),
                   ]),

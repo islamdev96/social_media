@@ -40,7 +40,7 @@ class FavoriteIslamic extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://islamqa.info/ar',
                 title: 'IslamQA',
                 svg: '$imagePathWebsitesImages/islami/islamqa.svg',
@@ -106,7 +106,7 @@ class FavoriteIslamic extends StatelessWidget {
         Column(
           children: [
             CardFavoriteSvg(
-              categoryFavoriteSvg: const CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://islamonline.net/',
                 title: 'IslamOnLine',
                 svg: '$imagePathWebsitesImages/islami/islamonline.svg',

@@ -23,7 +23,7 @@ class ListViewFreelancer extends StatelessWidget {
                   bottom: 16, left: 16, right: 16, top: 32),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategorySvg(
                       launchurl: 'https://www.linkedin.com/services/',
                       title: 'Linkservices',
@@ -47,7 +47,7 @@ class ListViewFreelancer extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategorySvg(
                       launchurl: 'https://angel.co/',
                       title: 'Angel',
@@ -71,19 +71,19 @@ class ListViewFreelancer extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     CategorySvg(
                       launchurl: 'https://jo.mostaql.com/',
                       title: 'Mostaql',
                       svg: '$imagePathWebsitesImages/freelancer/mostaql.svg',
                     ),
-                    CategoryImage(
+                    const CategoryImage(
                       launchurl: 'https://souqfann.com/',
                       title: 'Souqfann',
                       image:
                           '$imagePathWebsitesImages/freelancer/souqfann.jpeg',
                     ),
-                    CategoryImage(
+                    const CategoryImage(
                       launchurl: 'https://www.upwork.com/nx/find-work/',
                       title: 'Upwork',
                       image: '$imagePathWebsitesImages/freelancer/upwork.png',
