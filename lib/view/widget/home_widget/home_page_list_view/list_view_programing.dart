@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 
 import '../../../../core/constant/resources/assets_manager.dart';
 import '../../navigation_widget/backgron_color_page.dart';
-import '../app_images_widget/category_image.dart';
 import '../app_images_widget/category_svg.dart';
 
 class ListViewPrograming extends StatelessWidget {
@@ -113,19 +112,19 @@ class ListViewPrograming extends StatelessWidget {
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.codeavengers.com/',
                       title: 'codeavengers'.tr,
                       image:
                           '$imagePathWebsitesImages/programing/codeavengers.png',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.codeproject.com/',
                       title: 'codeproject'.tr,
                       image:
                           '$imagePathWebsitesImages/programing/codeproject.png',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://codeanywhere.com/',
                       title: 'codeanywhere'.tr,
                       image:
@@ -149,7 +148,7 @@ class ListViewPrograming extends StatelessWidget {
                       title: 'codepen'.tr,
                       svg: '$imagePathWebsitesImages/programing/codepen.svg',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://flutter.github.io/samples/',
                       title: 'flutterSample'.tr,
                       image: '$imagePathWebsitesImages/programing/samples.png',
@@ -161,13 +160,13 @@ class ListViewPrograming extends StatelessWidget {
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.w3schools.com/',
                       title: 'w3schools'.tr,
                       image:
                           '$imagePathWebsitesImages/programing/w3schools.png',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.codota.com/',
                       title: 'codota'.tr,
                       image: '$imagePathWebsitesImages/programing/codota.png',

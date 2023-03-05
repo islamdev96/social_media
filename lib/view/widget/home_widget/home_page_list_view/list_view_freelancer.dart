@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 
 import '../../../../core/constant/resources/assets_manager.dart';
 import '../../navigation_widget/backgron_color_page.dart';
-import '../app_images_widget/category_image.dart';
 import '../app_images_widget/category_svg.dart';
 
 class ListViewFreelancer extends StatelessWidget {
@@ -77,13 +76,13 @@ class ListViewFreelancer extends StatelessWidget {
                       title: 'Mostaql',
                       svg: '$imagePathWebsitesImages/freelancer/mostaql.svg',
                     ),
-                    const CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://souqfann.com/',
                       title: 'Souqfann',
                       image:
                           '$imagePathWebsitesImages/freelancer/souqfann.jpeg',
                     ),
-                    const CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.upwork.com/nx/find-work/',
                       title: 'Upwork',
                       image: '$imagePathWebsitesImages/freelancer/upwork.png',
@@ -94,19 +93,19 @@ class ListViewFreelancer extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
-                    CategoryImage(
+                  children: [
+                    CategorySvg(
                       launchurl: 'https://kafiil.com/',
                       title: 'Kafiil',
                       image: '$imagePathWebsitesImages/freelancer/kafiil.png',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.peopleperhour.com/',
                       title: 'Peopleper',
                       image:
                           '$imagePathWebsitesImages/freelancer/peopleperhour.png',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.guru.com/',
                       title: 'Guru',
                       image: '$imagePathWebsitesImages/freelancer/guru.jpg',
@@ -117,20 +116,20 @@ class ListViewFreelancer extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
-                    CategoryImage(
+                  children: [
+                    CategorySvg(
                       launchurl: 'https://www.smashingmagazine.com/jobs/',
                       title: 'smashingma',
                       image:
                           '$imagePathWebsitesImages/freelancer/smashingmagazine.png',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.simplyhired.com/',
                       title: 'Simplyhired',
                       image:
                           '$imagePathWebsitesImages/freelancer/simplyhired.png',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.toptal.com/',
                       title: 'Toptal',
                       image: '$imagePathWebsitesImages/freelancer/toptal.png',
@@ -141,18 +140,18 @@ class ListViewFreelancer extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
-                    CategoryImage(
+                  children: [
+                    CategorySvg(
                       launchurl: 'https://khamsat.com/',
                       title: 'Khamsat',
                       image: '$imagePathWebsitesImages/freelancer/khamsat.jpg',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://ureed.com/',
                       title: 'Ureed',
                       image: '$imagePathWebsitesImages/freelancer/ureed.png',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.tasmeemme.com/',
                       title: 'Tasmeemme',
                       image:

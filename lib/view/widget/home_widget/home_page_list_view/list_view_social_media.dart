@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 
 import '../../../../core/constant/resources/assets_manager.dart';
 import '../../navigation_widget/backgron_color_page.dart';
-import '../app_images_widget/category_image.dart';
 import '../app_images_widget/category_svg.dart';
 
 class ListViewSocialMedia extends StatelessWidget {
@@ -95,7 +94,7 @@ class ListViewSocialMedia extends StatelessWidget {
                     title: 'whatsapp'.tr,
                     svg: '$imagePathWebsitesImages/soshal/whatsapp.svg',
                   ),
-                  CategoryImage(
+                  CategorySvg(
                     launchurl: 'https://podcastluisteren.nl/',
                     title: 'podcast'.tr,
                     image: '$imagePathWebsitesImages/soshal/podcast.png',

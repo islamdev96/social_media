@@ -4,7 +4,6 @@ import '../../../../core/constant/resources/assets_manager.dart';
 import '../../../../main.dart';
 import '../../../widget/favorite_widget/card_favorite_image.dart';
 import '../../../widget/favorite_widget/card_favorite_svg.dart';
-import '../../../widget/home_widget/app_images_widget/category_image.dart';
 import '../../../widget/home_widget/category_page.dart';
 import '../../../widget/home_widget/app_images_widget/category_svg.dart';
 
@@ -135,7 +134,7 @@ class FavoriteSocialMedi extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategoryImage(
+              categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://podcastluisteren.nl/',
                 title: 'podcast'.tr,
                 image: '$imagePathWebsitesImages/soshal/podcast.png',

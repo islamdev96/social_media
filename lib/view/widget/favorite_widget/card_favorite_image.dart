@@ -4,14 +4,14 @@ import 'package:favorite_button/favorite_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../home_widget/app_images_widget/category_image.dart';
+import '../home_widget/app_images_widget/category_svg.dart';
 
 class CardFavoriteImage extends StatefulWidget {
   CardFavoriteImage(
       {super.key = const Key('CardFavorite'),
       required this.categoryFavoriteImage});
 
-  CategoryImage categoryFavoriteImage;
+  CategorySvg categoryFavoriteImage;
 
   @override
   State<CardFavoriteImage> createState() => _CardFavoriteImageState();

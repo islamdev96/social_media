@@ -4,7 +4,6 @@ import '../../../../core/constant/resources/assets_manager.dart';
 import '../../../widget/favorite_widget/card_favorite_svg.dart';
 import '../../../widget/favorite_widget/card_favorite_image.dart';
 import '../../../../main.dart';
-import '../../../widget/home_widget/app_images_widget/category_image.dart';
 import '../../../widget/home_widget/category_page.dart';
 import '../../../widget/home_widget/app_images_widget/category_svg.dart';
 
@@ -29,7 +28,7 @@ class FavoriteNews extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategoryImage(
+              categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://www.aljazeera.net/',
                 title: 'aljazeera'.tr,
                 image: '$imagePathWebsitesImages/news/aljazeera.png',
@@ -40,7 +39,7 @@ class FavoriteNews extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategoryImage(
+              categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://www.france24.com/ar/',
                 title: 'france24'.tr,
                 image: '$imagePathWebsitesImages/news/france24.png',
@@ -51,7 +50,7 @@ class FavoriteNews extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategoryImage(
+              categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://www.bbc.com/arabic',
                 title: 'bbc'.tr,
                 image: '$imagePathWebsitesImages/news/bbc.png',
@@ -62,7 +61,7 @@ class FavoriteNews extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategoryImage(
+              categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://arabic.cnn.com/',
                 title: 'cnn'.tr,
                 image: '$imagePathWebsitesImages/news/cnn.png',
@@ -73,7 +72,7 @@ class FavoriteNews extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategoryImage(
+              categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://www.reuters.com/',
                 title: 'reuters'.tr,
                 image: '$imagePathWebsitesImages/news/reuters.png',
@@ -84,7 +83,7 @@ class FavoriteNews extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategoryImage(
+              categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://www.alarabiya.net/',
                 title: 'alarabiya'.tr,
                 image: '$imagePathWebsitesImages/news/alarabiya.png',
@@ -95,7 +94,7 @@ class FavoriteNews extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategoryImage(
+              categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://aawsat.com/',
                 title: 'aawsat'.tr,
                 image: '$imagePathWebsitesImages/news/aawsat.png',
@@ -106,7 +105,7 @@ class FavoriteNews extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategoryImage(
+              categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://arabic.euronews.com/',
                 title: 'euronews'.tr,
                 image: '$imagePathWebsitesImages/news/euronews.jpg',
@@ -117,7 +116,7 @@ class FavoriteNews extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategoryImage(
+              categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://www.aa.com.tr/ar',
                 title: 'anadolu'.tr,
                 image: '$imagePathWebsitesImages/news/aa.jpg',
@@ -128,7 +127,7 @@ class FavoriteNews extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategoryImage(
+              categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://elaph.com/',
                 title: 'elaph'.tr,
                 image: '$imagePathWebsitesImages/news/elaph.png',
@@ -139,7 +138,7 @@ class FavoriteNews extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategoryImage(
+              categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://www.alhurra.com/latest',
                 title: 'alhurra'.tr,
                 image: '$imagePathWebsitesImages/news/alhurra.png',
@@ -172,7 +171,7 @@ class FavoriteNews extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategoryImage(
+              categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://www.dw.com/ar/',
                 title: 'dw'.tr,
                 image: '$imagePathWebsitesImages/news/dw.png',

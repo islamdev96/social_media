@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../../core/constant/resources/assets_manager.dart';
 import '../../navigation_widget/backgron_color_page.dart';
-import '../app_images_widget/category_image.dart';
 import '../app_images_widget/category_svg.dart';
 
 class ListViewIslamic extends StatelessWidget {
@@ -25,7 +24,7 @@ class ListViewIslamic extends StatelessWidget {
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://midad.com/',
                       title: 'midad'.tr,
                       image: '$imagePathWebsitesImages/islami/midad.png',
@@ -35,7 +34,7 @@ class ListViewIslamic extends StatelessWidget {
                       title: 'islamQA'.tr,
                       svg: '$imagePathWebsitesImages/islami/islamqa.svg',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.dorar.net/',
                       title: 'aldorar'.tr,
                       image: '$imagePathWebsitesImages/islami/dorar.png',
@@ -47,17 +46,17 @@ class ListViewIslamic extends StatelessWidget {
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://ar.islamway.net/',
                       title: 'islamWay'.tr,
                       image: '$imagePathWebsitesImages/islami/islamway.png',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.islamstory.com/',
                       title: 'islamStory'.tr,
                       image: '$imagePathWebsitesImages/islami/islamstory.jpg',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.alukah.net/',
                       title: 'alalukah'.tr,
                       image: '$imagePathWebsitesImages/islami/alukah.png',
@@ -69,12 +68,12 @@ class ListViewIslamic extends StatelessWidget {
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'http://saaid.net/',
                       title: 'saaid'.tr,
                       image: '$imagePathWebsitesImages/islami/saaid.jpg',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.islamweb.net/ar/',
                       title: 'islamWeb'.tr,
                       image: '$imagePathWebsitesImages/islami/islamweb.jpg',
@@ -91,17 +90,17 @@ class ListViewIslamic extends StatelessWidget {
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.islamtoday.net/',
                       title: 'islamToday'.tr,
                       image: '$imagePathWebsitesImages/islami/islamtoday.png',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://almunajjid.com/',
                       title: 'almunajjid'.tr,
                       image: '$imagePathWebsitesImages/islami/almunajjid.jpg',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://binbaz.org.sa/',
                       title: 'binbaz'.tr,
                       image: '$imagePathWebsitesImages/islami/binbaz.png',
@@ -113,17 +112,17 @@ class ListViewIslamic extends StatelessWidget {
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.mp3quran.net/ar',
                       title: 'mp3Quran'.tr,
                       image: '$imagePathWebsitesImages/islami/mp3quran.png',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://al-maktaba.org/',
                       title: 'al-maktaba'.tr,
                       image: '$imagePathWebsitesImages/islami/al-maktaba.jpg',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://binothaimeen.net/',
                       title: 'binothaimeen'.tr,
                       image: '$imagePathWebsitesImages/islami/binothaimeen.jpg',
@@ -135,17 +134,17 @@ class ListViewIslamic extends StatelessWidget {
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://quran.ksu.edu.sa/',
                       title: 'quran.Ksu'.tr,
                       image: '$imagePathWebsitesImages/islami/quran.png',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'http://hdith.com/',
                       title: 'hdith'.tr,
                       image: '$imagePathWebsitesImages/islami/hdith.jpg',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.zad-academy.com/',
                       title: 'zad-academy'.tr,
                       image: '$imagePathWebsitesImages/islami/zad-academy.png',
@@ -157,17 +156,17 @@ class ListViewIslamic extends StatelessWidget {
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://zadi.net/',
                       title: 'zadi'.tr,
                       image: '$imagePathWebsitesImages/islami/zadi.png',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.alfawzan.af.org.sa/ar',
                       title: 'alfawzan'.tr,
                       image: '$imagePathWebsitesImages/islami/alfawzan.png',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.islam-call.com/',
                       title: 'islam-call'.tr,
                       image: '$imagePathWebsitesImages/islami/islam-call.png',

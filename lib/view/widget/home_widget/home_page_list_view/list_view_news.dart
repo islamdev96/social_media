@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 
 import '../../../../core/constant/resources/assets_manager.dart';
 import '../../navigation_widget/backgron_color_page.dart';
-import '../app_images_widget/category_image.dart';
 import '../app_images_widget/category_svg.dart';
 
 class ListViewNews extends StatelessWidget {
@@ -24,17 +23,17 @@ class ListViewNews extends StatelessWidget {
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.aljazeera.net/',
                       title: 'aljazeera'.tr,
                       image: '$imagePathWebsitesImages/news/aljazeera.png',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.france24.com/ar/',
                       title: 'france24'.tr,
                       image: '$imagePathWebsitesImages/news/france24.png',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.bbc.com/arabic',
                       title: 'bbc'.tr,
                       image: '$imagePathWebsitesImages/news/bbc.png',
@@ -46,17 +45,17 @@ class ListViewNews extends StatelessWidget {
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://arabic.cnn.com/',
                       title: 'cnn'.tr,
                       image: '$imagePathWebsitesImages/news/cnn.png',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.reuters.com/',
                       title: 'reuters'.tr,
                       image: '$imagePathWebsitesImages/news/reuters.png',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.alarabiya.net/',
                       title: 'alarabiya'.tr,
                       image: '$imagePathWebsitesImages/news/alarabiya.png',
@@ -68,17 +67,17 @@ class ListViewNews extends StatelessWidget {
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://aawsat.com/',
                       title: 'aawsat'.tr,
                       image: '$imagePathWebsitesImages/news/aawsat.png',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://arabic.euronews.com/',
                       title: 'euronews'.tr,
                       image: '$imagePathWebsitesImages/news/euronews.jpg',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.aa.com.tr/ar',
                       title: 'anadolu'.tr,
                       image: '$imagePathWebsitesImages/news/aa.jpg',
@@ -90,12 +89,12 @@ class ListViewNews extends StatelessWidget {
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://elaph.com/',
                       title: 'elaph'.tr,
                       image: '$imagePathWebsitesImages/news/elaph.png',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.alhurra.com/latest',
                       title: 'alhurra'.tr,
                       image: '$imagePathWebsitesImages/news/alhurra.png',
@@ -112,7 +111,7 @@ class ListViewNews extends StatelessWidget {
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.alaraby.co.uk/news',
                       title: 'alaraby'.tr,
                       image: '$imagePathWebsitesImages/news/alaraby.png',
@@ -122,7 +121,7 @@ class ListViewNews extends StatelessWidget {
                       title: 'alaraby2'.tr,
                       svg: '$imagePathWebsitesImages/news/alaraby2.svg',
                     ),
-                    CategoryImage(
+                    CategorySvg(
                       launchurl: 'https://www.dw.com/ar/',
                       title: 'dw'.tr,
                       image: '$imagePathWebsitesImages/news/dw.png',

@@ -38,19 +38,39 @@ class CategorySvg extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          SizedBox(
-            width: 90.0.w,
-            height: 80.h,
-            child: IconButton(
-              icon: SvgPicture.asset(
-                svg ?? image ?? '',
-                height: 65.h,
-                width: 65.w,
-              ),
-              onPressed: () {
-                launchURL(launchurl);
-              },
-            ),
+          Column(
+            children: [
+              if (svg != null)
+                SizedBox(
+                  width: 90.0.w,
+                  height: 80.h,
+                  child: IconButton(
+                    icon: SvgPicture.asset(
+                      svg!,
+                      height: 65.h,
+                      width: 65.w,
+                    ),
+                    onPressed: () {
+                      launchURL(launchurl);
+                    },
+                  ),
+                ),
+              if (image != null)
+                SizedBox(
+                  width: 90.0.w,
+                  height: 80.h,
+                  child: IconButton(
+                    icon: Image.asset(
+                      image!,
+                      height: 65.h,
+                      width: 65.w,
+                    ),
+                    onPressed: () {
+                      launchURL(launchurl);
+                    },
+                  ),
+                ),
+            ],
           ),
           Text(
             title,
