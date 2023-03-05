@@ -116,6 +116,24 @@ class ArabicTranslation extends MyTranslation {
           "islam-call": "نداء الإسلام",
 
           //---------------------------freelancer-----------------------------------------
+
+          "linkservices": "لينك سيرفيس",
+          "freelancer1": "فريلانسر",
+          "khamsat": "خمسات",
+          "angel": "انجل",
+          "speedlancer": "سبيد لانسر",
+          "weworkremot": "وي ورك ريموت",
+          "mostaql": "مستقل",
+          "souqfann": "سوق فن",
+          "upwork": "اوبورك",
+          "kafiil": "كافيل",
+          "peopleper": "بيبل بير",
+          "guru": "جورو",
+          "smashingma": "سماشنج ماجازين",
+          "simplyhired": "سيمبلي هايرد",
+          "toptal": "توبتال",
+          "ureed": "يوريد",
+          "tasmeemme": "تسميم",
         },
       };
 }

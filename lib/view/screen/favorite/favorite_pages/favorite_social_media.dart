@@ -5,7 +5,7 @@ import '../../../../main.dart';
 import '../../../widget/favorite_widget/card_favorite_image.dart';
 import '../../../widget/favorite_widget/card_favorite_svg.dart';
 import '../../../widget/home_widget/category_page.dart';
-import '../../../widget/home_widget/app_images_widget/category_svg.dart';
+import '../../../widget/home_widget/category_svg.dart';
 
 class FavoriteSocialMedi extends StatelessWidget {
   const FavoriteSocialMedi({Key? key}) : super(key: key);

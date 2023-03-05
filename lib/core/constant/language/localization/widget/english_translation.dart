@@ -115,6 +115,24 @@ class EnglishTranslation extends MyTranslation {
           "islam-call": "Islam-call",
 
           //---------------------------freelancer-----------------------------------------
+
+          "linkservices": "Linkservices",
+          "freelancer1": "Freelancer",
+          "khamsat": "Khamsat",
+          "angel": "Angel",
+          "speedlancer": "Speedlancer",
+          "weworkremot": "Weworkremot",
+          "mostaql": "Mostaql",
+          "souqfann": "Souqfann",
+          "upwork": "Upwork",
+          "kafiil": "Kafiil",
+          "peopleper": "Peopleper",
+          "guru": "Guru",
+          "smashingma": "Smashingma",
+          "simplyhired": "Simplyhired",
+          "toptal": "Toptal",
+          "ureed": "Ureed",
+          "tasmeemme": "Tasmeemme",
         }
       };
 }

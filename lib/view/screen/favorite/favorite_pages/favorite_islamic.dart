@@ -5,7 +5,7 @@ import '../../../widget/favorite_widget/card_favorite_image.dart';
 import '../../../../main.dart';
 import '../../../widget/favorite_widget/card_favorite_svg.dart';
 import '../../../widget/home_widget/category_page.dart';
-import '../../../widget/home_widget/app_images_widget/category_svg.dart';
+import '../../../widget/home_widget/category_svg.dart';
 
 class FavoriteIslamic extends StatelessWidget {
   const FavoriteIslamic({Key? key}) : super(key: key);
@@ -30,7 +30,7 @@ class FavoriteIslamic extends StatelessWidget {
             CardFavoriteImage(
               categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://midad.com/',
-                title: 'Midad',
+                title: 'midad'.tr,
                 image: '$imagePathWebsitesImages/islami/midad.png',
               ),
             ),
@@ -41,7 +41,7 @@ class FavoriteIslamic extends StatelessWidget {
             CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://islamqa.info/ar',
-                title: 'IslamQA',
+                title: 'islamQA'.tr,
                 svg: '$imagePathWebsitesImages/islami/islamqa.svg',
               ),
             ),
@@ -52,7 +52,7 @@ class FavoriteIslamic extends StatelessWidget {
             CardFavoriteImage(
               categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://www.dorar.net/',
-                title: 'Aldorar',
+                title: 'aldorar'.tr,
                 image: '$imagePathWebsitesImages/islami/dorar.png',
               ),
             ),
@@ -63,7 +63,7 @@ class FavoriteIslamic extends StatelessWidget {
             CardFavoriteImage(
               categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://ar.islamway.net/',
-                title: 'IslamWay',
+                title: 'islamWay'.tr,
                 image: '$imagePathWebsitesImages/islami/islamway.png',
               ),
             ),
@@ -74,7 +74,7 @@ class FavoriteIslamic extends StatelessWidget {
             CardFavoriteImage(
               categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://www.islamstory.com/',
-                title: 'IslamStory',
+                title: 'islamStory'.tr,
                 image: '$imagePathWebsitesImages/islami/islamstory.jpg',
               ),
             ),
@@ -85,7 +85,7 @@ class FavoriteIslamic extends StatelessWidget {
             CardFavoriteImage(
               categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://www.alukah.net/',
-                title: 'Alalukah',
+                title: 'alalukah'.tr,
                 image: '$imagePathWebsitesImages/islami/alukah.png',
               ),
             ),
@@ -96,7 +96,7 @@ class FavoriteIslamic extends StatelessWidget {
             CardFavoriteImage(
               categoryFavoriteImage: CategorySvg(
                 launchurl: 'http://saaid.net/',
-                title: 'Saaid',
+                title: 'saaid'.tr,
                 image: '$imagePathWebsitesImages/islami/saaid.jpg',
               ),
             ),
@@ -107,7 +107,7 @@ class FavoriteIslamic extends StatelessWidget {
             CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://islamonline.net/',
-                title: 'IslamOnLine',
+                title: 'islamOnLine'.tr,
                 svg: '$imagePathWebsitesImages/islami/islamonline.svg',
               ),
             ),
@@ -118,7 +118,7 @@ class FavoriteIslamic extends StatelessWidget {
             CardFavoriteImage(
               categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://www.islamtoday.net/',
-                title: 'IslamToday',
+                title: 'islamToday'.tr,
                 image: '$imagePathWebsitesImages/islami/islamtoday.png',
               ),
             ),
@@ -129,7 +129,7 @@ class FavoriteIslamic extends StatelessWidget {
             CardFavoriteImage(
               categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://almunajjid.com/',
-                title: 'Almunajjid',
+                title: 'almunajjid'.tr,
                 image: '$imagePathWebsitesImages/islami/almunajjid.jpg',
               ),
             ),
@@ -140,7 +140,7 @@ class FavoriteIslamic extends StatelessWidget {
             CardFavoriteImage(
               categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://binbaz.org.sa/',
-                title: 'Binbaz',
+                title: 'binbaz'.tr,
                 image: '$imagePathWebsitesImages/islami/binbaz.png',
               ),
             ),
@@ -151,7 +151,7 @@ class FavoriteIslamic extends StatelessWidget {
             CardFavoriteImage(
               categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://www.mp3quran.net/ar',
-                title: 'mp3Quran',
+                title: 'mp3Quran'.tr,
                 image: '$imagePathWebsitesImages/islami/mp3quran.png',
               ),
             ),
@@ -162,7 +162,7 @@ class FavoriteIslamic extends StatelessWidget {
             CardFavoriteImage(
               categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://al-maktaba.org/',
-                title: 'Al-maktaba',
+                title: 'al-maktaba'.tr,
                 image: '$imagePathWebsitesImages/islami/al-maktaba.jpg',
               ),
             ),
@@ -173,7 +173,7 @@ class FavoriteIslamic extends StatelessWidget {
             CardFavoriteImage(
               categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://binothaimeen.net/',
-                title: 'Binothaimeen',
+                title: 'binothaimeen'.tr,
                 image: '$imagePathWebsitesImages/islami/binothaimeen.jpg',
               ),
             ),
@@ -184,7 +184,7 @@ class FavoriteIslamic extends StatelessWidget {
             CardFavoriteImage(
               categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://quran.ksu.edu.sa/',
-                title: 'Quran.Ksu',
+                title: 'quran.Ksu'.tr,
                 image: '$imagePathWebsitesImages/islami/quran.png',
               ),
             ),
@@ -195,7 +195,7 @@ class FavoriteIslamic extends StatelessWidget {
             CardFavoriteImage(
               categoryFavoriteImage: CategorySvg(
                 launchurl: 'http://hdith.com/',
-                title: 'Hdith',
+                title: 'hdith'.tr,
                 image: '$imagePathWebsitesImages/islami/hdith.jpg',
               ),
             ),
@@ -206,7 +206,7 @@ class FavoriteIslamic extends StatelessWidget {
             CardFavoriteImage(
               categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://www.zad-academy.com/',
-                title: 'Zad-academy',
+                title: 'zad-academy'.tr,
                 image: '$imagePathWebsitesImages/islami/zad-academy.png',
               ),
             ),
@@ -217,7 +217,7 @@ class FavoriteIslamic extends StatelessWidget {
             CardFavoriteImage(
               categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://zadi.net/',
-                title: 'Zadi',
+                title: 'zadi'.tr,
                 image: '$imagePathWebsitesImages/islami/zadi.png',
               ),
             ),
@@ -228,7 +228,7 @@ class FavoriteIslamic extends StatelessWidget {
             CardFavoriteImage(
               categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://www.alfawzan.af.org.sa/ar',
-                title: 'Alfawzan',
+                title: 'alfawzan'.tr,
                 image: '$imagePathWebsitesImages/islami/alfawzan.png',
               ),
             ),
@@ -239,7 +239,7 @@ class FavoriteIslamic extends StatelessWidget {
             CardFavoriteImage(
               categoryFavoriteImage: CategorySvg(
                 launchurl: 'https://www.islam-call.com/',
-                title: 'Islam-call',
+                title: 'islam-call'.tr,
                 image: '$imagePathWebsitesImages/islami/islam-call.png',
               ),
             ),
