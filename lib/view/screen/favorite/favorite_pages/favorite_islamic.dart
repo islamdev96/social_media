@@ -28,7 +28,7 @@ class FavoriteIslamic extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://midad.com/',
                 title: 'midad'.tr,
                 image: '$imagePathWebsitesImages/islami/midad.png',
@@ -50,7 +50,7 @@ class FavoriteIslamic extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.dorar.net/',
                 title: 'aldorar'.tr,
                 image: '$imagePathWebsitesImages/islami/dorar.png',
@@ -61,7 +61,7 @@ class FavoriteIslamic extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://ar.islamway.net/',
                 title: 'islamWay'.tr,
                 image: '$imagePathWebsitesImages/islami/islamway.png',
@@ -72,7 +72,7 @@ class FavoriteIslamic extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.islamstory.com/',
                 title: 'islamStory'.tr,
                 image: '$imagePathWebsitesImages/islami/islamstory.jpg',
@@ -83,7 +83,7 @@ class FavoriteIslamic extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.alukah.net/',
                 title: 'alalukah'.tr,
                 image: '$imagePathWebsitesImages/islami/alukah.png',
@@ -94,7 +94,7 @@ class FavoriteIslamic extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'http://saaid.net/',
                 title: 'saaid'.tr,
                 image: '$imagePathWebsitesImages/islami/saaid.jpg',
@@ -116,7 +116,7 @@ class FavoriteIslamic extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.islamtoday.net/',
                 title: 'islamToday'.tr,
                 image: '$imagePathWebsitesImages/islami/islamtoday.png',
@@ -127,7 +127,7 @@ class FavoriteIslamic extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://almunajjid.com/',
                 title: 'almunajjid'.tr,
                 image: '$imagePathWebsitesImages/islami/almunajjid.jpg',
@@ -138,7 +138,7 @@ class FavoriteIslamic extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://binbaz.org.sa/',
                 title: 'binbaz'.tr,
                 image: '$imagePathWebsitesImages/islami/binbaz.png',
@@ -149,7 +149,7 @@ class FavoriteIslamic extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.mp3quran.net/ar',
                 title: 'mp3Quran'.tr,
                 image: '$imagePathWebsitesImages/islami/mp3quran.png',
@@ -160,7 +160,7 @@ class FavoriteIslamic extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://al-maktaba.org/',
                 title: 'al-maktaba'.tr,
                 image: '$imagePathWebsitesImages/islami/al-maktaba.jpg',
@@ -171,7 +171,7 @@ class FavoriteIslamic extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://binothaimeen.net/',
                 title: 'binothaimeen'.tr,
                 image: '$imagePathWebsitesImages/islami/binothaimeen.jpg',
@@ -182,7 +182,7 @@ class FavoriteIslamic extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://quran.ksu.edu.sa/',
                 title: 'quran.Ksu'.tr,
                 image: '$imagePathWebsitesImages/islami/quran.png',
@@ -193,7 +193,7 @@ class FavoriteIslamic extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'http://hdith.com/',
                 title: 'hdith'.tr,
                 image: '$imagePathWebsitesImages/islami/hdith.jpg',
@@ -204,7 +204,7 @@ class FavoriteIslamic extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.zad-academy.com/',
                 title: 'zad-academy'.tr,
                 image: '$imagePathWebsitesImages/islami/zad-academy.png',
@@ -215,7 +215,7 @@ class FavoriteIslamic extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://zadi.net/',
                 title: 'zadi'.tr,
                 image: '$imagePathWebsitesImages/islami/zadi.png',
@@ -226,7 +226,7 @@ class FavoriteIslamic extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.alfawzan.af.org.sa/ar',
                 title: 'alfawzan'.tr,
                 image: '$imagePathWebsitesImages/islami/alfawzan.png',
@@ -237,7 +237,7 @@ class FavoriteIslamic extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.islam-call.com/',
                 title: 'islam-call'.tr,
                 image: '$imagePathWebsitesImages/islami/islam-call.png',

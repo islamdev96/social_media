@@ -156,7 +156,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.codeavengers.com/',
                 title: 'codeavengers'.tr,
                 image: '$imagePathWebsitesImages/programing/codeavengers.png',
@@ -167,7 +167,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.codeproject.com/',
                 title: 'codeproject'.tr,
                 image: '$imagePathWebsitesImages/programing/codeproject.png',
@@ -178,7 +178,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://codeanywhere.com/',
                 title: 'codeanywhere'.tr,
                 image: '$imagePathWebsitesImages/programing/codeanywhere.png',
@@ -211,7 +211,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://flutter.github.io/samples/',
                 title: 'flutterSample'.tr,
                 image: '$imagePathWebsitesImages/programing/samples.png',
@@ -222,7 +222,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.w3schools.com/',
                 title: 'w3schools'.tr,
                 image: '$imagePathWebsitesImages/programing/w3schools.png',
@@ -233,7 +233,7 @@ class FavoritePrograming extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.codota.com/',
                 title: 'codota'.tr,
                 image: '$imagePathWebsitesImages/programing/codota.png',

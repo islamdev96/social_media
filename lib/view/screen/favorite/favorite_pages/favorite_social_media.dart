@@ -134,7 +134,7 @@ class FavoriteSocialMedi extends StatelessWidget {
         Column(
           children: [
             CardFavoriteImage(
-              categoryFavoriteImage: CategorySvg(
+              categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://podcastluisteren.nl/',
                 title: 'podcast'.tr,
                 image: '$imagePathWebsitesImages/soshal/podcast.png',
