@@ -25,10 +25,12 @@ dependencies:
   get: ^4.6.5
   google_mobile_ads: ^2.0.1
   http: ^0.13.3
+  mysql1: ^0.20.0
   rename: ^2.0.1
   responsive_framework: ^0.1.4
   shared_preferences: ^2.0.17
   sqflite: ^2.2.4+1
+  sqlite3_flutter_libs: ^0.5.13
   url_launcher: ^6.0.9
   webview_flutter: ^4.0.1
 
@@ -67,7 +69,6 @@ flutter:
     - assets/images/websites_images/islami/
     - assets/images/websites_images/freelancer/
 
-
   fonts:
     - family: Cairo
       fonts:
@@ -80,4 +81,3 @@ flutter:
         - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf
         - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf
           weight: 700
-

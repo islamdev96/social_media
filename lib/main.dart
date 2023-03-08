@@ -20,8 +20,6 @@ class SocialMedia extends StatefulWidget {
 
   @override
   State<SocialMedia> createState() => _SocialMediaState();
-  // Add from here ...
-
 }
 
 class _SocialMediaState extends State<SocialMedia> {
@@ -36,19 +34,12 @@ class _SocialMediaState extends State<SocialMedia> {
       builder: (context, child) {
         return GetMaterialApp(
           debugShowCheckedModeBanner: false,
-          // theme: ThemeData(
-          //   primarySwatch: Colors.blue,
-          //   visualDensity: VisualDensity.adaptivePlatformDensity,
-          // ),
-          // locale: Locale(Get.deviceLocale!.languageCode),
           fallbackLocale: const Locale('en', 'ar'),
           translations: MyTranslation(),
           getPages: appRoutes,
           title: 'Ecommerce Course',
           locale: controller.language,
           theme: controller.appTheme,
-          // initialBinding: InitialBindings(),
-
           initialRoute: '/language',
         );
       },
