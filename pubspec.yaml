@@ -9,10 +9,10 @@ environment:
   sdk: ">=2.17.6 <3.0.0"
 
 dependencies:
+  bloc: ^8.1.1
   cupertino_icons: ^1.0.2
   curved_navigation_bar: ^1.0.3
   either_dart: ^0.3.0
-  favorite_button: ^0.0.4
   firebase_core: ^2.7.0
   flutter:
     sdk: flutter
@@ -26,11 +26,10 @@ dependencies:
   google_mobile_ads: ^2.0.1
   http: ^0.13.3
   mysql1: ^0.20.0
+  provider: ^6.0.5
   rename: ^2.0.1
   responsive_framework: ^0.1.4
   shared_preferences: ^2.0.17
-  sqflite: ^2.2.4+1
-  sqlite3_flutter_libs: ^0.5.13
   url_launcher: ^6.0.9
   webview_flutter: ^4.0.1
 

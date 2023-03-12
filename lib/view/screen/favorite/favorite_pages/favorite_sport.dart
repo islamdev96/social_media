@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../../core/constant/resources/assets_manager.dart';
-import '../../../widget/favorite_widget/card_favorite_image.dart';
 import '../../../../main.dart';
+import '../../../widget/favorite_widget/card_favorite_svg.dart';
 import '../../../widget/home_widget/category_svg.dart';
 import '../../../widget/home_widget/category_page.dart';
 
@@ -26,7 +26,7 @@ class FavoriteSport extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.beinsports.com/ar/',
                 title: 'beinsSports'.tr,
@@ -37,7 +37,7 @@ class FavoriteSport extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.yallakora.com/',
                 title: 'yallakora'.tr,
@@ -48,7 +48,7 @@ class FavoriteSport extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://arkooora.live-kooora-tv.com/',
                 title: 'koraLive'.tr,
@@ -59,7 +59,7 @@ class FavoriteSport extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://egylive.online/',
                 title: 'egyLive'.tr,
@@ -70,7 +70,7 @@ class FavoriteSport extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://m.livehd7.cc/m3/',
                 title: 'livehd7'.tr,
@@ -81,7 +81,7 @@ class FavoriteSport extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://arabic.sport360.com/',
                 title: 'sport360'.tr,
@@ -92,7 +92,7 @@ class FavoriteSport extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://sports.koooragoal.com/',
                 title: 'koraGoal'.tr,
@@ -103,7 +103,7 @@ class FavoriteSport extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.yalla-shoots.com/',
                 title: 'yallaShoot'.tr,
@@ -114,7 +114,7 @@ class FavoriteSport extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://on.koooora-online.com/',
                 title: 'koraonline'.tr,
@@ -125,7 +125,7 @@ class FavoriteSport extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.filgoal.com/',
                 title: 'filgoal'.tr,
@@ -136,7 +136,7 @@ class FavoriteSport extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.kooora.com/',
                 title: 'kooora'.tr,
@@ -147,7 +147,7 @@ class FavoriteSport extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.goal.com/ar',
                 title: 'goal'.tr,

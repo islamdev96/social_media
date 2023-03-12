@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../../core/constant/resources/assets_manager.dart';
-import '../../../widget/favorite_widget/card_favorite_image.dart';
 import '../../../../main.dart';
 import '../../../widget/favorite_widget/card_favorite_svg.dart';
 import '../../../widget/home_widget/category_page.dart';
@@ -155,7 +154,7 @@ class FavoritePrograming extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.codeavengers.com/',
                 title: 'codeavengers'.tr,
@@ -166,7 +165,7 @@ class FavoritePrograming extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.codeproject.com/',
                 title: 'codeproject'.tr,
@@ -177,7 +176,7 @@ class FavoritePrograming extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://codeanywhere.com/',
                 title: 'codeanywhere'.tr,
@@ -210,7 +209,7 @@ class FavoritePrograming extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://flutter.github.io/samples/',
                 title: 'flutterSample'.tr,
@@ -221,7 +220,7 @@ class FavoritePrograming extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.w3schools.com/',
                 title: 'w3schools'.tr,
@@ -232,7 +231,7 @@ class FavoritePrograming extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.codota.com/',
                 title: 'codota'.tr,

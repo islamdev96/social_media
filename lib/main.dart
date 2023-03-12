@@ -11,7 +11,9 @@ import 'core/services/services.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
   await initialServices();
+
   runApp(const SocialMedia());
 }
 
@@ -26,6 +28,7 @@ class _SocialMediaState extends State<SocialMedia> {
   @override
   Widget build(BuildContext context) {
     LocaleController controller = Get.put(LocaleController());
+
     return ScreenUtilInit(
       useInheritedMediaQuery: true,
       designSize: const Size(360, 690),

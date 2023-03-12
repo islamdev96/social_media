@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../../core/constant/resources/assets_manager.dart';
-import '../../../widget/favorite_widget/card_favorite_image.dart';
 import '../../../../main.dart';
 import '../../../widget/favorite_widget/card_favorite_svg.dart';
 import '../../../widget/home_widget/category_page.dart';
@@ -27,7 +26,7 @@ class FavoriteIslamic extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://midad.com/',
                 title: 'midad'.tr,
@@ -49,7 +48,7 @@ class FavoriteIslamic extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.dorar.net/',
                 title: 'aldorar'.tr,
@@ -60,7 +59,7 @@ class FavoriteIslamic extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://ar.islamway.net/',
                 title: 'islamWay'.tr,
@@ -71,7 +70,7 @@ class FavoriteIslamic extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.islamstory.com/',
                 title: 'islamStory'.tr,
@@ -82,7 +81,7 @@ class FavoriteIslamic extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.alukah.net/',
                 title: 'alalukah'.tr,
@@ -93,7 +92,7 @@ class FavoriteIslamic extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'http://saaid.net/',
                 title: 'saaid'.tr,
@@ -115,7 +114,7 @@ class FavoriteIslamic extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.islamtoday.net/',
                 title: 'islamToday'.tr,
@@ -126,7 +125,7 @@ class FavoriteIslamic extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://almunajjid.com/',
                 title: 'almunajjid'.tr,
@@ -137,7 +136,7 @@ class FavoriteIslamic extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://binbaz.org.sa/',
                 title: 'binbaz'.tr,
@@ -148,7 +147,7 @@ class FavoriteIslamic extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.mp3quran.net/ar',
                 title: 'mp3Quran'.tr,
@@ -159,7 +158,7 @@ class FavoriteIslamic extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://al-maktaba.org/',
                 title: 'al-maktaba'.tr,
@@ -170,7 +169,7 @@ class FavoriteIslamic extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://binothaimeen.net/',
                 title: 'binothaimeen'.tr,
@@ -181,7 +180,7 @@ class FavoriteIslamic extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://quran.ksu.edu.sa/',
                 title: 'quran.Ksu'.tr,
@@ -192,7 +191,7 @@ class FavoriteIslamic extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'http://hdith.com/',
                 title: 'hdith'.tr,
@@ -203,7 +202,7 @@ class FavoriteIslamic extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.zad-academy.com/',
                 title: 'zad-academy'.tr,
@@ -214,7 +213,7 @@ class FavoriteIslamic extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://zadi.net/',
                 title: 'zadi'.tr,
@@ -225,7 +224,7 @@ class FavoriteIslamic extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.alfawzan.af.org.sa/ar',
                 title: 'alfawzan'.tr,
@@ -236,7 +235,7 @@ class FavoriteIslamic extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.islam-call.com/',
                 title: 'islam-call'.tr,

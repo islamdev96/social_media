@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import '../../../core/constant/resources/color_manager.dart';
+import '../../../core/test/3.dart';
 import '../../widget/navigation_widget/backgron_color_page.dart';
 import '../../widget/navigation_widget/bottom_navigation_bar.dart';
 
@@ -47,7 +49,7 @@ class Person extends StatelessWidget {
       // ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          Navigator.pushNamed(context, '/add');
+          Get.to(() => const HomePage());
         },
         tooltip: 'Increment',
         child: const Icon(Icons.add),

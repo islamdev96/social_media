@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../../core/constant/resources/assets_manager.dart';
 import '../../../widget/favorite_widget/card_favorite_svg.dart';
-import '../../../widget/favorite_widget/card_favorite_image.dart';
 import '../../../../main.dart';
 import '../../../widget/home_widget/category_page.dart';
 import '../../../widget/home_widget/category_svg.dart';
@@ -27,7 +26,7 @@ class FavoriteNews extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.aljazeera.net/',
                 title: 'aljazeera'.tr,
@@ -38,7 +37,7 @@ class FavoriteNews extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.france24.com/ar/',
                 title: 'france24'.tr,
@@ -49,7 +48,7 @@ class FavoriteNews extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.bbc.com/arabic',
                 title: 'bbc'.tr,
@@ -60,7 +59,7 @@ class FavoriteNews extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://arabic.cnn.com/',
                 title: 'cnn'.tr,
@@ -71,7 +70,7 @@ class FavoriteNews extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.reuters.com/',
                 title: 'reuters'.tr,
@@ -82,7 +81,7 @@ class FavoriteNews extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.alarabiya.net/',
                 title: 'alarabiya'.tr,
@@ -93,7 +92,7 @@ class FavoriteNews extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://aawsat.com/',
                 title: 'aawsat'.tr,
@@ -104,7 +103,7 @@ class FavoriteNews extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://arabic.euronews.com/',
                 title: 'euronews'.tr,
@@ -115,7 +114,7 @@ class FavoriteNews extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.aa.com.tr/ar',
                 title: 'anadolu'.tr,
@@ -126,7 +125,7 @@ class FavoriteNews extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://elaph.com/',
                 title: 'elaph'.tr,
@@ -137,7 +136,7 @@ class FavoriteNews extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.alhurra.com/latest',
                 title: 'alhurra'.tr,
@@ -170,7 +169,7 @@ class FavoriteNews extends StatelessWidget {
         ),
         Column(
           children: [
-            CardFavoriteImage(
+            CardFavoriteSvg(
               categoryFavoriteSvg: CategorySvg(
                 launchurl: 'https://www.dw.com/ar/',
                 title: 'dw'.tr,

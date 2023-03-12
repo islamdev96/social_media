@@ -33,9 +33,9 @@ class Add extends StatelessWidget {
             Column(
               children: const [
                 FavoriteSocialMedi(),
+                FavoriteNews(),
                 FavoriteSport(),
                 FavoritePrograming(),
-                FavoriteNews(),
                 FavoriteIslamic(),
                 FavoriteFreelancer(),
               ],
