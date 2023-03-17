@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../core/constant/resources/color_manager.dart';
-import '../../../core/test/3.dart';
+import '../../../core/test/MyApp.dart';
+import '../../../core/test/ShoppingPage.dart';
+import '../../../core/test/LoginPage.dart';
+import '../../../core/test/news.dart';
 import '../../widget/navigation_widget/backgron_color_page.dart';
 import '../../widget/navigation_widget/bottom_navigation_bar.dart';
 
@@ -22,9 +25,123 @@ class Person extends StatelessWidget {
             text: 'Social Media',
           ),
           Column(
-            children: const [
-              Center(
-                child: Text('Person'),
+            children: [
+              MaterialButton(
+                autofocus: true,
+                animationDuration: const Duration(seconds: 1),
+                clipBehavior: Clip.antiAliasWithSaveLayer,
+                colorBrightness: Brightness.dark,
+                elevation: 52,
+                focusColor: ColorManager.kPrimary,
+                hoverColor: ColorManager.kPrimary,
+                color: ColorManager.kTextlightgray,
+                onPressed: () {
+                  Get.to(() => NewsScreen());
+                },
+                child:
+                    const Text('News', style: TextStyle(color: Colors.white)),
+              ),
+              ElevatedButton(
+                autofocus: true,
+                clipBehavior: Clip.antiAliasWithSaveLayer,
+                onFocusChange: (value) {},
+                statesController: null,
+                focusNode: null,
+                style: ElevatedButton.styleFrom(
+                  foregroundColor: Colors.white,
+                  backgroundColor: ColorManager.kPrimary,
+                ),
+
+                // <-- Button
+                onPressed: () {
+                  Get.to(() => NewsScreen());
+                },
+                child: const Text('News'),
+              ),
+              ElevatedButton(
+                autofocus: true,
+                clipBehavior: Clip.antiAliasWithSaveLayer,
+                onFocusChange: (value) {},
+                statesController: null,
+                focusNode: null,
+                style: ElevatedButton.styleFrom(
+                  foregroundColor: Colors.white,
+                  backgroundColor: ColorManager.kPrimary,
+                ),
+
+                // <-- Button
+                onPressed: () {
+                  Get.to(() => ShoppingPage());
+                },
+                child: const Text('ShoppingPage'),
+              ),
+              ElevatedButton(
+                autofocus: true,
+                clipBehavior: Clip.antiAliasWithSaveLayer,
+                onFocusChange: (value) {},
+                statesController: null,
+                focusNode: null,
+                style: ElevatedButton.styleFrom(
+                  foregroundColor: Colors.white,
+                  backgroundColor: ColorManager.kPrimary,
+                ),
+
+                // <-- Button
+                onPressed: () {
+                  Get.to(() => LoginPage());
+                },
+                child: const Text('LoginPage'),
+              ),
+              ElevatedButton(
+                autofocus: true,
+                clipBehavior: Clip.antiAliasWithSaveLayer,
+                onFocusChange: (value) {},
+                statesController: null,
+                focusNode: null,
+                style: ElevatedButton.styleFrom(
+                  foregroundColor: Colors.white,
+                  backgroundColor: ColorManager.kPrimary,
+                ),
+
+                // <-- Button
+                onPressed: () {
+                  Get.to(() => const MyApp());
+                },
+                child: const Text('MyApp'),
+              ),
+              ElevatedButton(
+                autofocus: true,
+                clipBehavior: Clip.antiAliasWithSaveLayer,
+                onFocusChange: (value) {},
+                statesController: null,
+                focusNode: null,
+                style: ElevatedButton.styleFrom(
+                  foregroundColor: Colors.white,
+                  backgroundColor: ColorManager.kPrimary,
+                ),
+
+                // <-- Button
+                onPressed: () {
+                  Get.to(() => NewsScreen());
+                },
+                child: const Text('FavoriteButton'),
+              ),
+              ElevatedButton(
+                autofocus: true,
+                clipBehavior: Clip.antiAliasWithSaveLayer,
+                onFocusChange: (value) {},
+                statesController: null,
+                focusNode: null,
+                style: ElevatedButton.styleFrom(
+                  foregroundColor: Colors.white,
+                  backgroundColor: ColorManager.kPrimary,
+                ),
+
+                // <-- Button
+                onPressed: () {
+                  Get.to(() => NewsScreen());
+                },
+                child: const Text('News'),
               ),
             ],
           ),
@@ -49,7 +166,7 @@ class Person extends StatelessWidget {
       // ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          Get.to(() => const HomePage());
+          Get.to(() => NewsScreen());
         },
         tooltip: 'Increment',
         child: const Icon(Icons.add),
