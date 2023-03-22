@@ -20,8 +20,8 @@ class BackgroundColorPage2 extends StatelessWidget {
             clipper: CurveCliper(),
             child: Image(
               height: MediaQuery.of(context).size.height / 2.5,
-              fit: BoxFit.cover,
-              image: const AssetImage('assets/images/12.webp'),
+              fit: BoxFit.none,
+              image: const AssetImage('assets/images/1.png'),
             ),
           ),
         ],
