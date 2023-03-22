@@ -6,7 +6,6 @@ import '../../resources/apptheme.dart';
 
 class LocaleController extends GetxController {
   Locale? language;
-  Locale? favorite;
 
   MyServices myServices = Get.put<MyServices>(MyServices());
 

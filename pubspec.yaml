@@ -1,7 +1,7 @@
 name: social_media
 description: A new Flutter project.
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 version: 1.0.0+6
 
@@ -13,12 +13,14 @@ dependencies:
   cupertino_icons: ^1.0.2
   curved_navigation_bar: ^1.0.3
   either_dart: ^0.3.0
+  favorite_button: ^0.0.4
   firebase_core: ^2.7.0
   flutter:
     sdk: flutter
   flutter_launcher_icons: ^0.10.0
   flutter_localizations:
     sdk: flutter
+  flutter_otp_text_field: ^1.1.1
   flutter_screenutil: ^5.6.0
   flutter_svg: ^0.22.0
   font_awesome_flutter: ^9.1.0
@@ -41,20 +43,19 @@ dev_dependencies:
 flutter_icons:
   android: true
   ios: true
-  images_path: 'appIconPath'
+  images_path: "appIconPath"
   min_sdk_android: 21 # android min sdk min:16, default 21
   web:
     generate: true
-    images_path: 'appIconPath'
+    images_path: "appIconPath"
     background_color: "#hexcode"
     theme_color: "#hexcode"
   windows:
     generate: true
-    images_path: 'appIconPath'
+    images_path: "appIconPath"
     icon_size: 48 # min:48, max:256, default: 48flutter:
 
 flutter:
-
   uses-material-design: true
 
   assets:

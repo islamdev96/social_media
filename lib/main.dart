@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:social_media/core/constant/resources/app_routes.dart';
 
 import 'core/constant/language/localization/changelocal.dart';
@@ -12,7 +13,10 @@ import 'core/services/services.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await initialServices();
+  // await initialServices();
+  await MyServices().init();
+
+  SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
 
   runApp(const SocialMedia());
 }

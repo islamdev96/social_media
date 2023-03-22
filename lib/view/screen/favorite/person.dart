@@ -36,7 +36,7 @@ class Person extends StatelessWidget {
                 hoverColor: ColorManager.kPrimary,
                 color: ColorManager.kTextlightgray,
                 onPressed: () {
-                  Get.to(() => NewsScreen());
+                  Get.to(() => const NewsScreen());
                 },
                 child:
                     const Text('News', style: TextStyle(color: Colors.white)),
@@ -54,7 +54,7 @@ class Person extends StatelessWidget {
 
                 // <-- Button
                 onPressed: () {
-                  Get.to(() => NewsScreen());
+                  Get.to(() => const NewsScreen());
                 },
                 child: const Text('News'),
               ),
@@ -122,7 +122,7 @@ class Person extends StatelessWidget {
 
                 // <-- Button
                 onPressed: () {
-                  Get.to(() => NewsScreen());
+                  Get.to(() => const NewsScreen());
                 },
                 child: const Text('FavoriteButton'),
               ),
@@ -139,7 +139,7 @@ class Person extends StatelessWidget {
 
                 // <-- Button
                 onPressed: () {
-                  Get.to(() => NewsScreen());
+                  Get.to(() => const NewsScreen());
                 },
                 child: const Text('News'),
               ),
@@ -166,7 +166,7 @@ class Person extends StatelessWidget {
       // ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          Get.to(() => NewsScreen());
+          Get.to(() => const NewsScreen());
         },
         tooltip: 'Increment',
         child: const Icon(Icons.add),

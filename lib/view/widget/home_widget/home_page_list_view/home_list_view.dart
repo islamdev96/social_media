@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:social_media/view/widget/home_widget/backgron_color_page.dart';
 
 import '../../../screen/home/freelancer.dart';
 import '../../../screen/home/islamic.dart';
@@ -7,7 +8,6 @@ import '../../../screen/home/news.dart';
 import '../../../screen/home/programing.dart';
 import '../../../screen/home/social_media_page.dart';
 import '../../../screen/home/sport.dart';
-import '../../navigation_widget/backgron_color_page.dart';
 import '../category_page.dart';
 
 class HomeListView extends StatelessWidget {
@@ -20,7 +20,7 @@ class HomeListView extends StatelessWidget {
       itemBuilder: (BuildContext context, int index) {
         return Column(
           children: [
-            BackgroundColorPage(
+            BackgroundColorPage2(
               text: 'socialMedia'.tr,
             ),
             const SizedBox(

@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
+import 'package:social_media/view/widget/home_widget/backgron_color_page.dart';
 
 import '../../../../core/constant/resources/assets_manager.dart';
-import '../../navigation_widget/backgron_color_page.dart';
 import '../category_svg.dart';
 
 class ListViewPrograming extends StatelessWidget {
@@ -12,7 +12,7 @@ class ListViewPrograming extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView(
       children: [
-        BackgroundColorPage(
+        BackgroundColorPage2(
           text: 'programing'.tr,
         ),
         Column(

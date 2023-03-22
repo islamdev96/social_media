@@ -1,9 +1,10 @@
 // ignore_for_file: library_private_types_in_public_api
 
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
-class FavoriteButton extends StatefulWidget {
-  FavoriteButton({
+class FavoriteButtonp extends StatefulWidget {
+  FavoriteButtonp({
     double? iconSize,
     Color? iconColor,
     Color? iconDisabledColor,
@@ -24,10 +25,10 @@ class FavoriteButton extends StatefulWidget {
   final Color? _iconDisabledColor;
 
   @override
-  _FavoriteButtonState createState() => _FavoriteButtonState();
+  _FavoriteButtonpState createState() => _FavoriteButtonpState();
 }
 
-class _FavoriteButtonState extends State<FavoriteButton>
+class _FavoriteButtonpState extends State<FavoriteButtonp>
     with TickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<Color?> _colorAnimation;
@@ -94,10 +95,14 @@ class _FavoriteButtonState extends State<FavoriteButton>
       ],
     ).animate(_curve);
 
-    _controller.addStatusListener((status) {
+    _controller.addStatusListener((status) async {
       if (status == AnimationStatus.completed) {
         _isAnimationCompleted = true;
+        SharedPreferences prefs = await SharedPreferences.getInstance();
+        prefs.setBool('isFavorite', _isFavorite);
+
         _isFavorite = !_isFavorite;
+
         widget._valueChanged(_isFavorite);
       } else if (status == AnimationStatus.dismissed) {
         _isAnimationCompleted = false;

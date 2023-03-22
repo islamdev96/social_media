@@ -1,8 +1,12 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatelessWidget {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
+
+  LoginPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -37,6 +41,7 @@ class LoginPage extends StatelessWidget {
             const SizedBox(height: 32.0),
             ElevatedButton(
               onPressed: () {
+                // ignore: todo
                 // TODO: implement login
               },
               child: const Text('Login'),

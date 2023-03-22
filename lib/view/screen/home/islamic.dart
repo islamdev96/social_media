@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:social_media/view/widget/home_widget/home_page_list_view/List_view_islamic.dart';
-import '../../../core/constant/resources/color_manager.dart';
 import '../../../data/models/manage_ads/banner_ads.dart';
 import '../../widget/navigation_widget/bottom_navigation_bar.dart';
 
@@ -10,17 +9,12 @@ class Islamic extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Stack(
-      children: [
+      children: const [
         Scaffold(
-          appBar: AppBar(
-            automaticallyImplyLeading: false,
-            elevation: 0,
-            backgroundColor: ColorManager.kPrimary,
-          ),
-          body: const ListViewIslamic(),
-          bottomNavigationBar: const BottomNavigationBarAll(),
+          body: ListViewIslamic(),
+          bottomNavigationBar: BottomNavigationBarAll(),
         ),
-        const AnimatedPositioned(
+        AnimatedPositioned(
           duration: Duration(seconds: 2),
           bottom: 70,
           left: 0,

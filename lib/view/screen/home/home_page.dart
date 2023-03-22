@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../../../core/constant/resources/color_manager.dart';
 import '../../../data/models/manage_ads/banner_ads.dart';
 import '../../widget/home_widget/home_drawer.dart';
 import '../../widget/home_widget/home_page_list_view/home_list_view.dart';
@@ -12,16 +11,13 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       clipBehavior: Clip.none,
-      children: [
+      children: const [
         Scaffold(
-          drawer: const HomeDrawer(),
-          appBar: AppBar(
-            elevation: 0,
-            backgroundColor: ColorManager.kPrimary,
-          ),
-          body: const HomeListView(),
+          drawer: HomeDrawer(),
 
-          bottomNavigationBar: const BottomNavigationBarAll(),
+          body: HomeListView(),
+
+          bottomNavigationBar: BottomNavigationBarAll(),
 
           //  CurvedNavigationBar(
           //   color: ColorManager.kPrimary,
@@ -47,7 +43,7 @@ class HomePage extends StatelessWidget {
           //   },
           // ),
         ),
-        const AnimatedPositioned(
+        AnimatedPositioned(
           duration: Duration(seconds: 2),
           bottom: 70,
           left: 0,
