@@ -21,7 +21,7 @@ class BackgroundColorPage2 extends StatelessWidget {
             child: Image(
               height: MediaQuery.of(context).size.height / 2.5,
               fit: BoxFit.fill,
-              image: const AssetImage('assets/images/1.png'),
+              image: const AssetImage('assets/images/another/4.png'),
             ),
           ),
         ],

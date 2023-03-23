@@ -62,6 +62,7 @@ flutter:
     - assets/images/
     - assets/json/
     - assets/images/websites_images/
+    - assets/images/another/
     - assets/images/websites_images/programing/
     - assets/images/websites_images/soshal/
     - assets/images/websites_images/news/
