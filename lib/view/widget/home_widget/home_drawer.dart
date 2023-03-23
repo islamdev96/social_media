@@ -38,6 +38,22 @@ class HomeDrawer extends StatelessWidget {
                   color: Colors.white,
                   fontSize: 24,
                 ),
+                // const Divider(
+                //   thickness: 5,
+                // ),
+                // SwitchListTile(
+                //   title: Text(
+                //     'darkMode'.tr,
+                //     style: const TextStyle(
+                //       color: Colors.white,
+                //       fontSize: 12,
+                //     ),
+                //   ),
+                //   value: themeProvider.getIsDarkTheme(),
+                //   onChanged: (value) {
+                //     themeProvider.toggleTheme();
+                //   },
+                // ),
               ),
             ),
           ),
