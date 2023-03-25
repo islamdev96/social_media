@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:social_media/view/screen/home/home_pages/social_media_page.dart';
 import '../../../../core/constant/resources/assets_manager.dart';
 import '../../../widget/favorite_widget/card_favorite_svg.dart';
 import '../../../widget/home_widget/category_page.dart';
@@ -15,14 +14,6 @@ class FavoriteSocialMedi extends StatelessWidget {
       children: [
         CategoryPage(
           text: 'socialMedia'.tr,
-          onTap: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) {
-                return const SocialMediaPage();
-              }),
-            );
-          },
         ),
         Column(
           children: [

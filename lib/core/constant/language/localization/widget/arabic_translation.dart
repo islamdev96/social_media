@@ -19,6 +19,9 @@ class ArabicTranslation extends MyTranslation {
           "freelancer": "العمل الحر",
           "addFavorite": "اضف الى المفضلة",
           "favorite": "المفضلة",
+          "addedtoFavorite": "تمت الاضافة الى المفضلة",
+          "removedfromFavorite": "تمت الازالة من المفضلة",
+          "undo": "تراجع",
 
           //---------------------------socialMedia-----------------------------------------
 

@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:social_media/view/widget/favorite_widget/favorite_button.dart';
 import '../../../core/constant/resources/color_manager.dart';
@@ -42,10 +43,10 @@ class _CardFavoriteSvgState extends State<CardFavoriteSvg> {
               ///
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(
-                  backgroundColor: ColorManager.kPrimary,
-                  duration: const Duration(seconds: 1),
+                  backgroundColor: ColorManager.kgree,
+                  duration: const Duration(seconds: 3),
                   action: SnackBarAction(
-                    label: 'Undo',
+                    label: 'undo'.tr,
                     onPressed: () {
                       setState(() {
                         isFavorite = !isFavorite;
@@ -53,7 +54,9 @@ class _CardFavoriteSvgState extends State<CardFavoriteSvg> {
                     },
                   ),
                   content: Text(
-                    isFavorite ? 'Added to Favorite' : 'Removed from Favorite',
+                    isFavorite
+                        ? 'addedtoFavorite'.tr
+                        : 'removedfromFavorite'.tr,
                   ),
                 ),
               );

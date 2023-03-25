@@ -19,6 +19,9 @@ class EnglishTranslation extends MyTranslation {
           "freelancer": "Freelancer",
           "addFavorite": "Add Favorite",
           "favorite": "Favorite",
+          "addedtoFavorite": "Added to Favorite",
+          "removedfromFavorite": "Removed from Favorite",
+          "undo": "Undo",
 
           //---------------------------socialMedia-----------------------------------------
 

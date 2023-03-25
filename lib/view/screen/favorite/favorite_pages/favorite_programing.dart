@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../../core/constant/resources/assets_manager.dart';
-import '../../../../main.dart';
 import '../../../widget/favorite_widget/card_favorite_svg.dart';
 import '../../../widget/home_widget/category_page.dart';
 import '../../../widget/home_widget/category_svg.dart';
@@ -15,14 +14,6 @@ class FavoritePrograming extends StatelessWidget {
       children: [
         CategoryPage(
           text: 'programing'.tr,
-          onTap: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) {
-                return const SocialMedia();
-              }),
-            );
-          },
         ),
         Column(
           children: [
