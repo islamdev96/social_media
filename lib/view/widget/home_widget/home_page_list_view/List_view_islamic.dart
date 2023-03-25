@@ -1,6 +1,7 @@
 // ignore_for_file: file_names
 
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:social_media/core/class/curve_cliper/backgron_color_page2.dart';
 import '../../../../core/constant/resources/assets_manager.dart';
@@ -175,8 +176,8 @@ class ListViewIslamic extends StatelessWidget {
             ),
           ],
         ),
-        const SizedBox(
-          height: 200,
+        SizedBox(
+          height: 100.h,
         ),
       ],
     );

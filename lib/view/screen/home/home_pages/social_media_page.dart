@@ -1,18 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:social_media/view/widget/home_widget/home_page_list_view/list_view_freelancer.dart';
+import 'package:social_media/view/widget/home_widget/home_page_list_view/list_view_social_media.dart';
+import '../../../../data/models/manage_ads/banner_ads.dart';
+import '../../../widget/navigation_widget/bottom_navigation_bar.dart';
 
-import '../../../data/models/manage_ads/banner_ads.dart';
-import '../../widget/navigation_widget/bottom_navigation_bar.dart';
-
-class Freelancer extends StatelessWidget {
-  const Freelancer({Key? key}) : super(key: key);
+class SocialMediaPage extends StatelessWidget {
+  const SocialMediaPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Stack(
       children: const [
         Scaffold(
-          body: ListViewFreelancer(),
+          body: ListViewSocialMedia(),
           bottomNavigationBar: BottomNavigationBarAll(),
         ),
         AnimatedPositioned(

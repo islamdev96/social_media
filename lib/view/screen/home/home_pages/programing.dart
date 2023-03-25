@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:social_media/view/widget/home_widget/home_page_list_view/list_view_programing.dart';
-import '../../../data/models/manage_ads/banner_ads.dart';
-import '../../widget/navigation_widget/bottom_navigation_bar.dart';
+import '../../../../data/models/manage_ads/banner_ads.dart';
+import '../../../widget/navigation_widget/bottom_navigation_bar.dart';
 
 class Programing extends StatelessWidget {
   const Programing({Key? key}) : super(key: key);

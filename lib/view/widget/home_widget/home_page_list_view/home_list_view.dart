@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:social_media/core/class/curve_cliper/backgron_color_page2.dart';
 
+import '../../../../core/class/curve_cliper/backgron_color_page2.dart';
 import '../../../../core/test/1.dart';
-import '../../../screen/home/freelancer.dart';
-import '../../../screen/home/islamic.dart';
-import '../../../screen/home/news.dart';
-import '../../../screen/home/programing.dart';
-import '../../../screen/home/social_media_page.dart';
-import '../../../screen/home/sport.dart';
+import '../../../screen/home/home_pages/freelancer.dart';
+import '../../../screen/home/home_pages/islamic.dart';
+import '../../../screen/home/home_pages/news.dart';
+import '../../../screen/home/home_pages/programing.dart';
+import '../../../screen/home/home_pages/social_media_page.dart';
+import '../../../screen/home/home_pages/sport.dart';
 
 class HomeListView extends StatelessWidget {
   const HomeListView({super.key});
@@ -21,32 +22,26 @@ class HomeListView extends StatelessWidget {
         return Column(
           children: [
             BackgroundColorPage2(
-              text: 'socialMedia'.tr,
+              text: ''.tr,
             ),
-            // const SizedBox(
-            //   height: 20,
-            // ),
             ContainerTest(
               text: 'socialMedia'.tr,
               onTap: () {
                 Get.to(const SocialMediaPage());
               },
             ),
-
             ContainerTest(
               text: 'news'.tr,
               onTap: () {
                 Get.to(const News());
               },
             ),
-
             ContainerTest(
               text: 'sport'.tr,
               onTap: () {
                 Get.to(const Sports());
               },
             ),
-
             ContainerTest(
               text: 'programing'.tr,
               onTap: () {
@@ -59,87 +54,25 @@ class HomeListView extends StatelessWidget {
                 Get.to(const Islamic());
               },
             ),
-
             ContainerTest(
               text: 'freelancer'.tr,
               onTap: () {
                 Get.to(const Freelancer());
               },
             ),
-            const SizedBox(
-              height: 200,
+            SizedBox(
+              height: 100.h,
             ),
-
-            // CategoryPage(
-            //     text: 'socialMedia'.tr,
-            //     onTap: () {
-            //       Get.to(const SocialMediaPage());
-            //     }),
-            // CategoryPage(
-            //   text: 'news'.tr,
-            //   onTap: () {
-            //     Navigator.push(
-            //       context,
-            //       MaterialPageRoute(
-            //         builder: (context) {
-            //           return const News();
-            //         },
-            //       ),
-            //     );
-            //   },
-            // ),
-            // CategoryPage(
-            //   text: 'sport'.tr,
-            //   onTap: () {
-            //     Navigator.push(
-            //       context,
-            //       MaterialPageRoute(
-            //         builder: (context) {
-            //           return const Sports();
-            //         },
-            //       ),
-            //     );
-            //   },
-            // ),
-            // CategoryPage(
-            //   text: 'programing'.tr,
-            //   onTap: () {
-            //     Navigator.push(
-            //       context,
-            //       MaterialPageRoute(builder: (context) {
-            //         return const Programing();
-            //       }),
-            //     );
-            //   },
-            // ),
-            // CategoryPage(
-            //   text: 'islamic'.tr,
-            //   onTap: () {
-            //     Navigator.push(
-            //       context,
-            //       MaterialPageRoute(builder: (context) {
-            //         return const Islamic();
-            //       }),
-            //     );
-            //   },
-            // ),
-            // CategoryPage(
-            //   text: 'freelancer'.tr,
-            //   onTap: () {
-            //     Navigator.push(
-            //       context,
-            //       MaterialPageRoute(builder: (context) {
-            //         return const Freelancer();
-            //       }),
-            //     );
-            //   },
-            // ),
-            // const SizedBox(
-            //   height: 200,
-            // ),
           ],
         );
       },
     );
   }
 }
+
+
+  // child: Container(
+  //                   decoration: BoxDecoration(
+  //                     color: Colors.black.withOpacity(0.5),
+  //                   ),
+  //                 ),

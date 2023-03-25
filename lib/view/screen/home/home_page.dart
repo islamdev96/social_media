@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:social_media/core/constant/resources/color_manager.dart';
 import '../../../data/models/manage_ads/banner_ads.dart';
 import '../../widget/home_widget/home_drawer.dart';
 import '../../widget/home_widget/home_page_list_view/home_list_view.dart';
@@ -11,13 +13,24 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       clipBehavior: Clip.none,
-      children: const [
+      children: [
         Scaffold(
-          drawer: HomeDrawer(),
+          appBar: AppBar(
+            backgroundColor: ColorManager.kPrimary,
+            title: Text(
+              'socialMedia'.tr,
+              style: const TextStyle(
+                color: ColorManager.backgroundcolor,
+                fontSize: 20,
+              ),
+            ),
+            centerTitle: true,
+          ),
+          drawer: const HomeDrawer(),
 
-          body: HomeListView(),
+          body: const HomeListView(),
 
-          bottomNavigationBar: BottomNavigationBarAll(),
+          bottomNavigationBar: const BottomNavigationBarAll(),
 
           //  CurvedNavigationBar(
           //   color: ColorManager.kPrimary,
@@ -43,7 +56,7 @@ class HomePage extends StatelessWidget {
           //   },
           // ),
         ),
-        AnimatedPositioned(
+        const AnimatedPositioned(
           duration: Duration(seconds: 2),
           bottom: 70,
           left: 0,

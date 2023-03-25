@@ -4,7 +4,7 @@ import 'package:social_media/view/screen/favorite/add.dart';
 import 'package:social_media/view/screen/favorite/favorite_home_page.dart';
 import 'package:social_media/view/screen/favorite/person.dart';
 import 'package:social_media/view/screen/favorite/search.dart';
-import 'package:social_media/view/screen/home/social_media_page.dart';
+import 'package:social_media/view/screen/home/home_pages/social_media_page.dart';
 
 import '../../../view/screen/home/home_page.dart';
 import '../language/view/screen/language.dart';

@@ -3,14 +3,14 @@ import 'package:social_media/core/constant/resources/color_manager.dart';
 
 ThemeData themeEnglish = ThemeData(
   fontFamily: "PlayfairDisplay",
-  floatingActionButtonTheme: const FloatingActionButtonThemeData(
-      backgroundColor: ColorManager.primaryColor),
+  floatingActionButtonTheme:
+      FloatingActionButtonThemeData(backgroundColor: ColorManager.kPrimary),
   appBarTheme: AppBarTheme(
     centerTitle: true,
     elevation: 0,
-    iconTheme: const IconThemeData(color: ColorManager.primaryColor),
-    titleTextStyle: const TextStyle(
-        color: ColorManager.primaryColor,
+    iconTheme: const IconThemeData(color: ColorManager.backgroundcolor),
+    titleTextStyle: TextStyle(
+        color: ColorManager.kPrimary,
         fontWeight: FontWeight.bold,
         fontFamily: "PlayfairDisplay",
         fontSize: 25),
@@ -31,7 +31,19 @@ ThemeData themeEnglish = ThemeData(
 );
 
 ThemeData themeArabic = ThemeData(
-  // fontFamily: "Cairo",
+  fontFamily: "Cairo",
+  appBarTheme: AppBarTheme(
+    centerTitle: true,
+    elevation: 0,
+    iconTheme: const IconThemeData(color: ColorManager.backgroundcolor),
+    titleTextStyle: TextStyle(
+        color: ColorManager.kPrimary,
+        fontWeight: FontWeight.bold,
+        fontSize: 25),
+    backgroundColor: Colors.grey[50],
+  ),
+  floatingActionButtonTheme:
+      FloatingActionButtonThemeData(backgroundColor: ColorManager.kPrimary),
   textTheme: const TextTheme(
       headline1: TextStyle(
           fontWeight: FontWeight.bold, fontSize: 22, color: ColorManager.black),
