@@ -1,8 +1,12 @@
+// ignore_for_file: file_names, must_be_immutable
+
 import 'package:flutter/material.dart';
 
 import '../constant/resources/color_manager.dart';
 
 class MyStackBox extends StatelessWidget {
+  const MyStackBox({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,8 +38,7 @@ class MyStackBox extends StatelessWidget {
           //to clip overflown positioned containers.
           borderRadius: BorderRadius.circular(30),
           //if we set border radius on container, the overflown content get displayed at corner.
-          child: Container(
-              child: Stack(
+          child: Stack(
             children: <Widget>[
               //Stack helps to overlap widgets
               Positioned(
@@ -76,7 +79,7 @@ class MyStackBox extends StatelessWidget {
                     )),
               )
             ],
-          )),
+          ),
         ),
       ),
     );
@@ -93,9 +96,7 @@ class ContainerTest extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialButton(
-      onPressed: () {
-        onTap!;
-      },
+      onPressed: onTap!,
       child: Container(
         height: 200,
         margin: const EdgeInsets.all(20),
@@ -120,8 +121,7 @@ class ContainerTest extends StatelessWidget {
           //to clip overflown positioned containers.
           borderRadius: BorderRadius.circular(30),
           //if we set border radius on container, the overflown content get displayed at corner.
-          child: Container(
-              child: Stack(
+          child: Stack(
             children: <Widget>[
               //Stack helps to overlap widgets
               Positioned(
@@ -162,7 +162,7 @@ class ContainerTest extends StatelessWidget {
                     )),
               )
             ],
-          )),
+          ),
         ),
       ),
     );

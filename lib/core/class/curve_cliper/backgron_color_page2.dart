@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:social_media/core/constant/resources/color_manager.dart';
 
 import 'curve_cliper.dart';
 
@@ -24,6 +26,10 @@ class BackgroundColorPage2 extends StatelessWidget {
               fit: BoxFit.cover,
               image: const AssetImage('assets/images/another/4.png'),
             ),
+          ),
+          Text(
+            text!,
+            style: TextStyle(color: ColorManager.kPrimary, fontSize: 20.sp),
           ),
         ],
       ),

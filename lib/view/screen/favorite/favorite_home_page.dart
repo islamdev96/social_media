@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../core/constant/resources/color_manager.dart';
-import '../../widget/navigation_widget/backgron_color_page.dart';
+import '../../../core/class/curve_cliper/backgron_color_page2.dart';
 import '../../widget/navigation_widget/bottom_navigation_bar.dart';
 
 class FavoriteHomePage extends StatefulWidget {
@@ -17,14 +16,14 @@ class _FavoriteHomePageState extends State<FavoriteHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        automaticallyImplyLeading: false,
-        elevation: 0,
-        backgroundColor: ColorManager.kPrimary,
-      ),
+      // appBar: AppBar(
+      //   automaticallyImplyLeading: false,
+      //   elevation: 0,
+      //   backgroundColor: ColorManager.kPrimary,
+      // ),
       body: ListView(
         children: [
-          BackgroundColorPage(
+          BackgroundColorPage2(
             text: 'favorite'.tr,
           ),
           Column(

@@ -7,6 +7,7 @@ import '../../../screen/home/freelancer.dart';
 import '../../../screen/home/islamic.dart';
 import '../../../screen/home/news.dart';
 import '../../../screen/home/programing.dart';
+import '../../../screen/home/social_media_page.dart';
 import '../../../screen/home/sport.dart';
 
 class HomeListView extends StatelessWidget {
@@ -22,20 +23,13 @@ class HomeListView extends StatelessWidget {
             BackgroundColorPage2(
               text: 'socialMedia'.tr,
             ),
-            const SizedBox(
-              height: 20,
-            ),
+            // const SizedBox(
+            //   height: 20,
+            // ),
             ContainerTest(
               text: 'socialMedia'.tr,
               onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) {
-                      return const News();
-                    },
-                  ),
-                );
+                Get.to(const SocialMediaPage());
               },
             ),
 

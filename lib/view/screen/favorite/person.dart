@@ -55,7 +55,7 @@ class Person extends StatelessWidget {
 
                 // <-- Button
                 onPressed: () {
-                  Get.to(() => MyStackBox());
+                  Get.to(() => const MyStackBox());
                 },
                 child: const Text('MyStackBox'),
               ),
