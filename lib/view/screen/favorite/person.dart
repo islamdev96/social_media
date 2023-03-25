@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../core/constant/resources/color_manager.dart';
+import '../../../core/test/1.dart';
 import '../../../core/test/MyApp.dart';
 import '../../../core/test/ShoppingPage.dart';
 import '../../../core/test/LoginPage.dart';
@@ -54,9 +55,9 @@ class Person extends StatelessWidget {
 
                 // <-- Button
                 onPressed: () {
-                  Get.to(() => const NewsScreen());
+                  Get.to(() => MyStackBox());
                 },
-                child: const Text('News'),
+                child: const Text('MyStackBox'),
               ),
               ElevatedButton(
                 autofocus: true,

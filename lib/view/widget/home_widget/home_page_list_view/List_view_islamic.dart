@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:social_media/view/widget/home_widget/backgron_color_page.dart';
+import 'package:social_media/core/class/curve_cliper/backgron_color_page2.dart';
 import '../../../../core/constant/resources/assets_manager.dart';
 import '../category_svg.dart';
 
