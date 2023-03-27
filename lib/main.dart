@@ -5,7 +5,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:social_media/core/constant/resources/app_routes.dart';
-
+import 'package:upgrader/upgrader.dart';
 import 'core/constant/language/localization/changelocal.dart';
 import 'core/constant/language/localization/translate.dart';
 import 'core/services/services.dart';
@@ -48,6 +48,10 @@ class _SocialMediaState extends State<SocialMedia> {
           locale: controller.language,
           theme: controller.appTheme,
           initialRoute: '/language',
+          home: UpgradeAlert(
+            upgrader: Upgrader(dialogStyle: UpgradeDialogStyle.cupertino),
+            child: const Center(child: Text('Checking...')),
+          ),
         );
       },
     );
