@@ -25,6 +25,8 @@ class Favorite with ChangeNotifier {
     return _items.length;
   }
 
+  String get title => throw UnimplementedError();
+
   void addFavoriteItem(String foodId, String foodImage, String foodTitle,
       String foodType, String foodTime, double foodPrice) {
     if (_items.containsKey(foodId)) {

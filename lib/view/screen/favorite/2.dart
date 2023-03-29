@@ -17,10 +17,10 @@
 //   await Hive.openBox(SETTINGS_BOX);
 //   await Hive.openBox(API_BOX);
 //   await Hive.openBox(FAVORITES_BOX);
-//   runApp(MyApp());
+//   runApp(MyApp22());
 // }
 
-// class MyApp extends StatelessWidget {
+// class MyApp22 extends StatelessWidget {
 //   @override
 //   Widget build(BuildContext context) {
 //     return MaterialApp(
@@ -38,11 +38,10 @@
 
 //   @override
 //   Widget build(BuildContext context) {
-//     print(Hive.box(SETTINGS_BOX).get("welcome_shown"));
 //     return ValueListenableBuilder(
 //       valueListenable: Hive.box(SETTINGS_BOX).listenable(),
 //       builder: (context, box, child) =>
-//           box?.get('welcome_shown', defaultValue: false)
+//           box.get('welcome_shown', defaultValue: false)
 //               ? HomePage()
 //               : WelcomePage(),
 //     );
@@ -80,7 +79,7 @@
 //         title: const Text('Home page'),
 //         actions: [
 //           IconButton(
-//             icon: const Icon(Icons.favorite),
+//             icon: const Icon(Icons.favorite, color: Colors.red),
 //             onPressed: () async {
 //               Navigator.pushNamed(context, '/favorites');
 //             },
@@ -102,13 +101,13 @@
 //                       valueListenable: Hive.box(FAVORITES_BOX).listenable(),
 //                       builder: (context, box, child) => IconButton(
 //                         icon: Icon(
-//                           box?.containsKey(p['id'])
+//                           box.containsKey(p['id'])
 //                               ? Icons.favorite
 //                               : Icons.favorite_border,
 //                         ),
 //                         onPressed: () {
-//                           if (box?.containsKey(p['id'])) {
-//                             box?.delete(p['id']);
+//                           if (box.containsKey(p['id'])) {
+//                             box.delete(p['id']);
 //                           } else {
 //                             box.put(p['id'], p);
 //                           }
@@ -138,7 +137,7 @@
 //       body: ValueListenableBuilder(
 //           valueListenable: Hive.box(FAVORITES_BOX).listenable(),
 //           builder: (context, box, child) {
-//             final posts = box?.values.toList();
+//             final posts = box.values.toList();
 //             return ListView(
 //               padding: const EdgeInsets.all(16.0),
 //               children: <Widget>[

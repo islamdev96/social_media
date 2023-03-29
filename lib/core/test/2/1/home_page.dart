@@ -1,9 +1,9 @@
 import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
-import 'package:hive/hive.dart';
+import 'package:hive_flutter/adapters.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+class HomePaget extends StatelessWidget {
+  const HomePaget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +26,15 @@ class HomePage extends StatelessWidget {
                     Icons.favorite_border,
                     color: Colors.red,
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    Hive.box('favorite').put(word, true);
+
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        content: Text('$word added to favorite'),
+                      ),
+                    );
+                  },
                 ),
               );
             },

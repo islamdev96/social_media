@@ -1,8 +1,9 @@
-// ignore_for_file: equal_keys_in_map, unused_local_variable
+// ignore_for_file: equal_keys_in_map, unused_local_variable, constant_identifier_names
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:hive_flutter/adapters.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:social_media/core/constant/resources/app_routes.dart';
 import 'package:upgrader/upgrader.dart';
@@ -10,10 +11,13 @@ import 'core/constant/language/localization/changelocal.dart';
 import 'core/constant/language/localization/translate.dart';
 import 'core/services/services.dart';
 
+const String FAVORITES_BOX = "favorites_box";
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await Hive.initFlutter();
 
-  // await initialServices();
+  await Hive.openBox(FAVORITES_BOX);
   await MyServices().init();
 
   SharedPreferences sharedPreferences = await SharedPreferences.getInstance();

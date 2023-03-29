@@ -16,11 +16,6 @@ class _FavoriteHomePageState extends State<FavoriteHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(
-      //   automaticallyImplyLeading: false,
-      //   elevation: 0,
-      //   backgroundColor: ColorManager.kPrimary,
-      // ),
       body: ListView(
         children: [
           BackgroundColorPage2(

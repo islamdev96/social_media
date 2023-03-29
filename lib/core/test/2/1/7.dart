@@ -1,9 +1,12 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/adapters.dart';
-
-import '../../../../view/screen/home/home_page.dart';
+import 'package:social_media/core/test/2/1/home_page.dart';
 
 Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
   await Hive.initFlutter();
   await Hive.openBox('favorite');
 
@@ -17,7 +20,7 @@ class MyAppHive extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.light(),
-      home: const HomePage(),
+      home: const HomePaget(),
     );
   }
 }
