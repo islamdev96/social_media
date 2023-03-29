@@ -1,23 +1,26 @@
+// ignore_for_file: unused_local_variable, use_build_context_synchronously
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:social_media/core/class/curve_cliper/backgron_color_page2.dart';
-import 'package:social_media/view/screen/favorite/favorite_pages/favorite_freelancer.dart';
-import 'package:social_media/view/screen/favorite/favorite_pages/favorite_islamic.dart';
-import 'package:social_media/view/screen/favorite/favorite_pages/favorite_news.dart';
-import 'package:social_media/view/screen/favorite/favorite_pages/favorite_programing.dart';
+import 'package:hive_flutter/adapters.dart';
 
 import '../../../core/constant/resources/color_manager.dart';
 import '../../widget/navigation_widget/bottom_navigation_bar.dart';
 import 'favorite_home_page.dart';
-import 'favorite_pages/favorite_social_media.dart';
-import 'favorite_pages/favorite_sport.dart';
+import 'package:english_words/english_words.dart';
 
-class Add extends StatelessWidget {
+class Add extends StatefulWidget {
   const Add({super.key});
-  // static const routeName = '/add';
 
   @override
+  State<Add> createState() => _AddState();
+}
+
+class _AddState extends State<Add> {
+  // static const routeName = '/add';
+  @override
   Widget build(BuildContext context) {
+    final words = nouns.take(100).toList();
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
@@ -32,26 +35,104 @@ class Add extends StatelessWidget {
           )
         ],
       ),
-      body: ListView.builder(
-        itemCount: 1,
-        itemBuilder: (context, index) => Column(
-          children: [
-            BackgroundColorPage2(
-              text: 'addFavorite'.tr,
-            ),
-            Column(
-              children: const [
-                FavoriteSocialMedi(),
-                FavoriteNews(),
-                FavoriteSport(),
-                FavoritePrograming(),
-                FavoriteIslamic(),
-                FavoriteFreelancer(),
-              ],
-            ),
-          ],
-        ),
-      ),
+      body: ValueListenableBuilder(
+          valueListenable: Hive.box('favorites_box').listenable(),
+          builder: (context, box, child) {
+            return ListView.builder(
+              itemCount: words.length,
+              itemBuilder: (context, index) {
+                final word = words[index];
+                final isFavorite = box.get(index) != null;
+                return ListTile(
+                  title: Text(word),
+                  trailing: IconButton(
+                    onPressed: () async {
+                      if (isFavorite) {
+                        await box.delete(index);
+                      } else {
+                        await box.put(index, word);
+                      }
+
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(
+                          backgroundColor: ColorManager.kgree,
+                          duration: const Duration(seconds: 3),
+                          action: SnackBarAction(
+                            label: 'undo'.tr,
+                            onPressed: () {
+                              setState(() {});
+                            },
+                          ),
+                          content: Text(
+                            isFavorite
+                                ? 'addedtoFavorite'.tr
+                                : 'removedfromFavorite'.tr,
+                          ),
+                        ),
+                      );
+                    },
+                    icon: Icon(
+                      isFavorite ? Icons.favorite : Icons.favorite_border,
+                      color: Colors.red,
+                    ),
+                  ),
+                );
+              },
+            );
+            // return FavoriteButtonp(
+            //     isFavorite: box.get('favorites_box', defaultValue: false),
+            //     iconSize: 65.sp,
+            //     valueChanged: (FAVORITESBOX) {
+            //       Hive.box(FAVORITES_BOX)
+            //           .put('favorites_box', FAVORITESBOX);
+            //       box.put('favorites_box', FAVORITESBOX);
+
+            //       //
+            //       ////////////////////////////////////////////////////////////////////////////////////////////////
+            //       ///
+
+            //       ScaffoldMessenger.of(context).showSnackBar(
+            //         SnackBar(
+            //           backgroundColor: ColorManager.kgree,
+            //           duration: const Duration(seconds: 3),
+            //           action: SnackBarAction(
+            //             label: 'undo'.tr,
+            //             onPressed: () {
+            //               setState(() {
+            //                 FAVORITESBOX = !FAVORITESBOX;
+            //               });
+            //             },
+            //           ),
+            //           content: Text(
+            //             FAVORITESBOX
+            //                 ? 'addedtoFavorite'.tr
+            //                 : 'removedfromFavorite'.tr,
+            //           ),
+            //         ),
+            //       );
+            //     });
+          }),
+
+      // body: ListView.builder(
+      //   itemCount: 1,
+      //   itemBuilder: (context, index) => Column(
+      //     children: [
+      //       BackgroundColorPage2(
+      //         text: 'addFavorite'.tr,
+      //       ),
+      //       Column(
+      //         children: const [
+      //           FavoriteSocialMedi(),
+      //           FavoriteNews(),
+      //           FavoriteSport(),
+      //           FavoritePrograming(),
+      //           FavoriteIslamic(),
+      //           FavoriteFreelancer(),
+      //         ],
+      //       ),
+      //     ],
+      //   ),
+      // ),
       // bottomNavigationBar: const BottomNavigationBarAll(),
       bottomNavigationBar: const BottomNavigationBarAll(),
 

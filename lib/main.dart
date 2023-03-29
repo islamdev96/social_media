@@ -11,13 +11,11 @@ import 'core/constant/language/localization/changelocal.dart';
 import 'core/constant/language/localization/translate.dart';
 import 'core/services/services.dart';
 
-const String FAVORITES_BOX = "favorites_box";
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Hive.initFlutter();
 
-  await Hive.openBox(FAVORITES_BOX);
+  await Hive.openBox('favorites_box');
   await MyServices().init();
 
   SharedPreferences sharedPreferences = await SharedPreferences.getInstance();

@@ -1,12 +1,7 @@
-// ignore_for_file: library_private_types_in_public_api, use_build_context_synchronously
+// ignore_for_file: library_private_types_in_public_api, use_build_context_synchronously, unused_local_variable
 
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:get/get.dart';
 import 'package:hive_flutter/adapters.dart';
-import 'package:social_media/view/widget/favorite_widget/favorite_button.dart';
-import '../../../core/constant/resources/color_manager.dart';
-import '../../../main.dart';
 import '../home_widget/category_svg.dart';
 
 class CardFavoriteSvg extends StatefulWidget {
@@ -28,42 +23,61 @@ class _CardFavoriteSvgState extends State<CardFavoriteSvg> {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          widget.categoryFavoriteSvg,
+          // widget.categoryFavoriteSvg,
           ValueListenableBuilder(
-              valueListenable: Hive.box(FAVORITES_BOX).listenable(),
+              valueListenable: Hive.box('favorites_box').listenable(),
               builder: (context, box, child) {
-                return FavoriteButtonp(
-                    isFavorite: box.get('favorites_box', defaultValue: false),
-                    iconSize: 65.sp,
-                    valueChanged: (FAVORITESBOX) {
-                      Hive.box(FAVORITES_BOX)
-                          .put('favorites_box', FAVORITESBOX);
-                      box.put('favorites_box', FAVORITESBOX);
+                return ListView.builder(
+                  itemCount: 1,
+                  itemBuilder: (context, index) {
+                    final isFavorite = box.get(index) ?? false;
 
-                      //
-                      ////////////////////////////////////////////////////////////////////////////////////////////////
-                      ///
-
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        SnackBar(
-                          backgroundColor: ColorManager.kgree,
-                          duration: const Duration(seconds: 3),
-                          action: SnackBarAction(
-                            label: 'undo'.tr,
-                            onPressed: () {
-                              setState(() {
-                                FAVORITESBOX = !FAVORITESBOX;
-                              });
-                            },
-                          ),
-                          content: Text(
-                            FAVORITESBOX
-                                ? 'addedtoFavorite'.tr
-                                : 'removedfromFavorite'.tr,
-                          ),
+                    return ListTile(
+                      title: const Text('favorites_box'),
+                      trailing: IconButton(
+                        onPressed: () async {
+                          await box.put('favorites_box', !isFavorite);
+                        },
+                        icon: Icon(
+                          isFavorite ? Icons.favorite : Icons.favorite_border,
+                          color: Colors.red,
                         ),
-                      );
-                    });
+                      ),
+                    );
+                  },
+                );
+                // return FavoriteButtonp(
+                //     isFavorite: box.get('favorites_box', defaultValue: false),
+                //     iconSize: 65.sp,
+                //     valueChanged: (FAVORITESBOX) {
+                //       Hive.box(FAVORITES_BOX)
+                //           .put('favorites_box', FAVORITESBOX);
+                //       box.put('favorites_box', FAVORITESBOX);
+
+                //       //
+                //       ////////////////////////////////////////////////////////////////////////////////////////////////
+                //       ///
+
+                //       ScaffoldMessenger.of(context).showSnackBar(
+                //         SnackBar(
+                //           backgroundColor: ColorManager.kgree,
+                //           duration: const Duration(seconds: 3),
+                //           action: SnackBarAction(
+                //             label: 'undo'.tr,
+                //             onPressed: () {
+                //               setState(() {
+                //                 FAVORITESBOX = !FAVORITESBOX;
+                //               });
+                //             },
+                //           ),
+                //           content: Text(
+                //             FAVORITESBOX
+                //                 ? 'addedtoFavorite'.tr
+                //                 : 'removedfromFavorite'.tr,
+                //           ),
+                //         ),
+                //       );
+                //     });
               }),
 
           //
