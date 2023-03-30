@@ -1,5 +1,6 @@
 // ignore_for_file: unused_local_variable, use_build_context_synchronously
 
+import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hive_flutter/adapters.dart';
@@ -7,7 +8,6 @@ import 'package:hive_flutter/adapters.dart';
 import '../../../core/constant/resources/color_manager.dart';
 import '../../widget/navigation_widget/bottom_navigation_bar.dart';
 import 'favorite_home_page.dart';
-import 'package:english_words/english_words.dart';
 
 class Add extends StatefulWidget {
   const Add({super.key});
@@ -17,7 +17,6 @@ class Add extends StatefulWidget {
 }
 
 class _AddState extends State<Add> {
-  // static const routeName = '/add';
   @override
   Widget build(BuildContext context) {
     final words = nouns.take(100).toList();
@@ -43,38 +42,21 @@ class _AddState extends State<Add> {
               itemBuilder: (context, index) {
                 final word = words[index];
                 final isFavorite = box.get(index) != null;
-                return ListTile(
-                  title: Text(word),
-                  trailing: IconButton(
-                    onPressed: () async {
-                      if (isFavorite) {
-                        await box.delete(index);
-                      } else {
-                        await box.put(index, word);
-                      }
 
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        SnackBar(
-                          backgroundColor: ColorManager.kgree,
-                          duration: const Duration(seconds: 3),
-                          action: SnackBarAction(
-                            label: 'undo'.tr,
-                            onPressed: () {
-                              setState(() {});
-                            },
-                          ),
-                          content: Text(
-                            isFavorite
-                                ? 'addedtoFavorite'.tr
-                                : 'removedfromFavorite'.tr,
-                          ),
-                        ),
-                      );
-                    },
+                return ListTile(
+                  title: Text(word.toString()),
+                  trailing: IconButton(
                     icon: Icon(
                       isFavorite ? Icons.favorite : Icons.favorite_border,
-                      color: Colors.red,
+                      color: isFavorite ? Colors.red : Colors.grey,
                     ),
+                    onPressed: () {
+                      if (isFavorite) {
+                        box.delete(index);
+                      } else {
+                        box.put(index, word);
+                      }
+                    },
                   ),
                 );
               },

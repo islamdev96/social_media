@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 
-import '../constant/resources/color_manager.dart';
+import '../../core/constant/resources/color_manager.dart';
 
 class MyStackBox extends StatelessWidget {
   const MyStackBox({super.key});

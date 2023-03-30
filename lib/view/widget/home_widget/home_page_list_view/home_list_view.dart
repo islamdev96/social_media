@@ -3,13 +3,13 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
 import '../../../../core/class/curve_cliper/backgron_color_page2.dart';
-import '../../../../core/test/1.dart';
 import '../../../screen/home/home_pages/freelancer.dart';
 import '../../../screen/home/home_pages/islamic.dart';
 import '../../../screen/home/home_pages/news.dart';
 import '../../../screen/home/home_pages/programing.dart';
 import '../../../screen/home/home_pages/social_media_page.dart';
 import '../../../screen/home/home_pages/sport.dart';
+import '../../ContainerTest.dart';
 
 class HomeListView extends StatelessWidget {
   const HomeListView({super.key});

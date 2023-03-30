@@ -1,7 +1,7 @@
 // ignore_for_file: library_private_types_in_public_api
 
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import 'package:hive/hive.dart';
 
 class FavoriteButtonp extends StatefulWidget {
   FavoriteButtonp({
@@ -98,8 +98,9 @@ class _FavoriteButtonpState extends State<FavoriteButtonp>
     _controller.addStatusListener((status) async {
       if (status == AnimationStatus.completed) {
         _isAnimationCompleted = true;
-        SharedPreferences prefs = await SharedPreferences.getInstance();
-        prefs.setBool('isFavorite', _isFavorite);
+
+        await Hive.openBox('favorites');
+        final box = Hive.box('favorites');
 
         _isFavorite = !_isFavorite;
 
@@ -122,7 +123,7 @@ class _FavoriteButtonpState extends State<FavoriteButtonp>
   Widget build(BuildContext context) {
     return AnimatedBuilder(
       animation: _controller,
-      builder: (BuildContext context, _) {
+      builder: (BuildContext context, box) {
         return InkResponse(
           onTap: () {
             setState(() {
@@ -140,6 +141,11 @@ class _FavoriteButtonpState extends State<FavoriteButtonp>
           ),
         );
       },
+      child: Icon(
+        (Icons.favorite),
+        color: _colorAnimation.value,
+        size: _sizeAnimation.value,
+      ),
     );
   }
 }
