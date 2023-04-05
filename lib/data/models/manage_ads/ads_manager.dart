@@ -11,7 +11,7 @@ class AdsManager {
     if (testMode == true) {
       return 'ca-app-pub-3940256099942544/6300978111';
     } else if (Platform.isAndroid) {
-      return 'ca-app-pub-5357673439440811/8462987028';
+      return 'ca-app-pub-8871376632480286/9418318655';
     } else {
       throw UnsupportedError('Unsupported platform');
     }
