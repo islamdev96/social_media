@@ -1,8 +1,6 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:social_media/test/1.dart';
 
