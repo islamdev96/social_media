@@ -1,3 +1,6 @@
+// ignore_for_file: unused_element
+
+import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:social_media/core/constant/resources/color_manager.dart';
@@ -6,9 +9,19 @@ import '../../widget/home_widget/home_drawer.dart';
 import '../../widget/home_widget/home_page_list_view/home_list_view.dart';
 import '../../widget/navigation_widget/bottom_navigation_bar.dart';
 
-class HomePage extends StatelessWidget {
+final CurvedNavigationBarState? navBarState = _bottomNavigationKey.currentState;
+
+int _page = 0;
+GlobalKey<CurvedNavigationBarState> _bottomNavigationKey = GlobalKey();
+
+class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
 
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Stack(
@@ -27,34 +40,8 @@ class HomePage extends StatelessWidget {
             centerTitle: true,
           ),
           drawer: const HomeDrawer(),
-
           body: const HomeListView(),
-
           bottomNavigationBar: const BottomNavigationBarAll(),
-
-          //  CurvedNavigationBar(
-          //   color: ColorManager.kPrimary,
-          //   backgroundColor: Colors.white,
-          //   buttonBackgroundColor: ColorManager.kPrimary,
-          //   height: 60,
-          //   items: const <Widget>[
-          //     Icon(Icons.home, size: 25, color: Colors.white),
-          //     Icon(Icons.search, size: 25, color: Colors.white),
-          //     Icon(Icons.favorite, size: 25, color: Colors.white),
-          //     Icon(Icons.person, size: 25, color: Colors.white),
-          //   ],
-          //   onTap: (index) {
-          //     if (index == 0) {
-          //       Get.offAllNamed('/homePage');
-          //     } else if (index == 1) {
-          //       Get.toNamed('/search');
-          //     } else if (index == 2) {
-          //       Get.toNamed('/favorite');
-          //     } else if (index == 3) {
-          //       Get.toNamed('/person');
-          //     }
-          //   },
-          // ),
         ),
         const AnimatedPositioned(
           duration: Duration(seconds: 2),

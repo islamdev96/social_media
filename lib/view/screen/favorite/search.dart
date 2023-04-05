@@ -1,6 +1,10 @@
 // ignore_for_file: must_be_immutable
 
+import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
+import 'package:social_media/test/1.dart';
 
 import '../../../core/constant/resources/color_manager.dart';
 import '../../widget/navigation_widget/backgron_color_page.dart';
@@ -49,8 +53,33 @@ class Search extends StatelessWidget {
           ),
         ],
       ),
-      // bottomNavigationBar: const BottomNavigationBarAll(),
       bottomNavigationBar: const BottomNavigationBarAll(),
+      // bottomNavigationBar: CurvedNavigationBar(
+      //   animationDuration: const Duration(milliseconds: 1000),
+      //   animationCurve: Curves.easeInOutCubicEmphasized,
+      //   // index: true ? 3 : 1,
+      //   color: ColorManager.kPrimary,
+      //   backgroundColor: Colors.white,
+      //   buttonBackgroundColor: ColorManager.kPrimary,
+      //   height: 48.h,
+      //   items: const <Widget>[
+      //     Icon(Icons.home, size: 25, color: Colors.white),
+      //     Icon(Icons.search, size: 25, color: Colors.white),
+      //     Icon(Icons.favorite, size: 25, color: Colors.white),
+      //     Icon(Icons.person, size: 25, color: Colors.white),
+      //   ],
+      //   onTap: (index) {
+      //     if (index == 0) {
+      //       Get.offAllNamed('/homePage');
+      //     } else if (index == 1) {
+      //       Get.toNamed('/search');
+      //     } else if (index == 2) {
+      //       Get.toNamed('/favorite');
+      //     } else if (index == 3) {
+      //       Get.toNamed('/person');
+      //     }
+      //   },
+      // ),
 
       // CurvedNavigationBar(
       //   color: ColorManager.kPrimary,
@@ -67,6 +96,13 @@ class Search extends StatelessWidget {
       //     }
       //   },
       // ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Get.to(const IslamTest());
+        },
+        backgroundColor: ColorManager.kPrimary,
+        child: const Icon(Icons.add),
+      ),
     );
   }
 }

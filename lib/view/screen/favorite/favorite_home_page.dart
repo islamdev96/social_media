@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 
 import '../../../core/class/curve_cliper/backgron_color_page2.dart';
+import '../../../core/constant/resources/color_manager.dart';
+import '../../../data/models/manage_ads/banner_ads.dart';
 import '../../widget/navigation_widget/bottom_navigation_bar.dart';
 
 class FavoriteHomePage extends StatefulWidget {
@@ -15,41 +16,41 @@ class FavoriteHomePage extends StatefulWidget {
 class _FavoriteHomePageState extends State<FavoriteHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: ListView(
-        children: [
-          BackgroundColorPage2(
-            text: 'favorite'.tr,
+    return Stack(
+      children: [
+        Scaffold(
+          appBar: AppBar(
+            automaticallyImplyLeading: false,
+            elevation: 0,
+            backgroundColor: ColorManager.kPrimary,
           ),
-          Column(
-            children: const [],
+          body: ListView(
+            children: [
+              BackgroundColorPage2(
+                text: 'Favorite',
+              ),
+            ],
           ),
-        ],
-      ),
-      bottomNavigationBar: const BottomNavigationBarAll(),
+          bottomNavigationBar: const BottomNavigationBarAll(),
 
-      // CurvedNavigationBar(
-      //   color: ColorManager.kPrimary,
-      //   backgroundColor: Colors.white,
-      //   buttonBackgroundColor: ColorManager.kPrimary,
-      //   height: 60,
-      //   items: const <Widget>[
-      //     Icon(Icons.home, size: 25, color: Colors.white),
-      //     Icon(Icons.favorite, size: 25, color: Colors.white),
-      //   ],
-      //   onTap: (index) {
-      //     if (index == 0) {
-      //       Navigator.pushNamed(context, '/homePage');
-      //     }
-      //   },
-      // ),
-      // floatingActionButton: FloatingActionButton(
-      //   onPressed: () {
-      //     Get.toNamed('/add');
-      //   },
-      //   tooltip: 'Increment',
-      //   child: const Icon(Icons.add),
-      // ), // This trailing comma makes auto-formatting nicer
+          floatingActionButton: FloatingActionButton(
+            onPressed: () {},
+            tooltip: 'Increment',
+            child: const Icon(Icons.add),
+          ), // This trailing comma makes auto-formatting nicer
+        ),
+        const AnimatedPositioned(
+          duration: Duration(seconds: 2),
+          bottom: 70,
+          left: 0,
+          right: 0,
+          child: Center(
+            child: SizedBox(
+              child: BannerAds(),
+            ),
+          ),
+        ),
+      ],
     );
   }
 }

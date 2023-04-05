@@ -56,7 +56,13 @@ class _BottomNavigationBarAllState extends State<BottomNavigationBarAll> {
         Get.put(() {
           this.index = value;
         });
-        Get.to(screen[index]);
+        if (index == 0) {
+          Get.offAllNamed('/favorite');
+        } else if (index == 1) {
+          Get.offNamed('/homePage');
+        } else if (index == 2) {
+          Get.offNamed('/person');
+        }
       },
     );
   }
