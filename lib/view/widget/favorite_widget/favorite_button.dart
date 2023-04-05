@@ -100,7 +100,6 @@ class _FavoriteButtonpState extends State<FavoriteButtonp>
         _isAnimationCompleted = true;
 
         await Hive.openBox('favorites');
-        final box = Hive.box('favorites');
 
         _isFavorite = !_isFavorite;
 

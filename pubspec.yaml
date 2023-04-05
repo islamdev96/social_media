@@ -38,7 +38,7 @@ dependencies:
   responsive_framework: ^0.1.4
   shared_preferences: ^2.0.17
   sqflite: ^2.2.6
-  upgrader: null
+  upgrader: 
   url_launcher: ^6.0.9
   webview_flutter: ^4.0.1
 
