@@ -14,6 +14,7 @@ import 'core/services/services.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Hive.initFlutter();
+  await Upgrader.clearSavedSettings(); // REMOVE this for release builds
 
   await Hive.openBox('favorites_box');
   await MyServices().init();

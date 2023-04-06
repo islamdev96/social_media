@@ -47,3 +47,5 @@ class Person extends StatelessWidget {
     );
   }
 }
+
+NavigationBarButtons({required Icon icon, required Text text}) {}
