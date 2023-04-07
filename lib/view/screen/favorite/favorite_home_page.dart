@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../../../core/class/curve_cliper/backgron_color_page2.dart';
 import '../../../core/constant/resources/color_manager.dart';
 import '../../../data/models/manage_ads/banner_ads.dart';
-import '../../widget/navigation_widget/bottom_navigation_bar.dart';
 
 class FavoriteHomePage extends StatefulWidget {
   const FavoriteHomePage({super.key});
@@ -31,7 +30,7 @@ class _FavoriteHomePageState extends State<FavoriteHomePage> {
               ),
             ],
           ),
-          bottomNavigationBar: const BottomNavigationBarAll(),
+          // bottomNavigationBar: const BottomNavigationBarAll(),
 
           floatingActionButton: FloatingActionButton(
             onPressed: () {},

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:social_media/core/class/curve_cliper/backgron_color_page2.dart';
 import '../../../core/constant/resources/color_manager.dart';
 import '../../../data/models/manage_ads/banner_ads.dart';
-import '../../widget/navigation_widget/bottom_navigation_bar.dart';
+import '../../../test/3.dart';
 
 class Person extends StatelessWidget {
   const Person({super.key});
@@ -24,10 +25,12 @@ class Person extends StatelessWidget {
               ),
             ],
           ),
-          bottomNavigationBar: const BottomNavigationBarAll(),
+          // bottomNavigationBar: const BottomNavigationBarAll(),
 
           floatingActionButton: FloatingActionButton(
-            onPressed: () {},
+            onPressed: () {
+              Get.to(() => MyBottomNavigationBar());
+            },
             tooltip: 'Increment',
             child: const Icon(Icons.add),
           ), // This trailing comma makes auto-formatting nicer
@@ -47,5 +50,3 @@ class Person extends StatelessWidget {
     );
   }
 }
-
-NavigationBarButtons({required Icon icon, required Text text}) {}

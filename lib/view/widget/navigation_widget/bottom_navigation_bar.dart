@@ -25,7 +25,7 @@ class _BottomNavigationBarAllState extends State<BottomNavigationBarAll> {
   final screen = [
     // Search(),
     const FavoriteHomePage(),
-    HomePage(),
+    const HomePage(),
 
     const Person(),
   ];
