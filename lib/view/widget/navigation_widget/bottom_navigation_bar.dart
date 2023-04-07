@@ -38,7 +38,6 @@ class _BottomNavigationBarAllState extends State<BottomNavigationBarAll> {
         // index: true ? 3 : 1,
         color: ColorManager.kPrimary,
         buttonBackgroundColor: Colors.red,
-        
 
         height: 48.h,
         items: const <Widget>[
@@ -51,6 +50,7 @@ class _BottomNavigationBarAllState extends State<BottomNavigationBarAll> {
     );
   }
 
+////////
   void onTabTapped(int index) {
     setState(() {
       _currentIndex = index;
