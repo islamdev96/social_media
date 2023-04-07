@@ -30,7 +30,6 @@ class _FavoriteHomePageState extends State<FavoriteHomePage> {
               ),
             ],
           ),
-          // bottomNavigationBar: const BottomNavigationBarAll(),
 
           floatingActionButton: FloatingActionButton(
             onPressed: () {},

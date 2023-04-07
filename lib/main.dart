@@ -53,7 +53,7 @@ class _SocialMediaState extends State<SocialMedia> {
           initialRoute: '/language',
           home: UpgradeAlert(
             upgrader: Upgrader(dialogStyle: UpgradeDialogStyle.cupertino),
-            child: const Center(child: Text('Checking...')),
+            child: const Center(child: Text('Checking...00')),
           ),
         );
       },

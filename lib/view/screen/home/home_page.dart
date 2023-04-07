@@ -1,21 +1,13 @@
-// ignore_for_file: unused_element, unused_field
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:social_media/core/constant/resources/color_manager.dart';
 import '../../../data/models/manage_ads/banner_ads.dart';
 import '../../widget/home_widget/home_drawer.dart';
 import '../../widget/home_widget/home_page_list_view/home_list_view.dart';
-import '../../widget/navigation_widget/bottom_navigation_bar.dart';
 
-class HomePage extends StatefulWidget {
+class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
 
-  @override
-  State<HomePage> createState() => _HomePageState();
-}
-
-class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Stack(
@@ -35,7 +27,6 @@ class _HomePageState extends State<HomePage> {
           ),
           drawer: const HomeDrawer(),
           body: const HomeListView(),
-          bottomNavigationBar: const BottomNavigationBarAll(),
         ),
         const AnimatedPositioned(
           duration: Duration(seconds: 2),

@@ -71,8 +71,3 @@ class HomeListView extends StatelessWidget {
 }
 
 
-  // child: Container(
-  //                   decoration: BoxDecoration(
-  //                     color: Colors.black.withOpacity(0.5),
-  //                   ),
-  //                 ),

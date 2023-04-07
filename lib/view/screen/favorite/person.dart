@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:social_media/core/class/curve_cliper/backgron_color_page2.dart';
 import '../../../core/constant/resources/color_manager.dart';
 import '../../../data/models/manage_ads/banner_ads.dart';
-import '../../../test/3.dart';
 
 class Person extends StatelessWidget {
   const Person({super.key});
@@ -28,9 +26,7 @@ class Person extends StatelessWidget {
           // bottomNavigationBar: const BottomNavigationBarAll(),
 
           floatingActionButton: FloatingActionButton(
-            onPressed: () {
-              Get.to(() => MyBottomNavigationBar());
-            },
+            onPressed: () {},
             tooltip: 'Increment',
             child: const Icon(Icons.add),
           ), // This trailing comma makes auto-formatting nicer

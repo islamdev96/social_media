@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../../../data/models/manage_ads/banner_ads.dart';
 import '../../../widget/home_widget/home_page_list_view/list_view_news.dart';
-import '../../../widget/navigation_widget/bottom_navigation_bar.dart';
 
 class News extends StatelessWidget {
   const News({Key? key}) : super(key: key);
@@ -12,7 +11,6 @@ class News extends StatelessWidget {
       children: const [
         Scaffold(
           body: ListViewNews(),
-          bottomNavigationBar: BottomNavigationBarAll(),
         ),
         AnimatedPositioned(
           duration: Duration(seconds: 2),

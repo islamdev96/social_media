@@ -3,7 +3,6 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:get/get.dart';
 
 import '../../../core/constant/resources/color_manager.dart';
 import '../../screen/favorite/favorite_home_page.dart';
@@ -18,52 +17,41 @@ class BottomNavigationBarAll extends StatefulWidget {
 }
 
 class _BottomNavigationBarAllState extends State<BottomNavigationBarAll> {
-  final int page = value;
-
-  int index = value;
-
-  final screen = [
-    // Search(),
+  int _currentIndex = 0;
+  final List<Widget> _children = [
+    const Person(),
     const FavoriteHomePage(),
     const HomePage(),
-
-    const Person(),
   ];
-
-  static int get value => 1;
 
   @override
   Widget build(BuildContext context) {
-    return CurvedNavigationBar(
-      letIndexChange: (value) {
-        index = value;
-        return true;
-      },
-      animationDuration: const Duration(milliseconds: 1000),
-      animationCurve: Curves.easeInOutCubicEmphasized,
-      // index: true ? 3 : 1,
-      color: ColorManager.kPrimary,
-      backgroundColor: Colors.white,
-      buttonBackgroundColor: ColorManager.kPrimary,
-      height: 48.h,
-      index: index,
-      items: const <Widget>[
-        Icon(Icons.favorite, size: 25, color: Colors.white),
-        Icon(Icons.home, size: 25, color: Colors.white),
-        Icon(Icons.person, size: 25, color: Colors.white),
-      ],
-      onTap: (index) {
-        Get.put(() {
-          this.index = value;
-        });
-        if (index == 0) {
-          Get.offAllNamed('/favorite');
-        } else if (index == 1) {
-          Get.offNamed('/homePage');
-        } else if (index == 2) {
-          Get.offNamed('/person');
-        }
-      },
+    return Scaffold(
+      body: _children[_currentIndex],
+      bottomNavigationBar: CurvedNavigationBar(
+        backgroundColor: ColorManager.kPrimary,
+        index: _currentIndex,
+        key: const Key('bottomNavigationBar'),
+        letIndexChange: (index) => true,
+        animationDuration: const Duration(milliseconds: 1000),
+        animationCurve: Curves.easeInOutCubicEmphasized,
+        // index: true ? 3 : 1,
+        color: ColorManager.kPrimary,
+        buttonBackgroundColor: ColorManager.kPrimary,
+        height: 48.h,
+        items: const <Widget>[
+          Icon(Icons.person, size: 25, color: Colors.white),
+          Icon(Icons.home, size: 25, color: Colors.white),
+          Icon(Icons.favorite, size: 25, color: Colors.white),
+        ],
+        onTap: onTabTapped,
+      ),
     );
+  }
+
+  void onTabTapped(int index) {
+    setState(() {
+      _currentIndex = index;
+    });
   }
 }

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:social_media/view/widget/home_widget/home_page_list_view/List_view_islamic.dart';
 import '../../../../data/models/manage_ads/banner_ads.dart';
-import '../../../widget/navigation_widget/bottom_navigation_bar.dart';
 
 class Islamic extends StatelessWidget {
   const Islamic({Key? key}) : super(key: key);
@@ -12,7 +11,6 @@ class Islamic extends StatelessWidget {
       children: const [
         Scaffold(
           body: ListViewIslamic(),
-          bottomNavigationBar: BottomNavigationBarAll(),
         ),
         AnimatedPositioned(
           duration: Duration(seconds: 2),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:social_media/view/widget/home_widget/home_page_list_view/list_view_freelancer.dart';
 
 import '../../../../data/models/manage_ads/banner_ads.dart';
-import '../../../widget/navigation_widget/bottom_navigation_bar.dart';
 
 class Freelancer extends StatelessWidget {
   const Freelancer({Key? key}) : super(key: key);
@@ -13,7 +12,6 @@ class Freelancer extends StatelessWidget {
       children: const [
         Scaffold(
           body: ListViewFreelancer(),
-          bottomNavigationBar: BottomNavigationBarAll(),
         ),
         AnimatedPositioned(
           duration: Duration(seconds: 2),

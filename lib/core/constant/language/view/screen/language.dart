@@ -45,7 +45,7 @@ class Language extends GetView<LocaleController> {
                 textbutton: "arbic".tr,
                 onPressed: () {
                   controller.changeLang("ar");
-                  Get.toNamed('/homePage');
+                  Get.toNamed('/home');
                 },
               ),
             ],
@@ -62,7 +62,7 @@ class Language extends GetView<LocaleController> {
                 textbutton: "english".tr,
                 onPressed: () {
                   controller.changeLang("en");
-                  Get.toNamed('/homePage');
+                  Get.toNamed('/home');
                 },
               ),
             ],
