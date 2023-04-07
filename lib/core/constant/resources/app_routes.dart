@@ -6,20 +6,19 @@ import 'package:social_media/view/screen/favorite/person.dart';
 import 'package:social_media/view/screen/favorite/search.dart';
 import 'package:social_media/view/screen/home/home_pages/social_media_page.dart';
 
-import '../../../test/MyBottomNavigationBar.dart';
 import '../../../view/screen/home/home_page.dart';
+import '../../../view/widget/navigation_widget/bottom_navigation_bar.dart';
 import '../language/view/screen/language.dart';
 
 List<GetPage<dynamic>> appRoutes = [
   GetPage(
     name: Routes.home,
-    page: () => const MyBottomNavigationBar(),
+    page: () => const BottomNavigationBarAll(),
   ),
-    GetPage(
+  GetPage(
     name: Routes.homePage,
     page: () => const HomePage(),
   ),
-
   GetPage(
     name: Routes.language,
     page: () => const Language(),

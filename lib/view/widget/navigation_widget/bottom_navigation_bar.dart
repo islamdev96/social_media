@@ -17,11 +17,11 @@ class BottomNavigationBarAll extends StatefulWidget {
 }
 
 class _BottomNavigationBarAllState extends State<BottomNavigationBarAll> {
-  int _currentIndex = 0;
+  int _currentIndex = 1;
   final List<Widget> _children = [
     const Person(),
-    const FavoriteHomePage(),
     const HomePage(),
+    const FavoriteHomePage(),
   ];
 
   @override
