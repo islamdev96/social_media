@@ -37,7 +37,9 @@ class _BottomNavigationBarAllState extends State<BottomNavigationBarAll> {
         animationCurve: Curves.easeInOutCubicEmphasized,
         // index: true ? 3 : 1,
         color: ColorManager.kPrimary,
-        buttonBackgroundColor: ColorManager.kPrimary,
+        buttonBackgroundColor: Colors.red,
+        
+
         height: 48.h,
         items: const <Widget>[
           Icon(Icons.person, size: 25, color: Colors.white),
