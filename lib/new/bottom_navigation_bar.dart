@@ -34,8 +34,8 @@ class _BottomNavigationBarAll2State extends State<BottomNavigationBarAll2> {
       showUnselectedLabels: true,
       landscapeLayout: BottomNavigationBarLandscapeLayout.centered,
       backgroundColor: ColorManager.kPrimary,
-      selectedItemColor: ColorManager.backgroundcolor,
-      unselectedItemColor: ColorManager.backgroundcolor,
+      selectedItemColor: ColorManager.kPrimary,
+      unselectedItemColor: ColorManager.kPrimary,
       currentIndex: _currentIndex,
       onTap: onTabTapped,
       items: const [

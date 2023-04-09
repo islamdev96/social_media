@@ -29,16 +29,15 @@ class _BottomNavigationBarAllState extends State<BottomNavigationBarAll> {
     return Scaffold(
       body: _children[_currentIndex],
       bottomNavigationBar: CurvedNavigationBar(
-        backgroundColor: ColorManager.kPrimary,
+        backgroundColor: ColorManager.backgroundcolor,
+        color: ColorManager.kPrimary,
+        buttonBackgroundColor: ColorManager.kPrimary,
         index: _currentIndex,
         key: const Key('bottomNavigationBar'),
         letIndexChange: (index) => true,
         animationDuration: const Duration(milliseconds: 1000),
         animationCurve: Curves.easeInOutCubicEmphasized,
         // index: true ? 3 : 1,
-        color: ColorManager.kPrimary,
-        buttonBackgroundColor: Colors.red,
-
         height: 48.h,
         items: const <Widget>[
           Icon(Icons.person, size: 25, color: Colors.white),

@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import '../../../core/class/curve_cliper/backgron_color_page2.dart';
 import '../../../core/constant/resources/color_manager.dart';
 import '../../../data/models/manage_ads/banner_ads.dart';
+import '../../../test/1.dart';
 
 class FavoriteHomePage extends StatefulWidget {
   const FavoriteHomePage({super.key});
@@ -32,7 +34,9 @@ class _FavoriteHomePageState extends State<FavoriteHomePage> {
           ),
 
           floatingActionButton: FloatingActionButton(
-            onPressed: () {},
+            onPressed: () {
+              Get.to(MyApp());
+            },
             tooltip: 'Increment',
             child: const Icon(Icons.add),
           ), // This trailing comma makes auto-formatting nicer
