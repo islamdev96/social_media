@@ -7,6 +7,8 @@ ThemeData getApplicationTheme() {
     primaryColor: ColorManager.kPrimary,
     fontFamily: 'Cairo',
     textTheme: TextTheme(
+      
+      
       headline6: TextStyle(
         color: Colors.black.withOpacity(0.8),
         fontWeight: FontWeight.bold,

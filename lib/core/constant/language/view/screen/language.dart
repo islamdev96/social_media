@@ -25,7 +25,7 @@ class Language extends GetView<LocaleController> {
                 height: 75.h,
               ),
               Text("chooseLanguage".tr,
-                  style: Theme.of(context).textTheme.headline1),
+                  style: Theme.of(context).textTheme.displayLarge),
               Image.asset(
                 "assets/images/1.gif",
                 width: 100.w,
