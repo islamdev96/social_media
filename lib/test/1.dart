@@ -1,11 +1,15 @@
+// ignore_for_file: file_names, library_private_types_in_public_api
+
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Flutter Navigation Bar',
       home: NavigationBar(),
     );
@@ -13,6 +17,8 @@ class MyApp extends StatelessWidget {
 }
 
 class NavigationBar extends StatefulWidget {
+  const NavigationBar({super.key});
+
   @override
   _NavigationBarState createState() => _NavigationBarState();
 }
@@ -21,9 +27,9 @@ class _NavigationBarState extends State<NavigationBar> {
   int _currentIndex = 0;
 
   final List<Widget> _screens = [
-    Screen1(),
-    Screen2(),
-    Screen3(),
+    const Screen1(),
+    const Screen2(),
+    const Screen3(),
   ];
 
   @override
@@ -60,6 +66,8 @@ class _NavigationBarState extends State<NavigationBar> {
 }
 
 class Screen1 extends StatelessWidget {
+  const Screen1({super.key});
+
   @override
   Widget build(BuildContext context) {
     return const Center(
@@ -69,6 +77,8 @@ class Screen1 extends StatelessWidget {
 }
 
 class Screen2 extends StatelessWidget {
+  const Screen2({super.key});
+
   @override
   Widget build(BuildContext context) {
     return const Center(
@@ -78,6 +88,8 @@ class Screen2 extends StatelessWidget {
 }
 
 class Screen3 extends StatelessWidget {
+  const Screen3({super.key});
+
   @override
   Widget build(BuildContext context) {
     return const Center(

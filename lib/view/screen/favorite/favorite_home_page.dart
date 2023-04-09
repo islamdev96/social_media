@@ -35,7 +35,7 @@ class _FavoriteHomePageState extends State<FavoriteHomePage> {
 
           floatingActionButton: FloatingActionButton(
             onPressed: () {
-              Get.to(MyApp());
+              Get.to(const MyApp());
             },
             tooltip: 'Increment',
             child: const Icon(Icons.add),
